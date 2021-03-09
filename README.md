@@ -213,14 +213,23 @@ http://www.precision.hep.phy.cam.ac.uk/top-plus-plus/
 ## Direct Detection
 
 ### DDCalc
+
+Dark matter direct detection phenomenology package (DDCalc) is a software package for performing various dark matter direct detection calculations, including signal rate predictions and likelihoods for several experiments.
+
+[DarkBit: A GAMBIT module for computing dark matter observables and likelihoods](https://arxiv.org/abs/1705.07920)
+[Global analyses of Higgs portal singlet dark matter models using GAMBIT](https://arxiv.org/abs/1808.10465)
+
 https://ddcalc.hepforge.org/
 
 ### WIMP Rates
+
+Differential rates of WIMP-nucleus scattering in the standard halo model, for liquid xenon detectors.
+
 https://github.com/JelleAalbers/wimprates
 
 ### NEST
 
-NEST (Noble Element Simulation Technique) provides a simulation of the energy deposition-to-detector variable microphysics for liquid noble gas targets
+NEST (Noble Element Simulation Technique) provides a simulation of the energy deposition-to-detector variable microphysics for liquid noble gas targets.
 
 https://github.com/NESTCollaboration/nest
 python bindings: 
@@ -232,12 +241,21 @@ https://github.com/NESTCollaboration/nestpy
 (better name welcome)
 
 ### FeynRules
+
+FeynRules is a Mathematica® package that allows the calculation of Feynman rules in momentum space for any QFT physics model. The user needs to provide FeynRules with the minimal information required to describe the new model, contained in the so-called model-file. This information is then used to calculate the set of Feynman rules associated with the Lagrangian. The Feynman rules calculated by the code can then be used to implement the new physics model into other existing tools, such as MC generators. This is done via a set of interfaces which are developed together and maintained by the corresponding MC authors.
+
 https://feynrules.irmp.ucl.ac.be/
 
 ### FeynArts
+
+FeynArts is a Mathematica package for the generation and visualization of Feynman diagrams and amplitudes.
+
 http://www.feynarts.de/
 
 ### LoopTools
+
+LoopTools is a package for evaluation of scalar and tensor one-loop integrals based on the FF package by G.J. van Oldenborgh. It features an easy Fortran, C++, and Mathematica interface to the scalar one-loop functions of FF and in addition provides the 2-, 3-, and 4-point tensor coefficient functions.
+
 http://www.feynarts.de/looptools/
 
 ***
