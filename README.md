@@ -2,7 +2,7 @@
 
 This is a community effort to collect all open source packages/libraries/tools in one place. Everyone welcome to contribute! :shipit:
 
-Original idea: [GF Bertone](https://twitter.com/gfbertone), [Twitter discussuion can be found here](https://twitter.com/malcfairbairn/status/1369178173884235776?s=20). Fist resource made by [Suchita Kulkarni](https://twitter.com/suchi_kulkarni).
+Original idea: [GF Bertone](https://twitter.com/gfbertone), [Twitter discussuion can be found here](https://twitter.com/malcfairbairn/status/1369178173884235776?s=20). First resource made by [Suchita Kulkarni](https://twitter.com/suchi_kulkarni), [this Gdoc](https://docs.google.com/document/d/1yDp4EfxR5ivlDhice2iQ3jeOJNN0GRKH_-ln5y3R7UY/edit).
 
 **Package/library/tool descriptions copied from respective pages.**
 
@@ -30,12 +30,14 @@ To keep in mind for further reference: [this INSPIRE page](https://inspirehep.ne
 ### Root
 
 ROOT is a framework for data processing, born at CERN, at the heart of the research on high-energy physics.
+
 https://root.cern.ch/
 
 ### Geant4
 
 Geant4 is a toolkit for the simulation of the passage of particles through matter. Its areas of application include high energy, 
 nuclear and accelerator physics, as well as studies in medical and space science.
+
 https://geant4.web.cern.ch/node/1
 
 ***
@@ -131,18 +133,38 @@ https://launchpad.net/madanalysis5
 ## Fitters
 
 ### GAMBIT
+
+Welcome to the GAMBIT homepage. GAMBIT is a global fitting code for generic Beyond the Standard Model theories, designed to allow fast and easy definition of new models, observables, likelihoods, scanners and backend physics codes.
+
+
 https://gambit.hepforge.org/
 
 ### HiggsBounds
+
+HiggsBounds takes a selection of Higgs sector predictions for any particular model as input and then uses the experimental topological cross section limits from Higgs searches at LEP, the Tevatron and the LHC to determine if this parameter point has been excluded at 95% C.L..
+
+[HiggsBounds Git Repo](https://gitlab.com/higgsbounds/higgsbounds)
+
 https://higgsbounds.hepforge.org/
 
 ### HiggsSignals
+
+HiggsSignals performs a statistical test of the Higgs sector predictions of arbitrary models (using the HiggsBounds input routines) with the measurements of Higgs boson signal rates and masses from the Tevatron and the LHC.
+
+[HiggsSignals Git Repo](https://gitlab.com/higgsbounds/higgssignals)
+
 https://higgsbounds.hepforge.org/
 
 ### GFitter
+
+The software package consists of abstract object-oriented code in C++ using ROOT functionality. Tools for the handling of the data, the fitting, and statistical analyses such as toy Monte Carlo sampling are provided by a core package, where theoretical errors, correlations, and inter-parameter dependencies are consistently dealt with. Theoretical models are inserted as plugin packages, which may be hierarchically organised. The use of dynamic parameter caching avoids the recalculation of unchanged results between fit steps, and thus significantly reduces the amount of computing time required for a fit.
+
 http://gfitter.desy.de/Standard_Model/
 
 ### Contur
+
+Exploring the sensitivity of unfolded collider measurements to BSM models. The manual for Contur 2.0, the first general user release, is available here: [arxiv link](https://arxiv.org/abs/2102.04377).
+
 https://hepcedar.gitlab.io/contur-webpage/
 
 ***
