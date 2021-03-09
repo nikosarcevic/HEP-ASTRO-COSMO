@@ -63,8 +63,41 @@ https://cp3.irmp.ucl.ac.be/projects/delphes
 https://launchpad.net/madanalysis5
 
 
+## Fitters
 
 
+### GAMBIT
+https://gambit.hepforge.org/
+
+### HiggsBounds
+https://higgsbounds.hepforge.org/
+
+### HiggsSignals
+https://higgsbounds.hepforge.org/
+
+### GFitter
+http://gfitter.desy.de/Standard_Model/
+
+### Contur
+https://hepcedar.gitlab.io/contur-webpage/
+
+
+## Spectrum Generators
+
+### Spheno
+https://spheno.hepforge.org/
+
+### SoftSUSY
+https://softsusy.hepforge.org/
+
+### SuSpect
+http://suspect.in2p3.fr/updates.html
+
+### ISAJET
+http://www.nhn.ou.edu/~isajet/
+
+### SARAH
+https://sarah.hepforge.org/
 
 
 
