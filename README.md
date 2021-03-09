@@ -4,15 +4,20 @@ This is a community effort to collect all open source libraries/tools in one pla
 Original idea: [GF Bertone](https://twitter.com/gfbertone), [Suchita Kulkarni](https://twitter.com/suchi_kulkarni) ()will add later: twitter thread, shaun etc
 
 ## Table of contents
-* [Tools](##tools)
-* [Event Generators](##event-generators)
-* [Event Analysers](##event-analysers)
-* [Fitters](##fitters)
-* [Spectrum Generators](##spectrum-generators)
-* [Direct Detection](##direct-detection)
-* [Feyn Family](##feyn-family)
-* [Statistics](##statistics)
-* [Primordial Black Holes](##primordial-black-holes)
+- [HEP-ASTRO-COSMO](#hep-astro-cosmo)
+  * [Tools](#tools)
+  * [Event Generators](#event-generators)
+  * [Event Analysers](#event-analysers)
+  * [Fitters](#fitters)
+  * [Spectrum Generators](#spectrum-generators)
+  * [Direct Detection](#direct-detection)
+  * [Feyn Family](#feyn-family)
+  * [Statistics](#statistics)
+  * [Cosmic Rays](#cosmic-rays)
+  * [Primordial Black Holes](#primordial-black-holes)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 ## Tools
