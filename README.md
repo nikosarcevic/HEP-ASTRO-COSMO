@@ -1,9 +1,9 @@
 # HEP-ASTRO-COSMO
 
 This is a community effort to collect all open source libraries/tools in one place. Everyone welcome to contribute!
-Original idea: [GF Bertone](https://twitter.com/gfbertone), Suchita Kulkarni (https://twitter.com/suchi_kulkarni) ()will add later: twitter thread, shaun etc
+Original idea: [GF Bertone](https://twitter.com/gfbertone), [Suchita Kulkarni](https://twitter.com/suchi_kulkarni) ()will add later: twitter thread, shaun etc
 
-# Table of contents
+## Table of contents
 * [Tools](##tools)
 * [Event Generators](##event-generators)
 * [Event Analysers](##event-analysers)
@@ -11,9 +11,8 @@ Original idea: [GF Bertone](https://twitter.com/gfbertone), Suchita Kulkarni (ht
 * [Spectrum Generators](##spectrum-generators)
 * [Direct Detection](##direct-detection)
 * [Feyn Family](##feyn-family)
-* [## Statistics](##statistics)
+* [Statistics](##statistics)
 * [Primordial Black Holes](##primordial-black-holes)
-
 
 
 ## Tools
@@ -160,7 +159,6 @@ https://galprop.stanford.edu/
 https://astro-staff.uibk.ac.at/~kissmrbu/Picard.html
 
 
-
 ## Primordial Black Holes
 
 ### BlackHawk
@@ -171,7 +169,3 @@ https://github.com/bradkav/PBHbounds
 
 ### SPriBHoS
 https://sites.google.com/fqa.ub.edu/albertescriva/home, https://arxiv.org/abs/1907.13065 
-
-
-
-
