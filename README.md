@@ -4,7 +4,7 @@ This is a community effort to collect all open source libraries/tools in one pla
 Original idea: [GF Bertone](https://twitter.com/gfbertone), Suchita Kulkarni (https://twitter.com/suchi_kulkarni) ()will add later: twitter thread, shaun etc
 
 # Table of contents
-* [Tools](##Tools)
+* [Tools](##tools)
 * [Event Generators](##event-generators)
 * [Event Analysers](##event-analysers)
 * [Fitters](##fitters)
@@ -18,7 +18,7 @@ Original idea: [GF Bertone](https://twitter.com/gfbertone), Suchita Kulkarni (ht
 
 ## Tools
 
-### Root 
+### Root
 
 ROOT is a framework for data processing, born at CERN, at the heart of the research on high-energy physics.
 https://root.cern.ch/
