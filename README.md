@@ -1,7 +1,14 @@
 # HEP-ASTRO-COSMO
 
-This is a community effort to collect all open source libraries/tools in one place. Everyone welcome to contribute!
-Original idea: [GF Bertone](https://twitter.com/gfbertone), [Suchita Kulkarni](https://twitter.com/suchi_kulkarni) ()will add later: twitter thread, shaun etc
+This is a community effort to collect all open source libraries/tools in one place. Everyone welcome to contribute! :shipit:
+
+Original idea: [GF Bertone](https://twitter.com/gfbertone), [Twitter discussuion can be found here](https://twitter.com/malcfairbairn/status/1369178173884235776?s=20). Fist resporce made by [Suchita Kulkarni](https://twitter.com/suchi_kulkarni).
+
+Library/tool descriptions copied from respective pages.
+
+To keep in mind for further reference: [this INSPIRE page](https://inspirehep.net/experiments?sort=mostrecent&size=25&page=1&q=&classification=Non-experimental)
+
+***
 
 ## Table of contents
 - [HEP-ASTRO-COSMO](#hep-astro-cosmo)
@@ -16,7 +23,7 @@ Original idea: [GF Bertone](https://twitter.com/gfbertone), [Suchita Kulkarni](h
   * [Cosmic Rays](#cosmic-rays)
   * [Primordial Black Holes](#primordial-black-holes)
 
-
+***
 
 ## Tools
 
@@ -31,9 +38,9 @@ Geant4 is a toolkit for the simulation of the passage of particles through matte
 nuclear and accelerator physics, as well as studies in medical and space science.
 https://geant4.web.cern.ch/node/1
 
+***
 
 ## Event Generators
-
 
 ### Pythia8
 
@@ -60,9 +67,9 @@ https://evtgen.hepforge.org/
 ### Alpaca
 https://alpaca.hepforge.org/
 
+***
 
 ## Event Analysers
-
 
 ### RIVET
 https://rivet.hepforge.org/
@@ -79,9 +86,9 @@ https://cp3.irmp.ucl.ac.be/projects/delphes
 ### MadAnalysis
 https://launchpad.net/madanalysis5
 
+***
 
 ## Fitters
-
 
 ### GAMBIT
 https://gambit.hepforge.org/
@@ -98,6 +105,7 @@ http://gfitter.desy.de/Standard_Model/
 ### Contur
 https://hepcedar.gitlab.io/contur-webpage/
 
+***
 
 ## Spectrum Generators
 
@@ -116,9 +124,7 @@ http://www.nhn.ou.edu/~isajet/
 ### SARAH
 https://sarah.hepforge.org/
 
-
-
-
+***
 
 ## Direct Detection
 
@@ -128,6 +134,7 @@ https://ddcalc.hepforge.org/
 ### WIMP Rates
 https://github.com/JelleAalbers/wimprates
 
+***
 
 ## Feyn Family
 (better name welcome)
@@ -141,11 +148,14 @@ http://www.feynarts.de/
 ### LoopTools
 http://www.feynarts.de/looptools/
 
+***
 
 ## Statistics
 
 ### pyhf
 https://github.com/scikit-hep/pyhf
+
+***
 
 ## Cosmic Rays
 
@@ -161,6 +171,7 @@ https://galprop.stanford.edu/
 ### PICARD
 https://astro-staff.uibk.ac.at/~kissmrbu/Picard.html
 
+***
 
 ## Primordial Black Holes
 
