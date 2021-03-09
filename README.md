@@ -103,28 +103,25 @@ https://sarah.hepforge.org/
 
 
 
+## Direct detection
+
+### DDCalc
+https://ddcalc.hepforge.org/
+
+### WIMP Rates
+https://github.com/JelleAalbers/wimprates
 
 
+## Feyn Family (better name welcome)
 
+### FeynRules
+https://feynrules.irmp.ucl.ac.be/
 
+### FeynArts
+http://www.feynarts.de/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### LoopTools
+http://www.feynarts.de/looptools/
 
 
 
