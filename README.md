@@ -1,5 +1,20 @@
 # HEP-ASTRO-COSMO
 
+This is a community effort to collect all open source libraries/tools in one place. Everyone welcome to contribute!
+Original idea: [GF Bertone](https://twitter.com/gfbertone), Suchita Kulkarni (https://twitter.com/suchi_kulkarni) ()will add later: twitter thread, shaun etc
+
+# Table of contents
+* [Tools](##Tools)
+* [Event Generators](##event-generators)
+* [Event Analysers](##event-analysers)
+* [Fitters](##fitters)
+* [Spectrum Generators](##spectrum-generators)
+* [Direct Detection](##direct-detection)
+* [Feyn Family](##feyn-family)
+* [## Statistics](##statistics)
+* [Primordial Black Holes](##primordial-black-holes)
+
+
 
 ## Tools
 
@@ -103,7 +118,7 @@ https://sarah.hepforge.org/
 
 
 
-## Direct detection
+## Direct Detection
 
 ### DDCalc
 https://ddcalc.hepforge.org/
@@ -112,7 +127,8 @@ https://ddcalc.hepforge.org/
 https://github.com/JelleAalbers/wimprates
 
 
-## Feyn Family (better name welcome)
+## Feyn Family
+(better name welcome)
 
 ### FeynRules
 https://feynrules.irmp.ucl.ac.be/
