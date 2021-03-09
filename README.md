@@ -16,8 +16,6 @@ Original idea: [GF Bertone](https://twitter.com/gfbertone), [Suchita Kulkarni](h
   * [Cosmic Rays](#cosmic-rays)
   * [Primordial Black Holes](#primordial-black-holes)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 
 ## Tools
