@@ -214,6 +214,14 @@ https://ddcalc.hepforge.org/
 ### WIMP Rates
 https://github.com/JelleAalbers/wimprates
 
+### NEST
+
+NEST (Noble Element Simulation Technique) provides a simulation of the energy deposition-to-detector variable microphysics for liquid noble gas targets
+
+https://github.com/NESTCollaboration/nest
+python bindings: 
+https://github.com/NESTCollaboration/nestpy
+
 ***
 
 ## Feyn Family
