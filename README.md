@@ -235,6 +235,11 @@ http://www.feynarts.de/looptools/
 ### pyhf
 https://github.com/scikit-hep/pyhf
 
+### blueice
+https://github.com/JelleAalbers/blueice
+python-based likelihood (in particular unbinned) construction/fitting framework used in XENON1T analyses. Linear template morphing, cached PDF generation
+
+
 ***
 
 ## Cosmic Rays
