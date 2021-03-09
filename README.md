@@ -124,6 +124,37 @@ http://www.feynarts.de/
 http://www.feynarts.de/looptools/
 
 
+## Statistics
+
+### pyhf
+https://github.com/scikit-hep/pyhf
+
+## Cosmic Rays
+
+### Dragon
+https://github.com/cosmicrays
+
+### USINE
+https://dmaurin.gitlab.io/USINE/
+
+### GALPROP
+https://galprop.stanford.edu/
+
+### PICARD
+https://astro-staff.uibk.ac.at/~kissmrbu/Picard.html
+
+
+
+## Primordial Black Holes
+
+### BlackHawk
+https://blackhawk.hepforge.org/, https://arxiv.org/abs/1905.04268 
+
+### PBHbounds
+https://github.com/bradkav/PBHbounds 
+
+### SPriBHoS
+https://sites.google.com/fqa.ub.edu/albertescriva/home, https://arxiv.org/abs/1907.13065 
 
 
 
