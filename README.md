@@ -25,6 +25,7 @@
 - [ASTRO](#astro)
   * [Cosmic Rays](#cosmic-rays)
   * [N-body Simulations](#n-body-simulation)
+  * [Numerical Relativity](#numerical-relativity)
   * [Primordial Black Holes](#primordial-black-holes)
 
 ***
@@ -440,6 +441,16 @@ https://wwwmpa.mpa-garching.mpg.de/gadget/ (preferred citation method here: http
 A parallel cosmological N-body and SPH code meant for simulations of cosmic structure formation and calculations relevant for galaxy evolution and galactic dynamics.
 
 http://gitlab.mpcdf.mpg.de/vrs/gadget4 (preferred citation method here: https://wwwmpa.mpa-garching.mpg.de/gadget4/)
+
+***
+
+## Numerical Relativity
+
+### GRChombo
+
+GRChombo is a new open-source code for numerical relativity simulations. It is developed and maintained by a collaboration of numerical relativists with a wide range of research interests, from early universe cosmology to astrophysics and mathematical general relativity, and has been used in many papers since its first release in 2015.
+
+https://www.grchombo.org/
 
 ***
 
