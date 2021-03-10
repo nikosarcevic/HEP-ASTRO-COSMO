@@ -299,7 +299,7 @@ https://github.com/JelleAalbers/blueice
 python-based likelihood (in particular unbinned) construction/fitting framework used in XENON1T analyses. Linear template morphing, cached PDF generation
 
 
-
+***
 # COSMO
 
 ## Cosmic Microwave Background
@@ -339,7 +339,7 @@ A cosmology package for Python.
 
 http://roban.github.io/CosmoloPy/
 
-
+***
 # ASTRO
 
 ## Cosmic Rays
