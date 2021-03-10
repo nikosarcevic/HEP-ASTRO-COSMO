@@ -359,10 +359,24 @@ http://baudren.github.io/montepython.html
 
 ### CosmoloPy
 
-
 A cosmology package for Python.
 
 http://roban.github.io/CosmoloPy/
+
+### xAct and xPand
+
+xAct is a suite of free packages for tensor computer algebra for Wolfram Mathematica. xAct implements state-of-the-art algorithms for fast manipulations of indices and has been modelled on the current geometric approach to General Relativity. It is highly programmable and configurable. Since its first public release in March 2004, xAct has been intensively tested and has solved a number of hard problems in GR.
+
+xPand is a package for Mathematica in which tools are provided to compute formally the cosmological perturbations for any tensor in any order around a homogeneous spacetime. xPand supports the most used gauges such as newtonian, comoving, synchronous, etc. It is based on the xAct distribution for efficient tensor manipulations.
+
+http://www.xact.es/
+http://www2.iap.fr/users/pitrou/xpand.htm
+
+### Cobaya
+
+Cobaya (code for bayesian analysis, and Spanish for Guinea Pig) is a framework for sampling and statistical modelling: it allows you to explore an arbitrary prior or posterior using a range of Monte Carlo samplers (including the advanced MCMC sampler from CosmoMC, and the advanced nested sampler PolyChord). The results of the sampling can be analysed with GetDist. It supports MPI parallelization (and very soon HPC containerization with Docker/Shifter and Singularity).
+
+https://cobaya.readthedocs.io/en/latest/
 
 ### CosmoTransitions
 
