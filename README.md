@@ -494,7 +494,7 @@ http://gitlab.mpcdf.mpg.de/vrs/gadget4 (preferred citation method here: https://
 
 ### REBOUND
 
-REBOUND is a multi-purpose N-body integrator written in C99 and comes with an easy-to-use python fron-tend. It is frequently used to simulate the orbital motion of planets and the collisional dynamics of planetary rings. REBOUND offers several different integrators, including WHFast, IAS15, Mercurius, and SEI. 
+REBOUND is a multi-purpose N-body integrator written in C99 and comes with an easy-to-use python front-end. It is frequently used to simulate the orbital motion of stars, planets, and moons as well as the collisional dynamics of planetary rings. REBOUND offers several different integrators, including WHFast, IAS15, Mercurius, and SEI. 
 
 https://github.com/hannorein/rebound
 
