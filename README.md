@@ -23,6 +23,7 @@
   * [Cosmic Microwave Background](#cosmic-microwave-background)
   * [General Cosmology](#general-cosmology)
 - [ASTRO](#astro)
+  * [Black hole perturbation theory](#black-hole-perturbation-theory)
   * [Cosmic Rays](#cosmic-rays)
   * [N-body Simulations](#n-body-simulation)
   * [Numerical Relativity](#numerical-relativity)
@@ -376,7 +377,24 @@ http://www.xmds.org
 
 # ASTRO
 
-Note: for now, this is just a list of packages without any further substructure/organization. Will be sorted better as the list grows.
+
+## Black hole perturbation theory
+
+### Black hole perturbation toolkit
+
+The Black Hole Perturbation Toolkit brings together software and data relating to black hole perturbation theory. These can then be used to model gravitational radiation from small mass-ratio binaries as well as from the ringdown of black holes. The former are key sources for the future space-based gravitational wave detector, LISA.
+
+Our overall goal is for less researcher time to be spent writing code and more time spent doing physics. Currently there exist multiple scattered black hole perturbation theory codes developed by a wide array of individuals or groups over a number of decades. This project aims to bring together some of the core elements of these codes into a Toolkit that can be used by all.
+
+The BHPToolkit is made up of many different tools which can be
+individually installed by users depending on what they are interested
+in.  Currently around ~20 packages.
+
+* Web: http://bhptoolkit.org/
+* Repos: https://github.com/BlackHolePerturbationToolkit
+* Preferred citation method: https://bhptoolkit.org/BHPToolkit.bib
+
+***
 
 ## Cosmic Rays
 
@@ -451,6 +469,16 @@ http://gitlab.mpcdf.mpg.de/vrs/gadget4 (preferred citation method here: https://
 GRChombo is a new open-source code for numerical relativity simulations. It is developed and maintained by a collaboration of numerical relativists with a wide range of research interests, from early universe cosmology to astrophysics and mathematical general relativity, and has been used in many papers since its first release in 2015.
 
 https://www.grchombo.org/
+
+### SpECTRE
+
+SpECTRE is an open-source code for multi-scale, multi-physics problems in astrophysics and gravitational physics. In the future, we hope that it can be applied to problems across discipline boundaries in fluid dynamics, geoscience, plasma physics, nuclear physics, and engineering. It runs at petascale and is designed for future exascale computers.
+
+SpECTRE is being developed in support of our collaborative Simulating eXtreme Spacetimes (SXS) research program into the multi-messenger astrophysics of neutron star mergers, core-collapse supernovae, and gamma-ray bursts.
+
+* Web: https://spectre-code.org/
+* Repo: https://github.com/sxs-collaboration/spectre
+* Preferred citation method: https://doi.org/10.5281/zenodo.4290404
 
 ***
 
