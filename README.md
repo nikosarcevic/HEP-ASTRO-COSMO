@@ -10,7 +10,7 @@ Original idea: [GF Bertone](https://twitter.com/gfbertone), [Twitter discussuion
 ***
 
 ## Table of contents
-- [HEP-ASTRO-COSMO](#hep-astro-cosmo)
+- [HEP](#hep)
   * [Tools](#tools)
   * [Event Generators](#event-generators)
   * [Event Analysers](#event-analysers)
@@ -21,8 +21,11 @@ Original idea: [GF Bertone](https://twitter.com/gfbertone), [Twitter discussuion
   * [Statistics](#statistics)
   * [Cosmic Rays](#cosmic-rays)
   * [Primordial Black Holes](#primordial-black-holes)
+- [ASTRO](#astro)
+- [COSMO](#cosmo)
 
 ***
+# HEP 
 
 ## Tools
 
@@ -343,3 +346,8 @@ https://github.com/bradkav/PBHbounds
 
 ### SPriBHoS
 https://sites.google.com/fqa.ub.edu/albertescriva/home, https://arxiv.org/abs/1907.13065 
+
+
+# ASTRO
+
+# COSMO
