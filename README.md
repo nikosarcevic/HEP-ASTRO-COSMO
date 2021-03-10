@@ -26,8 +26,10 @@
   * [Black hole perturbation theory](#black-hole-perturbation-theory)
   * [Cosmic Rays](#cosmic-rays)
   * [N-body Simulations](#n-body-simulation)
+  * [MHD](#mhd)
   * [Numerical Relativity](#numerical-relativity)
   * [Primordial Black Holes](#primordial-black-holes)
+  * [Stellar Modelling](#stellar-modelling)
 
 ***
 # HEP 
@@ -317,6 +319,7 @@ python-based likelihood (in particular unbinned) construction/fitting framework 
 
 
 ***
+
 # COSMO
 
 Note: for now, this is just a list of packages without any further substructure/organization. Will be sorted better as the list grows.
@@ -376,7 +379,6 @@ http://www.xmds.org
 ***
 
 # ASTRO
-
 
 ## Black hole perturbation theory
 
@@ -472,7 +474,9 @@ http://gitlab.mpcdf.mpg.de/vrs/gadget4 (preferred citation method here: https://
 
 ***
 
-## (Magneto-)hydrodynamics
+## MHD
+
+Note: some of the entries listed can also be classified as N-body. Keep this in mind for the future or if you are browsing.-
 
 ### Athena++
 
