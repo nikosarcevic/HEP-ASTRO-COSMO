@@ -87,6 +87,12 @@ EvtGen is a Monte Carlo event generator that simulates the decays of heavy flavo
 
 https://evtgen.hepforge.org/
 
+### Photos
+
+Photos is a Monte Carlo for bremsstrahlung in the decay of particles and resonances is available with an interface to the C++ HepMC event record. It is usually used in conjuction with EvtGen. Authors: Davidson, T. Przedzinski, Z. Was. 
+
+http://photospp.web.cern.ch/photospp/
+
 ### Alpaca
 
 Alpaca is a Fortran based Monte Carlo event generator for ALP production in coherent proton-nucleus (and electron-nucleus) collisions. Arbitrary user-defined histograms and cuts may be made, as well as unweighted events in the HEPEVT, HEPMC and LHE formats.
