@@ -14,7 +14,7 @@
   * [Tools](#tools)
   * [Event Generators](#event-generators)
   * [Event Analysers](#event-analysers)
-  * [Fitters](#fitters)
+  * [Global Fitters](#global-fitters)
   * [Spectrum Generators](#spectrum-generators)
   * [Direct Detection](#direct-detection)
   * [Feyn Family](#feyn-family)
@@ -147,7 +147,7 @@ https://launchpad.net/madanalysis5
 
 ***
 
-## Fitters
+## Global Fitters
 
 ### GAMBIT
 
