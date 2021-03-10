@@ -317,6 +317,8 @@ python-based likelihood (in particular unbinned) construction/fitting framework 
 ***
 # COSMO
 
+Note: for now, this is just a list of packages without any further substructure/organization. Will be sorted better as the list grows.
+
 ## Cosmic Microwave Background
 
 ### CAMB
@@ -347,6 +349,7 @@ http://baudren.github.io/montepython.html
 
 ## General Cosmology
 
+
 ### CosmoloPy
 
 
@@ -354,8 +357,19 @@ A cosmology package for Python.
 
 http://roban.github.io/CosmoloPy/
 
+### xmds
+
+**Unsure if this belongs in cosmo really, will post an issue about it. I know some cosmo people use it for BEC etc**
+
+This website provides the documentation for XMDS2 (an all-new version of XMDS), a software package that allows the fast and easy solution of sets of ordinary, partial and stochastic differential equations, using a variety of efficient numerical algorithms. If you publish work that has involved XMDS2, please cite it as Comput. Phys. Commun. 184, 201-208 (2013).
+
+http://www.xmds.org
+
 ***
+
 # ASTRO
+
+Note: for now, this is just a list of packages without any further substructure/organization. Will be sorted better as the list grows.
 
 ## Cosmic Rays
 
