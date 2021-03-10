@@ -426,6 +426,12 @@ This website provides the documentation for XMDS2 (an all-new version of XMDS), 
 
 http://www.xmds.org
 
+### Colossus
+
+Colossus is a python toolkit for cosmology, large-scale structure, and dark matter halos. The main design goals are intuitive use and performance; the code is extensively documented. Colossus consists of three top-level modules. The cosmology module handles LCDM cosmologies with curvature, relativistic species, different dark energy equations of state, and so on. It includes densities, times, power spectra, variance, and correlation functions, among others. The large-scale structure module deals with peaks in Gaussian random fields and the statistical properties of halos such as peak height, halo bias, and the mass function. The halo module deals with masses, density profiles, concentration, and other halo properties. Colossus contains numerous fitting functions from the literature for convenience. 
+
+https://bdiemer.bitbucket.io/colossus/
+
 ***
 
 # ASTRO
