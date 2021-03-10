@@ -434,6 +434,16 @@ https://www.iap.kit.edu/corsika/
 
 ***
 
+## Radiative Transport
+
+### TARDIS
+
+TARDIS is a tool that creates synthetic observations (spectra) for exploding stars (supernovae).
+
+https://github.com/tardis-sn/tardis
+
+***
+
 ## N-body Simulation
 
 ### AMUSE
@@ -571,3 +581,19 @@ https://github.com/bradkav/PBHbounds (archived at http://doi.org/10.5281/zenodo.
 Code using pseudo-spectral methods to perform numerical simulations of spherically symmetric black hole formation on a Friedman-Robertson-Walker universe.
 
 https://sites.google.com/fqa.ub.edu/albertescriva/home, https://arxiv.org/abs/1907.13065 
+
+***
+
+## Stellar Modelling
+
+### GYRE
+
+GYRE is a stellar oscillation code. Given an input stellar model, GYRE calculates the eigenfrequencies and eigenfunctions for the normal oscillation modes of the model. These data can be put to a variety of uses; the most common is to compare them against observed oscillation frequencies of a star, allowing constraints on the star's fundamental parameters (mass, radius, etc.) to be established  the discipline of asteroseismology.
+
+https://github.com/rhdtownsend/gyre
+
+### MESA
+
+Modules for Experiments in Stellar Astrophysics (MESA) is a suite of open source, robust, efficient, thread-safe libraries for a wide range of applications in computational stellar astrophysics. A one-dimensional stellar evolution module, MESAstar, combines many of the numerical and physics modules for simulations of a wide range of stellar evolution scenarios ranging from very low mass to massive stars, including advanced evolutionary phases.
+
+http://mesa.sourceforge.net
