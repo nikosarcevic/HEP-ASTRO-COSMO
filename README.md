@@ -6,8 +6,6 @@ Original idea: [GF Bertone](https://twitter.com/gfbertone), [Twitter discussuion
 
 **Package/library/tool descriptions copied from respective pages.**
 
-- [ ] To keep in mind for further reference: [this INSPIRE page](https://inspirehep.net/experiments?sort=mostrecent&size=25&page=1&q=&classification=Non-experimental).
-- [ ] Another resource to include https://ascl.net/home/getwp/958 at a later date of if anyone wants to procrastinate.
 
 ***
 
