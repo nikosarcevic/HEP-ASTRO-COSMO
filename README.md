@@ -372,6 +372,22 @@ xPand is a package for Mathematica in which tools are provided to compute formal
 http://www.xact.es/
 http://www2.iap.fr/users/pitrou/xpand.htm
 
+### SageManifolds
+
+The SageManifolds project aims at extending the modern Python-based computer algebra system SageMath towards differential geometry and tensor calculus.
+
+SageManifolds deals with differentiable manifolds of arbitrary dimension. Various coordinate charts and vector frames can be introduced on the manifold, which does not need to be parallelizable. A given tensor field is then described by its sets of components in each vector frame, with automatic change-of-frame transformations for overlapping vector frames.
+
+Generic pseudo-Riemannian manifolds can be considered, among which Riemannian manifolds and Lorentzian manifolds, with applications to General Relativity. In particular, the computation of the Riemann curvature tensor and associated tensors (Ricci, Weyl, Schouten and Cotton tensors) is implemented. SageManifolds can also deal with generic affine connections, not necessarily Levi-Civita ones. 
+
+https://sagemanifolds.obspm.fr/
+
+### EinsteinPy
+
+EinsteinPy is an open source pure Python package dedicated to problems arising in General Relativity and gravitational physics, such as geodesics plotting for Schwarzschild, Kerr and Kerr Newman space-time model, calculation of Schwarzschild radius, calculation of Event Horizon and Ergosphere for Kerr space-time. Symbolic Manipulations of various tensors like Metric, Riemann, Ricci and Christoffel Symbols is also possible using the library. EinsteinPy also features Hypersurface Embedding of Schwarzschild space-time, which will soon lead to modelling of Gravitational Lensing.
+
+https://einsteinpy.org/
+
 ### Cobaya
 
 Cobaya (code for bayesian analysis, and Spanish for Guinea Pig) is a framework for sampling and statistical modelling: it allows you to explore an arbitrary prior or posterior using a range of Monte Carlo samplers (including the advanced MCMC sampler from CosmoMC, and the advanced nested sampler PolyChord). The results of the sampling can be analysed with GetDist. It supports MPI parallelization (and very soon HPC containerization with Docker/Shifter and Singularity).
