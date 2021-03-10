@@ -357,6 +357,12 @@ A cosmology package for Python.
 
 http://roban.github.io/CosmoloPy/
 
+### CosmoTransitions
+
+The CosmoTransitions package is a set of python modules for calculating properties of effective potentials with one or more scalar fields. Most importantly, it can be used to find the instanton solutions which interpolate between different vacua in a given theory, allowing one to determine the probability for a vacuum transition.
+
+https://github.com/clwainwright/CosmoTransitions
+
 ### xmds
 
 **Unsure if this belongs in cosmo really, will post an issue about it. I know some cosmo people use it for BEC etc**
