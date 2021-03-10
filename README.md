@@ -370,6 +370,24 @@ The CosmoTransitions package is a set of python modules for calculating properti
 
 https://github.com/clwainwright/CosmoTransitions
 
+### CCL
+
+The Core Cosmology Library (CCL) is a standardized library of routines to calculate basic observables used in cosmology. It will be the standard analysis package used by the LSST Dark Energy Science Collaboration (DESC).
+
+https://github.com/LSSTDESC/CCL
+
+### cosmoSIS
+
+CosmoSIS is a cosmological parameter estimation code. It is now at version 1.6. It is a framework for structuring cosmological parameter estimation in a way that eases re-usability, debugging, verifiability, and code sharing in the form of calculation modules. It consolidates and connects together existing code for predicting cosmic observables, and makes mapping out experimental likelihoods with a range of different techniques much more accessible. CosmoSIS is described in Zuntz et al.: http://arxiv.org/abs/1409.3409. If you make use of it in your research, please cite that paper and include the URL of this repository in your acknowledgments. Thanks!
+
+https://bitbucket.org/joezuntz/cosmosis/wiki/Home
+
+### CosmoLike
+
+Cosmological Likelihood Analyses
+
+https://github.com/CosmoLike
+
 ### xmds
 
 **Unsure if this belongs in cosmo really, will post an issue about it. I know some cosmo people use it for BEC etc**
