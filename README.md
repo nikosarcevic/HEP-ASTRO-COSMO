@@ -462,13 +462,83 @@ http://gitlab.mpcdf.mpg.de/vrs/gadget4 (preferred citation method here: https://
 
 ***
 
+## (Magneto-)hydrodynamics
+
+### Athena++
+
+Athena++ is a complete re-write of the Athena astrophysical magnetohydrodynamics (MHD) code in C++. Compared to earlier versions, the Athena++ code has (1) much more flexible coordinate and grid options including adaptive mesh refinement (AMR), (2) new physics including general relativity, (3) significantly improved performance and scalability, and (4) improved source code clarity and modularity.
+
+https://www.athena-astro.app
+
+### CASTRO
+
+Castro is an adaptive-mesh compressible radiation / MHD / hydrodynamics code for astrophysical flows. Castro supports a general equation of state, full Poisson gravity, and reactive flows, and is parallelized with MPI + OpenMP for CPUs and MPI + CUDA for GPUs.
+
+https://amrex-astro.github.io/Castro
+
+### Dedalus
+
+Dedalus solves differential equations using spectral methods. It's open-source, written in Python, and MPI-parallelized.
+Dedalus developed and used to study fluid dynamics, but it is designed to solve initial-value, boundary-value, and eigenvalue problems involving nearly arbitrary equations sets.
+
+https://dedalus-project.org
+
+### Enzo
+
+Enzo is a community-developed adaptive mesh refinement simulation code, designed for rich, multi-physics hydrodynamic astrophysical calculations.
+
+https://enzo-project.org
+
+### MAESTROeX
+
+MAESTROeX solves the equations of low Mach number hydrodynamics for stratified atmospheres/full spherical stars with a general equation of state, and nuclear reaction networks in an adaptive-grid finite-volume framework. It includes reactions and thermal diffusion and can be used on anything from a single core to 100,000s of processor cores with MPI + OpenMP or 1,000s of GPUs.
+
+https://amrex-astro.github.io/MAESTROeX
+
+### MagIC
+
+MagIC is a numerical code that can simulate fluid dynamics in a spherical shell. MagIC solves for the Navier-Stokes equation including Coriolis force, optionally coupled with an induction equation for Magneto-Hydro Dynamics (MHD), a temperature (or entropy) equation and an equation for chemical composition under both the anelastic and the Boussinesq approximations.
+
+https://magic-sph.github.io
+
+### Nyx
+
+Nyx is an adaptive mesh, massively-parallel, cosmological simulation code that solves equations of compressible hydrodynamics flow describing the evolution of baryonic gas coupled with an N-body treatment of the dark matter in an expanding universe.
+
+https://amrex-astro.github.io/Nyx
+
+### Pencil
+
+The Pencil Code is a high-order finite-difference code for compressible hydrodynamic flows with magnetic fields. It is highly modular and can easily be adapted to different types of problems. The code runs efficiently under MPI on massively parallel shared- or distributed-memory computers.
+
+http://pencil-code.nordita.org
+
+### Rayleigh
+
+Rayleigh is a 3-D convection code designed for the study of dynamo behavior in spherical geometry. It evolves the incompressible and anelastic MHD equations in spherical geometry using a pseudo-spectral approach. Rayleigh employs spherical harmonics in the horizontal direction and Chebyshev polynomials in the radial direction.
+
+https://github.com/geodynamics/Rayleigh
+
+***
+
 ## Numerical Relativity
+
+### Einstein Toolkit
+
+The Einstein Toolkit is a community-driven software platform of core computational tools to advance and support research in relativistic astrophysics and gravitational physics.
+https://www.einsteintoolkit.org
 
 ### GRChombo
 
 GRChombo is a new open-source code for numerical relativity simulations. It is developed and maintained by a collaboration of numerical relativists with a wide range of research interests, from early universe cosmology to astrophysics and mathematical general relativity, and has been used in many papers since its first release in 2015.
 
 https://www.grchombo.org/
+
+### GR1D
+
+GR1D is an open-source spherically-symmetric general-relativistic (GR) hydrodynamics code. It is based on the Eulerian formulation of GR hydrodynamics (GRHD) put forth by Romero-Ibanez-Gourgoulhon and employs radial-gauge, polar-slicing coordinates in which the 3+1 equations simplify substantially.
+
+http://www.gr1dcode.org/
 
 ### SpECTRE
 
