@@ -676,6 +676,13 @@ https://sites.google.com/fqa.ub.edu/albertescriva/home, https://arxiv.org/abs/19
 
 ## Stellar Modelling
 
+### ESTER (Evolution STEllaire en Rotation)
+
+The ambition of this project is to set out a two-dimensional stellar evolution code, which fully takes into account the effects of rotation, at any rate and in a self-consistent way.
+
+* Web: http://ester-project.github.io/ester/
+* Repo: https://github.com/ester-project/ester
+
 ### GYRE
 
 GYRE is a stellar oscillation code. Given an input stellar model, GYRE calculates the eigenfrequencies and eigenfunctions for the normal oscillation modes of the model. These data can be put to a variety of uses; the most common is to compare them against observed oscillation frequencies of a star, allowing constraints on the star's fundamental parameters (mass, radius, etc.) to be established  the discipline of asteroseismology.
