@@ -115,6 +115,12 @@ Monte Carlo Event Generator for Tevatron, LHC, ILC, CLIC, CEPC, FCC-ee, FCC-hh, 
 
 https://whizard.hepforge.org/
 
+### OpenLoops 2
+
+The OpenLoops 2 program is a fully automated implementation of the Open Loops algorithm combined with on-the-fly reduction methods, which allows for the fast and stable numerical evaluation of tree and one-loop matrix elements for any Standard Model process at NLO QCD and NLO EW. 
+
+https://openloops.hepforge.org/
+
 ***
 
 ## Event Analysers
