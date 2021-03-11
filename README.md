@@ -20,7 +20,8 @@
   * [Feyn Family](#feyn-family)
   * [Statistics](#statistics)
 - [COSMO](#cosmo)
-  * [Cosmic Microwave Background](#cosmic-microwave-background)
+  * [Einstein-Boltzmann Numerical Solvers](#einstein-boltzmann-numerical-solvers)
+  * [Cosmological Parameter Estimation](#cosmological-parameter-estimation-and-statistical-analysis)
   * [General Cosmology](#general-cosmology)
 - [ASTRO](#astro)
   * [Black hole perturbation theory](#black-hole-perturbation-theory)
@@ -332,21 +333,37 @@ python-based likelihood (in particular unbinned) construction/fitting framework 
 
 # COSMO
 
-Note: for now, this is just a list of packages without any further substructure/organization. Will be sorted better as the list grows.
+Note: Can be sorted better as the list grows, especially the general resources section
 
-## Cosmic Microwave Background
+## Einstein-Boltzmann Numerical Solvers
 
 ### CAMB
 
-CAMB is a Python and Fortran code for computing CMB, CMB lensing, lensing, galaxy count and dark-age 21cm power spectra, transfer functions and matter power spectra, and background cosmological functions.
+CAMB is a Python and Fortran code for computing CMB, CMB lensing, lensing, galaxy count and dark-age 21cm power spectra, transfer functions and matter power spectra, and background cosmological functions. Its object-oriented structure makes it easy to modify the code and add models such as exotic dark matter/dark energy and modified gravity to the analysis. 
 
 https://camb.info (preferred citation method here: https://cosmologist.info/cosmomc/cosmomc.bib)
 
 ### CLASS
 
-The purpose of CLASS is to simulate the evolution of linear perturbations in the universe and to compute CMB and large scale structure observables. Its name also comes from the fact that it is written in object-oriented style mimicking the notion of class. Classes are a wonderfull programming feature available e.g. in C++ and python, but these languages are known to be less vectorizable/parallelizable than plain C (or Fortran), and hence potentially slower. For CLASS we choose to use plain C for high performances, while organizing the code in a few modules that reproduce the architecture and philosophy of C++ classes, for optimal readability and modularity.
+The purpose of CLASS is to simulate the evolution of linear perturbations in the universe and to compute CMB and large scale structure observables. Its name also comes from the fact that it is written in object-oriented style mimicking the notion of class. Classes are a wonderful programming feature available e.g. in C++ and Python, but these languages are known to be less vectorizable/parallelizable than plain C (or Fortran), and hence potentially slower. For CLASS we choose to use plain C for high performances, while organizing the code in a few modules that reproduce the architecture and philosophy of C++ classes, for optimal readability and modularity.
 
 http://class-code.net
+
+### MGCAMB
+
+Modified Growth with CAMB (MGCAMB) is a patch for the Einstein Boltzmann solver CAMB that intrdouces phenomenological Modifications of Growth (MG) along with dynamical Dark Energy (DE). It includes several phenomenological parametrizations.
+
+https://github.com/sfu-cosmo/MGCAMB
+
+### CLASS-PT
+
+This is a modification of the CLASS code that computes the non-linear power spectra of dark matter and biased tracers in one-loop cosmological perturbation theory.
+
+https://github.com/Michalychforever/CLASS-PT
+
+***
+
+## Cosmological Parameter Estimation and Statistical Analysis
 
 ### CosmoMC
 
@@ -360,14 +377,31 @@ Monte Python is a Monte Carlo code for Cosmological Parameter extraction. It con
 
 http://baudren.github.io/montepython.html
 
+### Cobaya
+
+Cobaya (code for bayesian analysis, and Spanish for Guinea Pig) is a framework for sampling and statistical modelling: it allows you to explore an arbitrary prior or posterior using a range of Monte Carlo samplers (including the advanced MCMC sampler from CosmoMC, and the advanced nested sampler PolyChord). The results of the sampling can be analysed with GetDist. It supports MPI parallelization (and very soon HPC containerization with Docker/Shifter and Singularity).
+
+https://cobaya.readthedocs.io/en/latest/
+
+### CosmoSIS
+
+CosmoSIS is a cosmological parameter estimation code. It is now at version 1.6. It is a framework for structuring cosmological parameter estimation in a way that eases re-usability, debugging, verifiability, and code sharing in the form of calculation modules. It consolidates and connects together existing code for predicting cosmic observables, and makes mapping out experimental likelihoods with a range of different techniques much more accessible. CosmoSIS is described in Zuntz et al.: http://arxiv.org/abs/1409.3409. If you make use of it in your research, please cite that paper and include the URL of this repository in your acknowledgments. Thanks!
+
+https://bitbucket.org/joezuntz/cosmosis/wiki/Home
+
+### CosmoLike
+
+CosmoLike is a collaborative software development project to analyze cosmological data sets and to forecast future missions.
+
+https://github.com/CosmoLike
+
 ***
 
-## General Cosmology
-
+## General Cosmology Resources
 
 ### CosmoloPy
 
-A cosmology package for Python.
+CosmoloPy is a package of cosmology routines built on NumPy/SciPy. Capabilities include: various cosmological densities, cosmological distance measures, galaxy luminosity functions (Schecter functions), conversion in and out of the AB magnitude system, pre-defined sets of cosmological parameters (e.g. from WMAP), perturbation theory and the power spectrum and reionization of the IGM.
 
 http://roban.github.io/CosmoloPy/
 
@@ -375,7 +409,7 @@ http://roban.github.io/CosmoloPy/
 
 xAct is a suite of free packages for tensor computer algebra for Wolfram Mathematica. xAct implements state-of-the-art algorithms for fast manipulations of indices and has been modelled on the current geometric approach to General Relativity. It is highly programmable and configurable. Since its first public release in March 2004, xAct has been intensively tested and has solved a number of hard problems in GR.
 
-xPand is a package for Mathematica in which tools are provided to compute formally the cosmological perturbations for any tensor in any order around a homogeneous spacetime. xPand supports the most used gauges such as newtonian, comoving, synchronous, etc. It is based on the xAct distribution for efficient tensor manipulations.
+xPand is a subpackage of the xAct distribution for efficient tensor manipulations a package for Mathematica. xPand provides tools to compute formally the cosmological perturbations for any tensor in any order around a homogeneous spacetime. xPand supports the most used gauges such as newtonian, comoving, synchronous, etc.
 
 http://www.xact.es/
 http://www2.iap.fr/users/pitrou/xpand.htm
@@ -396,12 +430,6 @@ EinsteinPy is an open source pure Python package dedicated to problems arising i
 
 https://einsteinpy.org/
 
-### Cobaya
-
-Cobaya (code for bayesian analysis, and Spanish for Guinea Pig) is a framework for sampling and statistical modelling: it allows you to explore an arbitrary prior or posterior using a range of Monte Carlo samplers (including the advanced MCMC sampler from CosmoMC, and the advanced nested sampler PolyChord). The results of the sampling can be analysed with GetDist. It supports MPI parallelization (and very soon HPC containerization with Docker/Shifter and Singularity).
-
-https://cobaya.readthedocs.io/en/latest/
-
 ### CosmoTransitions
 
 The CosmoTransitions package is a set of python modules for calculating properties of effective potentials with one or more scalar fields. Most importantly, it can be used to find the instanton solutions which interpolate between different vacua in a given theory, allowing one to determine the probability for a vacuum transition.
@@ -410,21 +438,9 @@ https://github.com/clwainwright/CosmoTransitions
 
 ### CCL
 
-The Core Cosmology Library (CCL) is a standardized library of routines to calculate basic observables used in cosmology. It will be the standard analysis package used by the LSST Dark Energy Science Collaboration (DESC).
+The Core Cosmology Library (CCL) is a standardized library of routines to calculate basic observables used in cosmology. It will be the standard analysis package used by the LSST Dark Energy Science Collaboration (DESC). Please check the user policy!
 
 https://github.com/LSSTDESC/CCL
-
-### cosmoSIS
-
-CosmoSIS is a cosmological parameter estimation code. It is now at version 1.6. It is a framework for structuring cosmological parameter estimation in a way that eases re-usability, debugging, verifiability, and code sharing in the form of calculation modules. It consolidates and connects together existing code for predicting cosmic observables, and makes mapping out experimental likelihoods with a range of different techniques much more accessible. CosmoSIS is described in Zuntz et al.: http://arxiv.org/abs/1409.3409. If you make use of it in your research, please cite that paper and include the URL of this repository in your acknowledgments. Thanks!
-
-https://bitbucket.org/joezuntz/cosmosis/wiki/Home
-
-### CosmoLike
-
-Cosmological Likelihood Analyses
-
-https://github.com/CosmoLike
 
 ### xmds
 
