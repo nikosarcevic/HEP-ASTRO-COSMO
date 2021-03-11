@@ -22,7 +22,7 @@
 - [COSMO](#cosmo)
   * [Einstein-Boltzmann Numerical Solvers](#einstein-boltzmann-numerical-solvers)
   * [Cosmological Parameter Estimation](#cosmological-parameter-estimation-and-statistical-analysis)
-  * [General Cosmology](#general-cosmology)
+  * [General Cosmology](#general-cosmology-resources)
 - [ASTRO](#astro)
   * [Black hole perturbation theory](#black-hole-perturbation-theory)
   * [Cosmic Rays](#cosmic-rays)
