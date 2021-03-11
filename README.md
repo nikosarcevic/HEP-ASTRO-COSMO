@@ -30,6 +30,8 @@
   * [Numerical Relativity](#numerical-relativity)
   * [Primordial Black Holes](#primordial-black-holes)
   * [Stellar Modelling](#stellar-modelling)
+  * [Multi-Messenger Analysis](#multi-messenger-analysis)
+  * [Population Synthesis](#population-synthesis)
 - [Related List of Tools](#related-list-of-tools)
   * [Neutrino Code](#neutrino-code)
 
@@ -669,6 +671,26 @@ https://github.com/rhdtownsend/gyre
 Modules for Experiments in Stellar Astrophysics (MESA) is a suite of open source, robust, efficient, thread-safe libraries for a wide range of applications in computational stellar astrophysics. A one-dimensional stellar evolution module, MESAstar, combines many of the numerical and physics modules for simulations of a wide range of stellar evolution scenarios ranging from very low mass to massive stars, including advanced evolutionary phases.
 
 http://mesa.sourceforge.net
+
+## Multi-Messenger Analysis 
+
+### 3ML
+
+The Multi-Mission Maximum Likelihood framework (3ML) provides a common high-level interface and model definition, which allows for an easy, coherent and intuitive modeling of sources using all the available data, no matter their origin. At the same time, thanks to its architecture based on plug-ins, 3ML uses under the hood the official software of each instrument, the only one certified and maintained by the collaboration which built the instrument itself. This guarantees that 3ML is always using the best possible methodology to deal with the data of each instrument.
+
+http://threeml.readthedocs.io/
+
+## Population Synthesis
+
+### popsynth
+
+This framework provides an abstract way to generate populations from various luminosity functions and redshift distributions. Additionally, auxiliary quantities can be sampled and stored.
+
+Populations can be saved and restored via an HDF5 files for later use.
+
+Note that this is not Synth Pop. If you were expecting that… I suggest you check out Depeche Mode.
+
+https://popsynth.readthedocs.io/
 
 ***
 
