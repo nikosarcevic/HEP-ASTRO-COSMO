@@ -682,7 +682,7 @@ http://threeml.readthedocs.io/
 
 ## Population Synthesis
 
-## popsynth
+### popsynth
 
 This framework provides an abstract way to generate populations from various luminosity functions and redshift distributions. Additionally, auxiliary quantities can be sampled and stored.
 
