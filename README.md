@@ -32,7 +32,7 @@
   * [Numerical Relativity](#numerical-relativity)
   * [Primordial Black Holes](#primordial-black-holes)
   * [Stellar Modelling](#stellar-modelling)
-  * [Modelling of Active Galactic Nuclei](#modelling-active-galactic-nuclei)
+  * [Modelling of Active Galactic Nuclei](#Modelling-of-Active-Galactic-Nuclei)
   * [Multi-Messenger Analysis](#multi-messenger-analysis)
   * [Population Synthesis](#population-synthesis)
 - [Related List of Tools](#related-list-of-tools)
