@@ -286,6 +286,13 @@ https://github.com/NESTCollaboration/nest
 python bindings: 
 https://github.com/NESTCollaboration/nestpy
 
+### Flamedisx
+
+Flamedisx aims to increase the practical number of dimensions and parameters in likelihoods for liquid-xenon (LXe) detectors. 
+The LXe model is be computed with a series of (large) matrix multiplications, equivalent to the integral approximated by the MC simulation. Using TensorFlow makes this computation differentiable and GPU-scalable, so it can be used practically for fitting and statistical inference.
+
+https://github.com/FlamTeam/flamedisx
+
 ***
 
 ## Feyn Family
