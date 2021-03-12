@@ -516,6 +516,36 @@ https://www.iap.kit.edu/corsika/
 
 ***
 
+## Gamma-ray Astronomy
+
+### Fermipy
+
+Fermipy is a python package that facilitates analysis of data from the Large Area Telescope (LAT) with the Fermi Science Tools. For more information about the Fermi mission and the LAT instrument please refer to the Fermi Science Support Center (https://fermi.gsfc.nasa.gov/ssc/). The Fermipy package is built on the pyLikelihood interface of the Fermi Science Tools and provides a set of high-level tools for performing common analysis tasks:
+
+Data and model preparation with the gt-tools (gtselect, gtmktime, etc.).
+Extracting a spectral energy distribution (SED) of a source.
+Generating TS and residual maps for a region of interest.
+Finding new source candidates.
+Localizing a source or fitting its spatial extension.
+
+Fermipy uses a configuration-file driven workflow in which the analysis parameters (data selection, IRFs, and ROI model) are defined in a YAML configuration file. Analysis is executed through a python script that calls the methods of GTAnalysis to perform different analysis operations.
+
+https://github.com/fermiPy/fermipy
+
+### ctapipe
+
+ctapipe is a python based low-level data processing pipeline software for CTA (the Cherenkov Telescope Array). It provides standard tools for Cherenkov Telescope image analysis and data processing.
+
+https://github.com/cta-observatory/ctapipe
+
+### gammaALPs
+
+gammaALPS is a python package to calculate the conversion probability between photons and axions / axion-like particles in various astrophysical magnetic fields.
+
+https://github.com/me-manu/gammaALPs
+
+***
+
 ## Radiative Transport
 
 ### TARDIS
@@ -695,6 +725,16 @@ Modules for Experiments in Stellar Astrophysics (MESA) is a suite of open source
 
 http://mesa.sourceforge.net
 
+## Modelling of Active Galactic Nuclei
+
+### agnpy
+
+agnpy is an astropy affiliated package designed to model the radiative processes of Active Galactic Nuclei with python, focusing on the numerical computation of the photon spectra produced by leptonic radiative processes in jetted Active Galactic Nuclei (AGN).
+
+https://github.com/cosimoNigro/agnpy
+
+***
+
 ## Multi-Messenger Analysis 
 
 ### 3ML
@@ -702,6 +742,8 @@ http://mesa.sourceforge.net
 The Multi-Mission Maximum Likelihood framework (3ML) provides a common high-level interface and model definition, which allows for an easy, coherent and intuitive modeling of sources using all the available data, no matter their origin. At the same time, thanks to its architecture based on plug-ins, 3ML uses under the hood the official software of each instrument, the only one certified and maintained by the collaboration which built the instrument itself. This guarantees that 3ML is always using the best possible methodology to deal with the data of each instrument.
 
 http://threeml.readthedocs.io/
+
+***
 
 ## Population Synthesis
 
