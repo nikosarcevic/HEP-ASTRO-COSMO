@@ -126,6 +126,14 @@ The OpenLoops 2 program is a fully automated implementation of the Open Loops al
 
 https://openloops.hepforge.org/
 
+### Caravel
+
+The Caravel C++ framework provides an implementation of many algorithms necessary to perform computations of multi-loop scattering amplitudes within the multi-loop numerical unitarity method. It is based on the (generalized) unitarity approach, which was first developed for the analytic computation of one-loop amplitudes and later adapted for numeric calculations. In a nutshell, in this framework the amplitude is computed starting from a parametrization of its integrand. The corresponding free parameters are numerically computed at each phase-space point by constructing systems of linear equations in which the parameters are the unknowns and the numerical entries are associated to products of tree-level amplitudes. With a suitable choice of integrand parametrization, this directly gives a decomposition of the amplitude in terms of master integrals. Finally, after inserting the value of the integrals at the required phase-space point we obtain the value of the amplitude.
+
+The current release of Caravel includes a module for computing products of tree-level amplitudes in several theories through off-shell recursion relations, and tools that allow the efficient construction and solution of the systems of linear equations that determine the integrand. Whilst these components work for generic multi-loop amplitudes, other components such as the construction of the parametrization are required as input.
+
+https://gitlab.com/caravel-public/caravel
+
 ***
 
 ## Event Analysers
