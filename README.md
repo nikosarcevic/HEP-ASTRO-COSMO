@@ -441,6 +441,16 @@ Generic pseudo-Riemannian manifolds can be considered, among which Riemannian ma
 
 https://sagemanifolds.obspm.fr/
 
+### HEALPix
+
+HEALPix is a Hierarchical, Equal Area, and iso-Latitude Pixelation of the sphere designed to support efficiently (1) local operations on the pixel set, (2) a hierarchical tree structure for multi-resolution applications, and (3) the global Fast Spherical Harmonic transform. HEALPix based mathematical software meets the challenges presented by high resolution and large volume data sets, such as the WMAP and Planck CMB mission products. It's a must have for those who work with CMB data directly, allowing you to treat raw temperature data and easily extracting the Cls. It's implemented in C, C++, Fortran, Python, Java and IDL.
+
+https://healpix.sourceforge.io/
+
+Its Python implementation, Healpy, can be installed separately. It is very well documented and has tutorials to get started, which is great for those who want to start working with CMB data.
+
+https://healpy.readthedocs.io/en/latest/index.html#
+
 ### EinsteinPy
 
 EinsteinPy is an open source pure Python package dedicated to problems arising in General Relativity and gravitational physics, such as geodesics plotting for Schwarzschild, Kerr and Kerr Newman space-time model, calculation of Schwarzschild radius, calculation of Event Horizon and Ergosphere for Kerr space-time. Symbolic Manipulations of various tensors like Metric, Riemann, Ricci and Christoffel Symbols is also possible using the library. EinsteinPy also features Hypersurface Embedding of Schwarzschild space-time, which will soon lead to modelling of Gravitational Lensing.
