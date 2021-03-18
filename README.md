@@ -372,6 +372,12 @@ Modified Growth with CAMB (MGCAMB) is a patch for the Einstein Boltzmann solver 
 
 https://github.com/sfu-cosmo/MGCAMB
 
+### EFTCAMB
+
+EFTCAMB is a patch of the public Einstein-Boltzmann solver CAMB, which implements the Effective Field Theory approach to cosmic acceleration. The code can be used to investigate the effect of different EFT operators on linear perturbations as well as to study perturbations in any specific DE/MG model that can be cast into EFT framework. To interface EFTCAMB with cosmological data sets, we equipped it with a modified version of CosmoMC, namely EFTCosmoMC, creating a bridge between the EFT parametrization of the dynamics of perturbations and observations.
+
+eftcamb.org
+
 ### CLASS-PT
 
 This is a modification of the CLASS code that computes the non-linear power spectra of dark matter and biased tracers in one-loop cosmological perturbation theory.
