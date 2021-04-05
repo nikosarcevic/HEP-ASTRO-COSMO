@@ -483,6 +483,12 @@ This website provides the documentation for XMDS2 (an all-new version of XMDS), 
 
 http://www.xmds.org
 
+### Dark Emulator
+
+A repository for a cosmology tool dark_emulator to emulate halo clustering statistics. The code is developed based on Dark Quest simulation suite (https://darkquestcosmology.github.io/). The current version supports the halo mass function and two point correlation function (both halo-halo and halo-matter cross). Dark Quest is a cosmological structure formation simulation campaign by Japanese cosmologists initiated in 2015. The primary goal of the project is to understand the complex parameter dependence of various large-scale structure probes, and provide a versatile tool to make predictions for parameter inference problems with observational datasets. The first series of simulations, Dark Quest. I. (DQ1), was completed in 2018 and we are now in the second phase (DQ2). A Gaussian-Process based emulation tool, Dark Emulator, was developed with the DQ1 database.
+
+https://github.com/DarkQuestCosmology/dark_emulator_public
+
 ### Colossus
 
 Colossus is a python toolkit for cosmology, large-scale structure, and dark matter halos. The main design goals are intuitive use and performance; the code is extensively documented. Colossus consists of three top-level modules. The cosmology module handles LCDM cosmologies with curvature, relativistic species, different dark energy equations of state, and so on. It includes densities, times, power spectra, variance, and correlation functions, among others. The large-scale structure module deals with peaks in Gaussian random fields and the statistical properties of halos such as peak height, halo bias, and the mass function. The halo module deals with masses, density profiles, concentration, and other halo properties. Colossus contains numerous fitting functions from the literature for convenience. 
