@@ -559,6 +559,12 @@ Hadronic interactions at lower energies are described either by the GHEISHA inte
 
 https://www.iap.kit.edu/corsika/
 
+### CRPropa
+
+CRPropa is a publicly available simulation framework to study the propagation of high- and ultra-high-energy particles (cosmic-ray nuclei, photons, electrons, and neutrinos) in the Galactic and extragalactic spaces. Photonuclear interactions between cosmic rays and background photons are implemented, including processes such as Bethe-Heitler pair production, photopion production, and photodisintegration of nuclei. The code also treats electromagnetic interactions involving photons and electrons, such as pair production and inverse Compton scattering as well as their higher-order counterparts, double and triplet pair production. In addition to the one-dimensional treatment of interactions, CRPropa can compute trajectories of charged relativistic particles propagating through various magnetic-field configurations, including turbulent magnetic fields, several models of the Galactic magnetic field, as well as custom magnetic-field grids. A low-energy extension which solves the transport equation using stochastic differential equations is available, being suitable for Galactic cosmic-ray propagation. CRPropa is written in C++ with shared-memory parallelisation and Python steering. It features a modular structure, which enables users to easily add their own modules for their specific types of studies.
+
+https://crpropa.desy.de/
+
 ***
 
 ## Gamma-ray Astronomy
