@@ -378,6 +378,12 @@ EFTCAMB is a patch of the public Einstein-Boltzmann solver CAMB, which implement
 
 eftcamb.org
 
+### hi_class
+
+The hi_class code is an extension of the Einstein-Boltzmann solver CLASS including gravitational theories in the Horndeski scalar-tensor category. hi_class can work with effective descriptions (expansion history + alpha functions) or covariant Lagrangians (+ field initial conditions) and includes consistent initial conditions and a flexible quasi-static approximation scheme. It can compute background quantities and linear observables (transfer functions, 3D matter power spectra, angular spectra for CMB, lensing potentials or galaxy number counts including relativistic effects) and be readily interfaced with samplers (Montepython, Cobaya, CosmoSIS).
+
+www.hiclass-code.net
+
 ### CLASS-PT
 
 This is a modification of the CLASS code that computes the non-linear power spectra of dark matter and biased tracers in one-loop cosmological perturbation theory.
