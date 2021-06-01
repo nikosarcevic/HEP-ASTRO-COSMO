@@ -20,6 +20,7 @@
   * [Feyn Family](#feyn-family)
   * [Statistics](#statistics)
 - [COSMO](#cosmo)
+  * [Big Bang Nucleosynthesis](#big-bang-nucleosynthesis)
   * [Einstein-Boltzmann Numerical Solvers](#einstein-boltzmann-numerical-solvers)
   * [Cosmological Parameter Estimation](#cosmological-parameter-estimation-and-statistical-analysis)
   * [General Cosmology](#general-cosmology-resources)
@@ -351,6 +352,26 @@ python-based likelihood (in particular unbinned) construction/fitting framework 
 # COSMO
 
 Note: Can be sorted better as the list grows, especially the general resources section
+
+## Big Bang Nucleosynthesis
+
+### AlterBBN
+
+AlterBBN is a C program which computes the abundances of the elements predicted by Big-Bang nucleosynthesis (BBN). Different cosmological scenarios are implemented in AlterBBN, which can alter the BBN predictions. Also, AlterBBN is included in the SuperIso Relic package so that the alternative models can be tested using BBN constraints.
+
+https://alterbbn.hepforge.org
+
+### PArthENoPE
+
+PArthENoPE is a FORTRAN77 numerical code which computes the abundances of light nuclides produced during Big Bang Nucleosynthesis. Starting from nuclear statistical equilibrium conditions the program solves the set of corresponding coupled ordinary differential equations, follows the departure from chemical equilibrium of nuclear species, and determines their asymptotic abundances as function of several input cosmological parameters as the baryon density, the number of effective neutrino species, the value of cosmological constant and the neutrino chemical potential.
+
+http://parthenope.na.infn.it
+
+### PRIMAT (PRImordial MATter)
+
+PRIMAT is a Mathematica code dedicated to the computation of light elements abundances at the end of the Big-Bang Nucleosynthesis (BBN). It computes the evolution of these abundances in the first minutes after the Big-Bang so as to obtain the frozen values when the temperature dropped below 108 degrees. It allows to explore the dependence of light elements abundances on cosmological parameters, such as baryon density or number of neutrino species, but also to estimate from a Monte-Carlo method the uncertainty in these predictions due to uncertainties in nuclear reaction rates.
+
+http://www2.iap.fr/users/pitrou/primat.htm
 
 ## Einstein-Boltzmann Numerical Solvers
 
