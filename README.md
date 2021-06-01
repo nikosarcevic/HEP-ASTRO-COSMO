@@ -355,6 +355,12 @@ Note: Can be sorted better as the list grows, especially the general resources s
 
 ## Big Bang Nucleosynthesis
 
+### ACROPOLIS (A generiC fRamework fOr Photodisintegration Of LIght elementS)
+
+ACROPOLIS is a generic framework to calculate the evolution of the light-element abundances due to photodisintegration reactions induced by different BSM particles. With ACROPOLIS, the widely discussed cases of decays as well as annihilations can be run without prior coding knowledge within example programs. However, its modular structure also makes it possible to easily implement other BSM physics scenarios.
+
+https://acropolis.hepforge.org
+
 ### AlterBBN
 
 AlterBBN is a C program which computes the abundances of the elements predicted by Big-Bang nucleosynthesis (BBN). Different cosmological scenarios are implemented in AlterBBN, which can alter the BBN predictions. Also, AlterBBN is included in the SuperIso Relic package so that the alternative models can be tested using BBN constraints.
