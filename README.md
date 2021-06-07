@@ -622,6 +622,13 @@ ctapipe is a python based low-level data processing pipeline software for CTA (t
 
 https://github.com/cta-observatory/ctapipe
 
+### gammapy
+
+Gammapy is an open-source Python package for gamma-ray astronomy built on [Numpy](https://numpy.org/), [Scipy](https://scipy.org/) and [Astropy](https://www.astropy.org/).
+It is used as core library for the Science Analysis tools of the [Cherenkov Telescope Array (CTA)](https://www.cta-observatory.org/), recommended by the [H.E.S.S.](https://www.mpi-hd.mpg.de/hfm/HESS/) collaboration to be used for Science publications, and is already widely used in the analysis of existing gamma-ray instruments, such as [MAGIC](https://magic.mpp.mpg.de/), [VERITAS](https://veritas.sao.arizona.edu/) and [HAWC](https://www.hawc-observatory.org/). 
+
+Project Web site: https://gammapy.org/, GitHub repo: https://github.com/gammapy/gammapy
+
 ### gammaALPs
 
 gammaALPS is a python package to calculate the conversion probability between photons and axions / axion-like particles in various astrophysical magnetic fields.
