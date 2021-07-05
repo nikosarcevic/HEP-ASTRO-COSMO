@@ -175,6 +175,21 @@ https://launchpad.net/madanalysis5
 
 ## Global Fitters
 
+### HEPfit
+
+A Code for the Combination of Indirect and Direct Constraints on High Energy Physics Models.
+
+𝙷𝙴𝙿𝚏𝚒𝚝 is a flexible open-source tool which, given the Standard Model or any of its extensions, allows to:  
+- fit the model parameters to a given set of experimental observables  
+- obtain predictions for observables  
+
+𝙷𝙴𝙿𝚏𝚒𝚝 can be used either in Monte Carlo mode, to perform a Bayesian Markov Chain Monte Carlo analysis of a given model, or as a library, to obtain predictions of observables for a given point in the parameter space of the model, allowing 𝙷𝙴𝙿𝚏𝚒𝚝 to be used in any statistical framework. In the present version, around a thousand observables have been implemented in the Standard Model and in several new physics scenarios. In this paper, we describe the general structure of the code as well as models and observables implemented in the current release.
+
+[𝙷𝙴𝙿𝚏𝚒𝚝 website](https://hepfit.roma1.infn.it/)  
+[𝙷𝙴𝙿𝚏𝚒𝚝 repository](https://github.com/silvest/HEPfit)  
+[𝙷𝙴𝙿𝚏𝚒𝚝 paper/manual](https://arxiv.org/abs/1910.14012)  
+[𝙷𝙴𝙿𝚏𝚒𝚝 documentation](https://hepfit.roma1.infn.it/doc/latest-release/index.html)  
+
 ### GAMBIT
 
 Welcome to the GAMBIT homepage. GAMBIT is a global fitting code for generic Beyond the Standard Model theories, designed to allow fast and easy definition of new models, observables, likelihoods, scanners and backend physics codes.
