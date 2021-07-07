@@ -23,6 +23,7 @@
   * [Big Bang Nucleosynthesis](#big-bang-nucleosynthesis)
   * [Einstein-Boltzmann Numerical Solvers](#einstein-boltzmann-numerical-solvers)
   * [Cosmological Parameter Estimation](#cosmological-parameter-estimation-and-statistical-analysis)
+  * [Correlation Function Estimation](#correlation-function-estimation)
   * [General Cosmology](#general-cosmology-resources)
 - [ASTRO](#astro)
   * [Black hole perturbation theory](#black-hole-perturbation-theory)
@@ -465,6 +466,22 @@ https://bitbucket.org/joezuntz/cosmosis/wiki/Home
 CosmoLike is a collaborative software development project to analyze cosmological data sets and to forecast future missions.
 
 https://github.com/CosmoLike
+
+***
+
+## Correlation Function Estimation
+
+### Corrfunc
+
+Corrfunc is a set of high-performance routines to measure two-point clustering statistics, in particular computing angular correlation functions, projected correlation functions and 3D correlation functions. This is written in C and Python and fully parallelized.
+
+https://corrfunc.readthedocs.io/en/master/
+
+### encore
+
+encore is a C++ code for estimating isotropic 3-, 4-, 5- and 6-point correlation functions of galaxy surveys and simulations. This is uses spherical harmonic decompositions to give an algorithm with quadratic complexity, as in [Philcox et al. 2021](https://arxiv.org/abs/2105.08722), and includes corrections for the survey geometry. The code also features a GPU implementation via CUDA, and is actively being developed.
+
+https://github.com/oliverphilcox/encore
 
 ***
 
