@@ -240,6 +240,13 @@ LHAPDF is a general purpose C++ interpolator, used for evaluating PDFs from disc
 
 https://lhapdf.hepforge.org
 
+### flavio
+
+flavio is a ...
+
+### smelli
+
+smelli is a ...
 
 ***
 
