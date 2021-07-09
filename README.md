@@ -242,11 +242,26 @@ https://lhapdf.hepforge.org
 
 ### flavio
 
-flavio is a ...
+flavio is a Python package to compute observables in flavour physics, electroweak precision tests, Higgs physics, and other precision tests of the Standard Model, both in the Standard Model and in the presence of new physics encoded in Wilson coefficients of dimension-6 operators.
+
+[flavio website](https://flav-io.github.io/)
+
+[flavio repository](https://github.com/flav-io/flavio)
+
+[flavio paper](https://arxiv.org/abs/1810.08132)
+
 
 ### smelli
 
-smelli is a ...
+smelli is a Python package providing a global likelihood function in the space of dimension-six Wilson coefficients in the Standard Model Effective Field Theory (SMEFT). The likelihood includes contributions from quark and lepton flavour physics, electroweak precision tests, and other precision observables.
+
+The package is based on flavio for the calculation of observables and statistical treatment and wilson for the running, translation, and matching of Wilson coefficients.
+
+[smellu website](https://smelli.github.io/)
+
+[smelli repository](https://github.com/smelli/smelli)
+
+[smelli paper](https://arxiv.org/abs/1810.07698)
 
 ***
 
