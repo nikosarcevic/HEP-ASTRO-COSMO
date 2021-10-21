@@ -798,10 +798,23 @@ https://github.com/geodynamics/Rayleigh
 
 ## Numerical Relativity
 
+### CosmoGRaPH
+
+CosmoGRaPH is a c++ code designed to explore cosmological problems in a fully general relativistic setting. The code implements various methods for numerically solving the Einstein field equations, and includes as matter sources an N-body/collisionless phase-space sheet solver, analysis tools useful for cosmology such as raytracing, and full AMR capabilities via SAMRAI.
+
+https://cwru-pat.github.io/cosmograph/
+
 ### Einstein Toolkit
 
-The Einstein Toolkit is a community-driven software platform of core computational tools to advance and support research in relativistic astrophysics and gravitational physics.
+The Einstein Toolkit is a community-driven software platform of core computational tools to advance and support research in relativistic astrophysics and gravitational physics. Currently, a large portion of the toolkit is made up by over 270 Cactus components ("thorns") for computational relativity along with associated tools for simulation management and visualization. This includes vacuum spacetime solvers and relativistic hydrodynamics solvers, along with components for initial data, analysis and computational infrastructure.
+
 https://www.einsteintoolkit.org
+
+### gevolution
+
+gevolution is an open-source code for exploring relativistic effects in late-Universe cosmology. It is based on a weak field expansion of General Relativity and calculates all six metric degrees of freedom in Poisson gauge. The code is also capable of raytracing to compute relativistic observables.
+
+https://github.com/gevolution-code
 
 ### GRChombo
 
@@ -814,6 +827,12 @@ https://www.grchombo.org/
 GR1D is an open-source spherically-symmetric general-relativistic (GR) hydrodynamics code. It is based on the Eulerian formulation of GR hydrodynamics (GRHD) put forth by Romero-Ibanez-Gourgoulhon and employs radial-gauge, polar-slicing coordinates in which the 3+1 equations simplify substantially.
 
 http://www.gr1dcode.org/
+
+### NRPy+
+
+The NRPy+/SENR software packages implement a generalized approach for solving Einstein's equations of general relativity in various coordinate systems. The project aims to reduce the cost in memory of numerical relativity black hole and neutron star binary simulations by ~100x, through adoption of numerical grids that fully exploit near-symmetries in these systems. With this cost savings, black hole binary merger simulations can be performed entirely on a consumer-grade desktop (or laptop) computer.
+
+http://astro.phys.wvu.edu/bhathome/nrpy.html
 
 ### SpECTRE
 
