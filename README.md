@@ -37,7 +37,7 @@
   * [Modelling of Active Galactic Nuclei](#Modelling-of-Active-Galactic-Nuclei)
   * [Multi-Messenger Analysis](#multi-messenger-analysis)
   * [Population Synthesis](#population-synthesis)
-  * [Neutron Stars Equations of State](#Neutron-Star-Equations-of-State)
+  * [Neutron Stars Equations of State](#Neutron-Stars-Equations-of-State)
 - [Related List of Tools](#related-list-of-tools)
   * [Neutrino Code](#neutrino-code)
 
