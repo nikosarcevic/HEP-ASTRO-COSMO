@@ -37,6 +37,7 @@
   * [Modelling of Active Galactic Nuclei](#Modelling-of-Active-Galactic-Nuclei)
   * [Multi-Messenger Analysis](#multi-messenger-analysis)
   * [Population Synthesis](#population-synthesis)
+  * [Neutron Stars Equations of State](#Neutron-Stars-Equations-of-State)
 - [Related List of Tools](#related-list-of-tools)
   * [Neutrino Code](#neutrino-code)
 
@@ -920,6 +921,15 @@ Populations can be saved and restored via an HDF5 files for later use.
 Note that this is not Synth Pop. If you were expecting that… I suggest you check out Depeche Mode.
 
 https://popsynth.readthedocs.io/
+
+***
+## Neutron Stars Equations of State
+
+### CompOSE
+
+The online service CompOSE (CompStar Online Supernovae Equations of State) provides data tables for different state of the art equations of state (EoS) ready for further usage in astrophysical applications, nuclear physics and beyond. 
+
+https://compose.obspm.fr/
 
 ***
 
