@@ -19,6 +19,7 @@
   * [Direct Detection](#direct-detection)
   * [Feyn Family](#feyn-family)
   * [Statistics](#statistics)
+  * [Neutrino Code](#neutrino-code)
 - [COSMO](#cosmo)
   * [Big Bang Nucleosynthesis](#big-bang-nucleosynthesis)
   * [Einstein-Boltzmann Numerical Solvers](#einstein-boltzmann-numerical-solvers)
@@ -385,6 +386,11 @@ https://github.com/JelleAalbers/blueice
 
 python-based likelihood (in particular unbinned) construction/fitting framework used in XENON1T analyses. Linear template morphing, cached PDF generation
 
+## Neutrino Code
+
+Peter B. Denton's list for Neutrino code
+
+https://peterdenton.github.io/Code/index.html
 
 ***
 
@@ -952,13 +958,7 @@ https://compose.obspm.fr/
 
 ***
 
-# Related List of Tools
 
-This can be organized further. Under construction for now.
 
-## Neutrino Code
 
-Peter B. Denton's list for Neutrino code
-
-https://peterdenton.github.io/Code/index.html
 
