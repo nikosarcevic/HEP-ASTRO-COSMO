@@ -456,6 +456,25 @@ This is a modification of the CLASS code that computes the non-linear power spec
 
 https://github.com/Michalychforever/CLASS-PT
 
+### CLASS delens
+
+Implementation of delensing procedure discussed in https://arxiv.org/abs/2111.15036: by authors Selim C. Hotinli, Joel Meyers, Cynthia Trendafilova, Daniel Green, Alex van Engelen
+
+Code produces delensed CMB spectra (TT, TE, EE and BB) and lensing-reconstruction noise for given CMB experiment specifications and cosmology.
+
+Delensing reverses the effects of lensing on the observed CMB temperature and polarization maps. This provides various benefits. Delensed CMB spectra have sharper acoustic peaks and more prominent damping tails, allowing for improved inferences of cosmological parameters that impact those features. Delensing reduces B-mode power, aiding the search for primordial gravitational waves and allowing for lower variance reconstruction of lensing and other sources of secondary CMB anisotropies. Lensing-induced power spectrum covariances are reduced by delensing, simplifying analyses and improving constraints on primordial non-Gaussianities. Please refer to https://arxiv.org/abs/2111.15036 for a detailed demonstration of the benefits of CMB delensing.
+
+This code can be used as a submodule for the Fisher forecasting tool software https://github.com/ctrendafilova/FisherLens.
+
+### FisherLens
+
+This code provides a wrapper for the CLASS_delens code to facilitate Fisher forecasting of cosmological parameter constraints from CMB spectra.
+https://github.com/ctrendafilova/FisherLens
+
+CLASS_delens https://github.com/selimhotinli/class_delens
+
+Authors: Selim C. Hotinli, Joel Meyers, Cynthia Trendafilova, Daniel Green, Alexander van Engelen
+
 ***
 
 ## Cosmological Parameter Estimation and Statistical Analysis
