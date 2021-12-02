@@ -16,6 +16,8 @@
   * [Event Analysers](#event-analysers)
   * [Global Fitters](#global-fitters)
   * [Spectrum Generators](#spectrum-generators)
+  * [Model Building](#model-building)
+  * [Effective Field Theories](#effective-field-theories)
   * [Direct Detection](#direct-detection)
   * [Feyn Family](#feyn-family)
   * [Statistics](#statistics)
@@ -251,19 +253,6 @@ flavio is a Python package to compute observables in flavour physics, electrowea
 
 [flavio paper](https://arxiv.org/abs/1810.08132)
 
-
-### smelli
-
-smelli is a Python package providing a global likelihood function in the space of dimension-six Wilson coefficients in the Standard Model Effective Field Theory (SMEFT). The likelihood includes contributions from quark and lepton flavour physics, electroweak precision tests, and other precision observables.
-
-The package is based on flavio for the calculation of observables and statistical treatment and wilson for the running, translation, and matching of Wilson coefficients.
-
-[smellu website](https://smelli.github.io/)
-
-[smelli repository](https://github.com/smelli/smelli)
-
-[smelli paper](https://arxiv.org/abs/1810.07698)
-
 ***
 
 ## Spectrum Generators
@@ -292,13 +281,6 @@ ISAJET is a Monte Carlo program which simulates p p, pbar p, and e+ e- interacti
 
 http://www.nhn.ou.edu/~isajet/
 
-### SARAH
-
-SARAH is a Mathematica package for building and analyzing SUSY and non-SUSY models. It calculates all vertices, mass matrices, tadpoles equations, one-loop corrections for tadpoles and self-energies, and two-loop RGEs for a given model. SARAH writes model files for FeynArts, CalcHep/CompHep, which can also be used for dark matter studies using MicrOmegas, the UFO format which is supported by MadGraph 5 and for WHIZARD and OMEGA. 
-SARAH was also the first available spectrum-generator-generator: based on derived analytical expressions it creates source code for SPheno. It is therefore possible to implement new models in SPheno without the need to write any Fortran code by hand. The output for Vevacious can be used to check for the global minimum for a given model and parameter point.
-Running SARAH is fast, it already includes a long list of SUSY and non-SUSY models, and the implementation of new models is efficient and straightforward.
-
-https://sarah.hepforge.org/
 
 ### TOP++
 
@@ -342,6 +324,49 @@ The LXe model is be computed with a series of (large) matrix multiplications, eq
 https://github.com/FlamTeam/flamedisx
 
 ***
+
+## Model Building
+### SARAH
+
+SARAH is a Mathematica package for building and analyzing SUSY and non-SUSY models. It calculates all vertices, mass matrices, tadpoles equations, one-loop corrections for tadpoles and self-energies, and two-loop RGEs for a given model. SARAH writes model files for FeynArts, CalcHep/CompHep, which can also be used for dark matter studies using MicrOmegas, the UFO format which is supported by MadGraph 5 and for WHIZARD and OMEGA. 
+SARAH was also the first available spectrum-generator-generator: based on derived analytical expressions it creates source code for SPheno. It is therefore possible to implement new models in SPheno without the need to write any Fortran code by hand. The output for Vevacious can be used to check for the global minimum for a given model and parameter point.
+Running SARAH is fast, it already includes a long list of SUSY and non-SUSY models, and the implementation of new models is efficient and straightforward.
+
+https://sarah.hepforge.org/
+
+### Sym2int
+
+This page describes the Mathematica code Sym2Int (Symmetries to Interactions) which lists all valid interactions given the model's gauge group and fields (specified by their gauge and Lorentz representations). The program is valid for renormalizable interactions (mass dimension ≤4) as well as the ones which are not renormalizable (mass dimension >4). Since version 2, terms with derivatives and gauge bosons are also accounted for. More details can be found below. 
+
+https://renatofonseca.net/sym2int
+https://arxiv.org/abs/1703.05221 
+https://arxiv.org/abs/1907.12584
+
+## Susyno
+Susyno is a Mathematica package which calculates the 2-loop renormalisation group equations of generic supersymmetric models, based on any gauge group (the only exception being multiple U(1) groups) and with any field content. 
+
+https://renatofonseca.net/susyno
+
+## Effective Field Theories
+
+### DsixTools
+DsixTools is a Mathematica package for the handling of the Standard Model Effective Field Theory (SMEFT) and the Low-energy Effective Field Theory (LEFT) with operators up to dimension six, both at the algebraic and numerical level.
+
+https://dsixtools.github.io/
+https://arxiv.org/pdf/2010.16341.pdf
+
+### smelli
+
+smelli is a Python package providing a global likelihood function in the space of dimension-six Wilson coefficients in the Standard Model Effective Field Theory (SMEFT). The likelihood includes contributions from quark and lepton flavour physics, electroweak precision tests, and other precision observables.
+
+The package is based on flavio for the calculation of observables and statistical treatment and wilson for the running, translation, and matching of Wilson coefficients.
+
+[smellu website](https://smelli.github.io/)
+
+[smelli repository](https://github.com/smelli/smelli)
+
+[smelli paper](https://arxiv.org/abs/1810.07698)
+
 
 ## Feyn Family
 (better name welcome)
