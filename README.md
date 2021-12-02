@@ -672,6 +672,15 @@ https://arxiv.org/abs/2109.10915
 
 https://camels-multifield-dataset.readthedocs.io/en/latest/citation.html
 
+### N-GenIC
+
+This is the N-GenIC code used to generate the N-body initial conditions.
+The codes uses the Zel'dovich approximation to generate the IC.
+The code can create the ICs for pure CDM simulations, simulations containing
+CDM & Baryons, CDM & neutrinos and CDM Baryons & neutrinos.
+
+[https://github.com/franciscovillaescusa/N-GenIC_growth](N-GenIC GH Repository)
+
 ### Pylians
 
 Pylians stands for Python libraries for the analysis of numerical simulations. They are a set of python libraries, written in python, cython and C, whose purposes is to facilitate the analysis of numerical simulations (both N-body and hydro). Among other things, they can be used to:
