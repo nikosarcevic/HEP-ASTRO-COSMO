@@ -672,6 +672,12 @@ Provide enough statistics to train machine learning algorithms
 [Quijote Simulations GH](https://github.com/franciscovillaescusa/Quijote-simulations)
 [Citation](https://quijote-simulations.readthedocs.io/en/latest/citation.html)
 
+### nbodykit
+
+nbodykit is an open source project written in Python that provides a set of state-of-the-art, large-scale structure algorithms useful in the analysis of cosmological datasets from N-body simulations and observational surveys. All algorithms are massively parallel and run using the Message Passing Interface (MPI).
+
+[nbodykit Website](https://nbodykit.readthedocs.io/en/latest/index.html)
+
 ### CAMELS
 
 CAMELS stands for Cosmology and Astrophysics with MachinE Learning Simulations, and is a suite 4,233 cosmological simulations: 2,049 N-body and 2,184 state-of-the-art (magneto-)hydrodynamic.
