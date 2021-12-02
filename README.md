@@ -334,28 +334,28 @@ SARAH is a Mathematica package for building and analyzing SUSY and non-SUSY mode
 SARAH was also the first available spectrum-generator-generator: based on derived analytical expressions it creates source code for SPheno. It is therefore possible to implement new models in SPheno without the need to write any Fortran code by hand. The output for Vevacious can be used to check for the global minimum for a given model and parameter point.
 Running SARAH is fast, it already includes a long list of SUSY and non-SUSY models, and the implementation of new models is efficient and straightforward.
 
-https://sarah.hepforge.org/
+[SARAH website](https://sarah.hepforge.org/)
 
 ### Sym2int
 
 This page describes the Mathematica code Sym2Int (Symmetries to Interactions) which lists all valid interactions given the model's gauge group and fields (specified by their gauge and Lorentz representations). The program is valid for renormalizable interactions (mass dimension ≤4) as well as the ones which are not renormalizable (mass dimension >4). Since version 2, terms with derivatives and gauge bosons are also accounted for. More details can be found below. 
 
-https://renatofonseca.net/sym2int
-https://arxiv.org/abs/1703.05221 
-https://arxiv.org/abs/1907.12584
+[Sym2int website](https://renatofonseca.net/sym2int)
+[Sym2int paper 1](https://arxiv.org/abs/1703.05221)
+[Sym2int paper 1](https://arxiv.org/abs/1907.12584)
 
 ## Susyno
 Susyno is a Mathematica package which calculates the 2-loop renormalisation group equations of generic supersymmetric models, based on any gauge group (the only exception being multiple U(1) groups) and with any field content. 
 
-https://renatofonseca.net/susyno
+[Susyno website](https://renatofonseca.net/susyno)
 
 ## Effective Field Theories
 
 ### DsixTools
 DsixTools is a Mathematica package for the handling of the Standard Model Effective Field Theory (SMEFT) and the Low-energy Effective Field Theory (LEFT) with operators up to dimension six, both at the algebraic and numerical level.
 
-https://dsixtools.github.io/
-https://arxiv.org/pdf/2010.16341.pdf
+[DsixTools website](https://dsixtools.github.io/)
+[DsixTools Latest Paper](https://arxiv.org/pdf/2010.16341.pdf)
 
 ### smelli
 
@@ -363,7 +363,7 @@ smelli is a Python package providing a global likelihood function in the space o
 
 The package is based on flavio for the calculation of observables and statistical treatment and wilson for the running, translation, and matching of Wilson coefficients.
 
-[smellu website](https://smelli.github.io/)
+[smelli website](https://smelli.github.io/)
 
 [smelli repository](https://github.com/smelli/smelli)
 
@@ -417,6 +417,7 @@ python-based likelihood (in particular unbinned) construction/fitting framework 
 Peter B. Denton's list for Neutrino code
 
 https://peterdenton.github.io/Code/index.html
+
 
 ***
 
