@@ -654,9 +654,9 @@ The Quijote simulations is a suite of 44,100 full N-body simulations designed to
 Quantify the information content on cosmological observables
 Provide enough statistics to train machine learning algorithms
 
-[https://quijote-simulations.readthedocs.io/en/latest/](Quijote Simulations ReadTheDocs)
-[https://github.com/franciscovillaescusa/Quijote-simulations](Quijote Simulations GH)
-[https://quijote-simulations.readthedocs.io/en/latest/citation.html](Citation)
+[Quijote Simulations ReadTheDocs](https://quijote-simulations.readthedocs.io/en/latest/)
+[Quijote Simulations GH](https://github.com/franciscovillaescusa/Quijote-simulations)
+[Citation](https://quijote-simulations.readthedocs.io/en/latest/citation.html)
 
 ### CAMELS
 
@@ -666,22 +666,28 @@ The CAMEL simulations are described in detail in the CAMELS presentation paper, 
 
 This repository contains the codes and scripts we wrote to carry out the analysis of the CAMELS presentation paper.
 
-https://camels.readthedocs.io/en/latest/
 
-[https://www.camel-simulations.org](CAMELS website)
-[https://camels.readthedocs.io/en/latest/citation.html](Citation)
+[CAMELS ReadTheDocs](https://camels.readthedocs.io/en/latest/)
+
+[CAMELS GH Repository](https://github.com/franciscovillaescusa/CAMELS)
+
+[CAMELS Website](https://www.camel-simulations.org)
+
+[Citation](https://camels.readthedocs.io/en/latest/citation.html)
 
 ### CAMELS Multifield Dataset (CMD)
 
 CMD is a publicly available collection of hundreds of thousands 2D maps and 3D grids containing different properties of the gas, dark matter, and stars from more than 2,000 different universes. The data has been generated from thousands of state-of-the-art (magneto-)hydrodynamic and gravity-only N-body simulations from the CAMELS project.
 
-https://camels-multifield-dataset.readthedocs.io/en/latest/
+[CMD GH Repository](https://github.com/franciscovillaescusa/CMD)
 
-https://github.com/franciscovillaescusa/CMD
+[CMD ReadTheDocs](https://camels-multifield-dataset.readthedocs.io/en/latest/)
 
-https://arxiv.org/abs/2109.10915
+[CMD Paper](https://arxiv.org/abs/2109.10915)
 
-https://camels-multifield-dataset.readthedocs.io/en/latest/citation.html
+[Citation](https://camels-multifield-dataset.readthedocs.io/en/latest/citation.html)
+
+
 
 ### N-GenIC
 
@@ -690,7 +696,7 @@ The codes uses the Zel'dovich approximation to generate the IC.
 The code can create the ICs for pure CDM simulations, simulations containing
 CDM & Baryons, CDM & neutrinos and CDM Baryons & neutrinos.
 
-[https://github.com/franciscovillaescusa/N-GenIC_growth](N-GenIC GH Repository)
+[N-GenIC GH Repository](https://github.com/franciscovillaescusa/N-GenIC_growth)
 
 ### Pylians
 
@@ -712,7 +718,9 @@ Notice that Pylians only works with python2. For a python3 version see Pylians3.
 
 From 2020 only Pylians3 will be supported/updated.
 
-https://github.com/franciscovillaescusa/Pylians
+[Pylians GH Repository](https://github.com/franciscovillaescusa/Pylians)
+
+
 
 ### Pylians3
 
@@ -730,7 +738,8 @@ Compute DLAs column density distribution functions
 Plot density fields and make movies
 Pylians were the native or inhabitant of the Homeric town of Pylos
 
-https://pylians3.readthedocs.io/en/master/
+[Pylians3 ReadTheDocs](https://pylians3.readthedocs.io/en/master/)
+[PYlians3 GH Repository](https://github.com/franciscovillaescusa/Pylians3)
 
 ***
 
