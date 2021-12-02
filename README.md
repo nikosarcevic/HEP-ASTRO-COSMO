@@ -633,6 +633,25 @@ https://github.com/franciscovillaescusa/CMD
 https://arxiv.org/abs/2109.10915
 
 https://camels-multifield-dataset.readthedocs.io/en/latest/citation.html
+
+### Pylians3
+
+Pylians stands for Python libraries for the analysis of numerical simulations. They are a set of python libraries, written in python, cython and C, whose purposes is to facilitate the analysis of numerical simulations (both N-body and hydrodynamic). Pylians3 evolved from Pylians to support python3. Among other things, they can be used to:
+
+Compute density fields
+Compute power spectra
+Compute bispectra
+Compute correlation functions
+Identify voids
+Populate halos with galaxies using an HOD
+Apply HI+H2 corrections to the output of hydrodynamic simulations
+Make 21cm maps
+Compute DLAs column density distribution functions
+Plot density fields and make movies
+Pylians were the native or inhabitant of the Homeric town of Pylos
+
+https://pylians3.readthedocs.io/en/master/
+
 ***
 
 # ASTRO
