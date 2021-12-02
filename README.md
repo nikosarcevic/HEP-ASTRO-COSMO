@@ -31,6 +31,7 @@
   * [Correlation Function Estimation](#correlation-function-estimation)
   * [N-Body Simulations](#n-body-simulations)
   * [Extended Cosmologies](#extended-cosmologies)
+  * [Perturbation Theory](#perturbation-theory)
 - [ASTRO](#astro)
   * [Black hole perturbation theory](#black-hole-perturbation-theory)
   * [Cosmic Rays](#cosmic-rays)
