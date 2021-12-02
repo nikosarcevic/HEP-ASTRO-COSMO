@@ -21,11 +21,11 @@
   * [Statistics](#statistics)
   * [Neutrino Code](#neutrino-code)
 - [COSMO](#cosmo)
+  * [General Cosmology](#general-cosmology-resources)
   * [Big Bang Nucleosynthesis](#big-bang-nucleosynthesis)
   * [Einstein-Boltzmann Numerical Solvers](#einstein-boltzmann-numerical-solvers)
   * [Cosmological Parameter Estimation](#cosmological-parameter-estimation-and-statistical-analysis)
   * [Correlation Function Estimation](#correlation-function-estimation)
-  * [General Cosmology](#general-cosmology-resources)
   * [N-Body Simulations](#n-body-simulations)
 - [ASTRO](#astro)
   * [Black hole perturbation theory](#black-hole-perturbation-theory)
@@ -399,6 +399,89 @@ https://peterdenton.github.io/Code/index.html
 
 Note: Can be sorted better as the list grows, especially the general resources section
 
+## General Cosmology Resources
+
+### CosmoloPy
+
+CosmoloPy is a package of cosmology routines built on NumPy/SciPy. Capabilities include: various cosmological densities, cosmological distance measures, galaxy luminosity functions (Schecter functions), conversion in and out of the AB magnitude system, pre-defined sets of cosmological parameters (e.g. from WMAP), perturbation theory and the power spectrum and reionization of the IGM.
+
+http://roban.github.io/CosmoloPy/
+
+### xAct and xPand
+
+xAct is a suite of free packages for tensor computer algebra for Wolfram Mathematica. xAct implements state-of-the-art algorithms for fast manipulations of indices and has been modelled on the current geometric approach to General Relativity. It is highly programmable and configurable. Since its first public release in March 2004, xAct has been intensively tested and has solved a number of hard problems in GR.
+
+xPand is a subpackage of the xAct distribution for efficient tensor manipulations a package for Mathematica. xPand provides tools to compute formally the cosmological perturbations for any tensor in any order around a homogeneous spacetime. xPand supports the most used gauges such as newtonian, comoving, synchronous, etc.
+
+http://www.xact.es/
+http://www2.iap.fr/users/pitrou/xpand.htm
+
+### SageManifolds
+
+The SageManifolds project aims at extending the modern Python-based computer algebra system SageMath towards differential geometry and tensor calculus.
+
+SageManifolds deals with differentiable manifolds of arbitrary dimension. Various coordinate charts and vector frames can be introduced on the manifold, which does not need to be parallelizable. A given tensor field is then described by its sets of components in each vector frame, with automatic change-of-frame transformations for overlapping vector frames.
+
+Generic pseudo-Riemannian manifolds can be considered, among which Riemannian manifolds and Lorentzian manifolds, with applications to General Relativity. In particular, the computation of the Riemann curvature tensor and associated tensors (Ricci, Weyl, Schouten and Cotton tensors) is implemented. SageManifolds can also deal with generic affine connections, not necessarily Levi-Civita ones. 
+
+https://sagemanifolds.obspm.fr/
+
+### HEALPix
+
+HEALPix is a Hierarchical, Equal Area, and iso-Latitude Pixelation of the sphere designed to support efficiently (1) local operations on the pixel set, (2) a hierarchical tree structure for multi-resolution applications, and (3) the global Fast Spherical Harmonic transform. HEALPix based mathematical software meets the challenges presented by high resolution and large volume data sets, such as the WMAP and Planck CMB mission products. It's a must have for those who work with CMB data directly, allowing you to treat raw temperature data and easily extracting the Cls. It's implemented in C, C++, Fortran, Python, Java and IDL.
+
+https://healpix.sourceforge.io/
+
+Its Python implementation, Healpy, can be installed separately. It is very well documented and has tutorials to get started, which is great for those who want to start working with CMB data.
+
+https://healpy.readthedocs.io/en/latest/index.html#
+
+### EinsteinPy
+
+EinsteinPy is an open source pure Python package dedicated to problems arising in General Relativity and gravitational physics, such as geodesics plotting for Schwarzschild, Kerr and Kerr Newman space-time model, calculation of Schwarzschild radius, calculation of Event Horizon and Ergosphere for Kerr space-time. Symbolic Manipulations of various tensors like Metric, Riemann, Ricci and Christoffel Symbols is also possible using the library. EinsteinPy also features Hypersurface Embedding of Schwarzschild space-time, which will soon lead to modelling of Gravitational Lensing.
+
+https://einsteinpy.org/
+
+### CosmoTransitions
+
+The CosmoTransitions package is a set of python modules for calculating properties of effective potentials with one or more scalar fields. Most importantly, it can be used to find the instanton solutions which interpolate between different vacua in a given theory, allowing one to determine the probability for a vacuum transition.
+
+https://github.com/clwainwright/CosmoTransitions
+
+### CCL
+
+The Core Cosmology Library (CCL) is a standardized library of routines to calculate basic observables used in cosmology. It will be the standard analysis package used by the LSST Dark Energy Science Collaboration (DESC). Please check the user policy!
+
+https://github.com/LSSTDESC/CCL
+
+### xmds
+
+**Unsure if this belongs in cosmo really, will post an issue about it. I know some cosmo people use it for BEC etc**
+
+This website provides the documentation for XMDS2 (an all-new version of XMDS), a software package that allows the fast and easy solution of sets of ordinary, partial and stochastic differential equations, using a variety of efficient numerical algorithms. If you publish work that has involved XMDS2, please cite it as Comput. Phys. Commun. 184, 201-208 (2013).
+
+http://www.xmds.org
+
+### Dark Emulator
+
+A repository for a cosmology tool dark_emulator to emulate halo clustering statistics. The code is developed based on Dark Quest simulation suite (https://darkquestcosmology.github.io/). The current version supports the halo mass function and two point correlation function (both halo-halo and halo-matter cross). Dark Quest is a cosmological structure formation simulation campaign by Japanese cosmologists initiated in 2015. The primary goal of the project is to understand the complex parameter dependence of various large-scale structure probes, and provide a versatile tool to make predictions for parameter inference problems with observational datasets. The first series of simulations, Dark Quest. I. (DQ1), was completed in 2018 and we are now in the second phase (DQ2). A Gaussian-Process based emulation tool, Dark Emulator, was developed with the DQ1 database.
+
+https://github.com/DarkQuestCosmology/dark_emulator_public
+
+### Colossus
+
+Colossus is a python toolkit for cosmology, large-scale structure, and dark matter halos. The main design goals are intuitive use and performance; the code is extensively documented. Colossus consists of three top-level modules. The cosmology module handles LCDM cosmologies with curvature, relativistic species, different dark energy equations of state, and so on. It includes densities, times, power spectra, variance, and correlation functions, among others. The large-scale structure module deals with peaks in Gaussian random fields and the statistical properties of halos such as peak height, halo bias, and the mass function. The halo module deals with masses, density profiles, concentration, and other halo properties. Colossus contains numerous fitting functions from the literature for convenience. 
+
+https://bdiemer.bitbucket.io/colossus/
+
+### CalPriorSNIa
+
+[CalPriorSNIa](https://github.com/valerio-marra/CalPriorSNIa) computes the effective calibration prior on the absolute magnitude M_B of Type Ia supernovae that corresponds to a given determination of H_0. See Camarena & Marra [arXiv:1906.11814](https://arxiv.org/abs/1906.11814) and [arXiv:2101.08641](https://arxiv.org/abs/2101.08641) for more details. Example use case comments in two articles dated [19-Mar-2021](https://www.sunnyvagnozzi.com/blog/what-is-the-hubble-tension-really) and [22-Jan-2021](https://www.sunnyvagnozzi.com/blog/top-arxiv-week-3-2021) by Sunny Vagnozzi. 
+
+[https://github.com/valerio-marra/CalPriorSNIa](https://github.com/valerio-marra/CalPriorSNIa)
+
+***
+
 ## Big Bang Nucleosynthesis
 
 ### ACROPOLIS (A generiC fRamework fOr Photodisintegration Of LIght elementS)
@@ -534,86 +617,7 @@ https://github.com/oliverphilcox/encore
 
 ***
 
-## General Cosmology Resources
 
-### CosmoloPy
-
-CosmoloPy is a package of cosmology routines built on NumPy/SciPy. Capabilities include: various cosmological densities, cosmological distance measures, galaxy luminosity functions (Schecter functions), conversion in and out of the AB magnitude system, pre-defined sets of cosmological parameters (e.g. from WMAP), perturbation theory and the power spectrum and reionization of the IGM.
-
-http://roban.github.io/CosmoloPy/
-
-### xAct and xPand
-
-xAct is a suite of free packages for tensor computer algebra for Wolfram Mathematica. xAct implements state-of-the-art algorithms for fast manipulations of indices and has been modelled on the current geometric approach to General Relativity. It is highly programmable and configurable. Since its first public release in March 2004, xAct has been intensively tested and has solved a number of hard problems in GR.
-
-xPand is a subpackage of the xAct distribution for efficient tensor manipulations a package for Mathematica. xPand provides tools to compute formally the cosmological perturbations for any tensor in any order around a homogeneous spacetime. xPand supports the most used gauges such as newtonian, comoving, synchronous, etc.
-
-http://www.xact.es/
-http://www2.iap.fr/users/pitrou/xpand.htm
-
-### SageManifolds
-
-The SageManifolds project aims at extending the modern Python-based computer algebra system SageMath towards differential geometry and tensor calculus.
-
-SageManifolds deals with differentiable manifolds of arbitrary dimension. Various coordinate charts and vector frames can be introduced on the manifold, which does not need to be parallelizable. A given tensor field is then described by its sets of components in each vector frame, with automatic change-of-frame transformations for overlapping vector frames.
-
-Generic pseudo-Riemannian manifolds can be considered, among which Riemannian manifolds and Lorentzian manifolds, with applications to General Relativity. In particular, the computation of the Riemann curvature tensor and associated tensors (Ricci, Weyl, Schouten and Cotton tensors) is implemented. SageManifolds can also deal with generic affine connections, not necessarily Levi-Civita ones. 
-
-https://sagemanifolds.obspm.fr/
-
-### HEALPix
-
-HEALPix is a Hierarchical, Equal Area, and iso-Latitude Pixelation of the sphere designed to support efficiently (1) local operations on the pixel set, (2) a hierarchical tree structure for multi-resolution applications, and (3) the global Fast Spherical Harmonic transform. HEALPix based mathematical software meets the challenges presented by high resolution and large volume data sets, such as the WMAP and Planck CMB mission products. It's a must have for those who work with CMB data directly, allowing you to treat raw temperature data and easily extracting the Cls. It's implemented in C, C++, Fortran, Python, Java and IDL.
-
-https://healpix.sourceforge.io/
-
-Its Python implementation, Healpy, can be installed separately. It is very well documented and has tutorials to get started, which is great for those who want to start working with CMB data.
-
-https://healpy.readthedocs.io/en/latest/index.html#
-
-### EinsteinPy
-
-EinsteinPy is an open source pure Python package dedicated to problems arising in General Relativity and gravitational physics, such as geodesics plotting for Schwarzschild, Kerr and Kerr Newman space-time model, calculation of Schwarzschild radius, calculation of Event Horizon and Ergosphere for Kerr space-time. Symbolic Manipulations of various tensors like Metric, Riemann, Ricci and Christoffel Symbols is also possible using the library. EinsteinPy also features Hypersurface Embedding of Schwarzschild space-time, which will soon lead to modelling of Gravitational Lensing.
-
-https://einsteinpy.org/
-
-### CosmoTransitions
-
-The CosmoTransitions package is a set of python modules for calculating properties of effective potentials with one or more scalar fields. Most importantly, it can be used to find the instanton solutions which interpolate between different vacua in a given theory, allowing one to determine the probability for a vacuum transition.
-
-https://github.com/clwainwright/CosmoTransitions
-
-### CCL
-
-The Core Cosmology Library (CCL) is a standardized library of routines to calculate basic observables used in cosmology. It will be the standard analysis package used by the LSST Dark Energy Science Collaboration (DESC). Please check the user policy!
-
-https://github.com/LSSTDESC/CCL
-
-### xmds
-
-**Unsure if this belongs in cosmo really, will post an issue about it. I know some cosmo people use it for BEC etc**
-
-This website provides the documentation for XMDS2 (an all-new version of XMDS), a software package that allows the fast and easy solution of sets of ordinary, partial and stochastic differential equations, using a variety of efficient numerical algorithms. If you publish work that has involved XMDS2, please cite it as Comput. Phys. Commun. 184, 201-208 (2013).
-
-http://www.xmds.org
-
-### Dark Emulator
-
-A repository for a cosmology tool dark_emulator to emulate halo clustering statistics. The code is developed based on Dark Quest simulation suite (https://darkquestcosmology.github.io/). The current version supports the halo mass function and two point correlation function (both halo-halo and halo-matter cross). Dark Quest is a cosmological structure formation simulation campaign by Japanese cosmologists initiated in 2015. The primary goal of the project is to understand the complex parameter dependence of various large-scale structure probes, and provide a versatile tool to make predictions for parameter inference problems with observational datasets. The first series of simulations, Dark Quest. I. (DQ1), was completed in 2018 and we are now in the second phase (DQ2). A Gaussian-Process based emulation tool, Dark Emulator, was developed with the DQ1 database.
-
-https://github.com/DarkQuestCosmology/dark_emulator_public
-
-### Colossus
-
-Colossus is a python toolkit for cosmology, large-scale structure, and dark matter halos. The main design goals are intuitive use and performance; the code is extensively documented. Colossus consists of three top-level modules. The cosmology module handles LCDM cosmologies with curvature, relativistic species, different dark energy equations of state, and so on. It includes densities, times, power spectra, variance, and correlation functions, among others. The large-scale structure module deals with peaks in Gaussian random fields and the statistical properties of halos such as peak height, halo bias, and the mass function. The halo module deals with masses, density profiles, concentration, and other halo properties. Colossus contains numerous fitting functions from the literature for convenience. 
-
-https://bdiemer.bitbucket.io/colossus/
-
-### CalPriorSNIa
-
-[CalPriorSNIa](https://github.com/valerio-marra/CalPriorSNIa) computes the effective calibration prior on the absolute magnitude M_B of Type Ia supernovae that corresponds to a given determination of H_0. See Camarena & Marra [arXiv:1906.11814](https://arxiv.org/abs/1906.11814) and [arXiv:2101.08641](https://arxiv.org/abs/2101.08641) for more details. Example use case comments in two articles dated [19-Mar-2021](https://www.sunnyvagnozzi.com/blog/what-is-the-hubble-tension-really) and [22-Jan-2021](https://www.sunnyvagnozzi.com/blog/top-arxiv-week-3-2021) by Sunny Vagnozzi. 
-
-[https://github.com/valerio-marra/CalPriorSNIa](https://github.com/valerio-marra/CalPriorSNIa)
 
 ## N-body Simulations
 
@@ -628,6 +632,7 @@ https://github.com/franciscovillaescusa/CMD
 
 https://arxiv.org/abs/2109.10915
 
+https://camels-multifield-dataset.readthedocs.io/en/latest/citation.html
 ***
 
 # ASTRO
@@ -840,7 +845,10 @@ https://github.com/geodynamics/Rayleigh
 
 ### CosmoGRaPH
 
-CosmoGRaPH is a c++ code designed to explore cosmological problems in a fully general relativistic setting. The code implements various methods for numerically solving the Einstein field equations, and includes as matter sources an N-body/collisionless phase-space sheet solver, analysis tools useful for cosmology such as raytracing, and full AMR capabilities via SAMRAI.
+CosmoGRaPH is a c++ code designed to explore cosmological problems in a fully general relativistic setting. The code implements various methods for numerically solving the Einstein field equations, and includes as matter sources an N-body/collisionless phase-space sheet solver, analysis tools useful for 
+
+
+such as raytracing, and full AMR capabilities via SAMRAI.
 
 https://cwru-pat.github.io/cosmograph/
 
