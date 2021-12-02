@@ -24,6 +24,7 @@
   * [Neutrino Code](#neutrino-code)
 - [COSMO](#cosmo)
   * [General Cosmology](#general-cosmology-resources)
+  * [Inflationary Cosmology](#inflationary-cosmology)
   * [Big Bang Nucleosynthesis](#big-bang-nucleosynthesis)
   * [Einstein-Boltzmann Numerical Solvers](#einstein-boltzmann-numerical-solvers)
   * [Cosmological Parameter Estimation](#cosmological-parameter-estimation-and-statistical-analysis)
@@ -505,6 +506,19 @@ https://bdiemer.bitbucket.io/colossus/
 [CalPriorSNIa](https://github.com/valerio-marra/CalPriorSNIa) computes the effective calibration prior on the absolute magnitude M_B of Type Ia supernovae that corresponds to a given determination of H_0. See Camarena & Marra [arXiv:1906.11814](https://arxiv.org/abs/1906.11814) and [arXiv:2101.08641](https://arxiv.org/abs/2101.08641) for more details. Example use case comments in two articles dated [19-Mar-2021](https://www.sunnyvagnozzi.com/blog/what-is-the-hubble-tension-really) and [22-Jan-2021](https://www.sunnyvagnozzi.com/blog/top-arxiv-week-3-2021) by Sunny Vagnozzi. 
 
 [https://github.com/valerio-marra/CalPriorSNIa](https://github.com/valerio-marra/CalPriorSNIa)
+
+***
+
+## Inflationary Cosmology
+
+### ASPIC
+
+Aspic is a collection of fast modern fortran routines for computing various observable quantities used in Cosmology from definite single field inflationary models. It is distributed as a scientific library and aims at providing an efficient, extendable and accurate way of comparing theoretical inflationary predictions with cosmological data. Aspic currently supports 70 models of inflation, and more to come!
+By observable quantities, we currently refer to as the Hubble flow functions, up to second order in the slow-roll approximation, which are in direct correspondence with the spectral index, the tensor-to-scalar ratio and the running of the primordial power spectrum. The aspic library also provides the field potential, its first and second derivatives, the energy density at the end of inflation, the energy density at the end of reheating, and the field value (or e-fold value) at which the pivot scale crossed the Hubble radius during inflation. All these quantities are computed in a way which is consistent with the existence of a reheating phase.
+
+[ASPIC Library](http://cp3.irmp.ucl.ac.be/~ringeval/aspic.html)
+
+[ASPIC Paper](https://arxiv.org/abs/1303.3787)
 
 ***
 
