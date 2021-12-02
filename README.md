@@ -647,6 +647,17 @@ https://github.com/oliverphilcox/encore
 
 ## N-body Simulations
 
+### Quijote Simulations
+
+The Quijote simulations is a suite of 44,100 full N-body simulations designed to:
+
+Quantify the information content on cosmological observables
+Provide enough statistics to train machine learning algorithms
+
+[https://quijote-simulations.readthedocs.io/en/latest/](Quijote Simulations ReadTheDocs)
+[https://github.com/franciscovillaescusa/Quijote-simulations](Quijote Simulations GH)
+[https://quijote-simulations.readthedocs.io/en/latest/citation.html](Citation)
+
 ### CAMELS
 
 CAMELS stands for Cosmology and Astrophysics with MachinE Learning Simulations, and is a suite 4,233 cosmological simulations: 2,049 N-body and 2,184 state-of-the-art (magneto-)hydrodynamic.
