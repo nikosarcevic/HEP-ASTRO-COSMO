@@ -30,6 +30,7 @@
   * [Cosmological Parameter Estimation](#cosmological-parameter-estimation-and-statistical-analysis)
   * [Correlation Function Estimation](#correlation-function-estimation)
   * [N-Body Simulations](#n-body-simulations)
+  * [Extended Cosmologies](#extended-cosmologies)
 - [ASTRO](#astro)
   * [Black hole perturbation theory](#black-hole-perturbation-theory)
   * [Cosmic Rays](#cosmic-rays)
@@ -761,6 +762,72 @@ Pylians were the native or inhabitant of the Homeric town of Pylos
 [Pylians3 ReadTheDocs](https://pylians3.readthedocs.io/en/master/)
 
 [PYlians3 GH Repository](https://github.com/franciscovillaescusa/Pylians3)
+
+***
+
+## Extended Cosmologies
+
+### ReACT
+
+ReACT is an extension of the software package Copter (0905:0479) and MG-Copter (1606.02520) which allows for the calculation of redshift and real space large scale structure observables for a wide class of gravity and dark energy models.
+
+[ReACT GH Repository](https://github.com/nebblu/ReACT)
+
+***
+
+## Perturbation Theory
+
+### Copter
+
+The links below provide a tar-ball and README file for Copter, a C++ class library written by Jordan Carlson to compute predictions for different cosmological perturbation theory schemes. The name Copter loosely stands for cosmological perturbation theory. Specifically, Copter includes code for computing statistical observables in the large-scale structure of matter using various forms of perturbation theory, including linear theory, standard perturbation theory, renormalized perturbation theory, and many others.
+
+[Copter Website](http://mwhite.berkeley.edu/Copter/)
+
+[Copter Paper](https://arxiv.org/abs/0905.0479)
+
+[Citation](https://arxiv.org/abs/0905.0479)
+
+### nuCopter
+
+Matter Power Spectrum and RSD Predictions including Massive Neutrinos and Dynamical Dark Energy.
+Extended version of Copter.
+
+[nuCopter Page](https://www.hep.anl.gov/cosmology/Pert/README.html)
+
+Citation: [1](https://arxiv.org/abs/astro-ph/9911177), [2](https://arxiv.org/abs/0905.0479), [3](https://arxiv.org/abs/1309.5872)
+
+### CLPT and GSRSD
+
+Convolution Lagrangian Perturbation Theory (CLPT) and Gaussian Streaming Redshift-Space Distortions (GSRSD)
+
+CLPT is a C++ code written by Lile Wang to compute predictions for the halo and matter clustering using Convolution Lagrangian Perturbation Theory; described in Carlson, Reid & White [MNRAS 429(2013)1674, arxiv:1209:0780]. It also has extensions for the Gaussian streaming model, described in described in Reid & White [MNRAS 417(2013)1913, arxiv:1105:4165] and Wang, Reid & White [MNRAS 437(2014)588, arxiv:1306:1804]
+
+[CLPT GH Repository](https://github.com/wll745881210/CLPT_GSRSD)
+
+[CLPT Page](http://mwhite.berkeley.edu/CLPT/)
+
+[Citation](https://arxiv.org/abs/1306.1804)
+
+
+### CLEFT-GSM
+
+This code implements the Gaussian Streaming Model using components from Convolution Lagrangian Effective Field Theory.
+
+The code is written (mostly) in C++. It can be run from the command line, or called from Python (wrappers provided).
+
+[GH Repository](https://github.com/martinjameswhite/CLEFT_GSM)
+
+[CLEFT-GSM Paper](https://arxiv.org/abs/1609.02908)
+
+### velocileptors
+
+Velocity-based perturbation theory (both Lagrangian (LPT) and Eulerian (EPT) formulations) expansions of redshift-space distortions and velocity statistics.
+
+This code computes the real- and redshift-space power spectra and correlation functions of biased tracers using 1-loop perturbation theory (with effective field theory counter terms and up to cubic biasing) as well as the real-space pairwise velocity moments.
+
+[Velocileptors GH Repository](https://github.com/sfschen/velocileptors)
+
+Citation: [1](https://arxiv.org/abs/2005.00523), [2](https://arxiv.org/abs/2012.04636)
 
 ***
 
