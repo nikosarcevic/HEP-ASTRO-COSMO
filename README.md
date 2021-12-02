@@ -26,6 +26,7 @@
   * [Cosmological Parameter Estimation](#cosmological-parameter-estimation-and-statistical-analysis)
   * [Correlation Function Estimation](#correlation-function-estimation)
   * [General Cosmology](#general-cosmology-resources)
+  * [N-Body Simulations](#n-body-simulations)
 - [ASTRO](#astro)
   * [Black hole perturbation theory](#black-hole-perturbation-theory)
   * [Cosmic Rays](#cosmic-rays)
@@ -613,6 +614,19 @@ https://bdiemer.bitbucket.io/colossus/
 [CalPriorSNIa](https://github.com/valerio-marra/CalPriorSNIa) computes the effective calibration prior on the absolute magnitude M_B of Type Ia supernovae that corresponds to a given determination of H_0. See Camarena & Marra [arXiv:1906.11814](https://arxiv.org/abs/1906.11814) and [arXiv:2101.08641](https://arxiv.org/abs/2101.08641) for more details. Example use case comments in two articles dated [19-Mar-2021](https://www.sunnyvagnozzi.com/blog/what-is-the-hubble-tension-really) and [22-Jan-2021](https://www.sunnyvagnozzi.com/blog/top-arxiv-week-3-2021) by Sunny Vagnozzi. 
 
 [https://github.com/valerio-marra/CalPriorSNIa](https://github.com/valerio-marra/CalPriorSNIa)
+
+## N-body Simulations
+
+
+### CAMELS Multifield Dataset (CMD)
+
+CMD is a publicly available collection of hundreds of thousands 2D maps and 3D grids containing different properties of the gas, dark matter, and stars from more than 2,000 different universes. The data has been generated from thousands of state-of-the-art (magneto-)hydrodynamic and gravity-only N-body simulations from the CAMELS project.
+
+https://camels-multifield-dataset.readthedocs.io/en/latest/
+
+https://github.com/franciscovillaescusa/CMD
+
+https://arxiv.org/abs/2109.10915
 
 ***
 
