@@ -647,6 +647,18 @@ https://github.com/oliverphilcox/encore
 
 ## N-body Simulations
 
+### CAMELS
+
+CAMELS stands for Cosmology and Astrophysics with MachinE Learning Simulations, and is a suite 4,233 cosmological simulations: 2,049 N-body and 2,184 state-of-the-art (magneto-)hydrodynamic.
+
+The CAMEL simulations are described in detail in the CAMELS presentation paper, [https://arxiv.org/abs/2010.00619](2010.00619).
+
+This repository contains the codes and scripts we wrote to carry out the analysis of the CAMELS presentation paper.
+
+https://camels.readthedocs.io/en/latest/
+
+[https://www.camel-simulations.org](CAMELS website)
+[https://camels.readthedocs.io/en/latest/citation.html](Citation)
 
 ### CAMELS Multifield Dataset (CMD)
 
