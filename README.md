@@ -1061,6 +1061,16 @@ Rayleigh is a 3-D convection code designed for the study of dynamo behavior in s
 
 https://github.com/geodynamics/Rayleigh
 
+### PLUTO
+
+PLUTO is a freely-distributed software for the numerical solution of mixed hyperbolic/parabolic systems of partial differential equations (conservation laws) targeting high Mach number flows in astrophysical fluid dynamics. The code is designed with a modular and flexible structure whereby different numerical algorithms can be separately combined to solve systems of conservation laws using the finite volume or finite difference approach based on Godunov-type schemes.
+
+[PLUTO Website](http://plutocode.ph.unito.it)
+
+[PLUTO Documentation](http://plutocode.ph.unito.it/documentation.html)
+
+Papers: [1](https://arxiv.org/abs/1110.0740), [2](https://arxiv.org/abs/astro-ph/0701854)
+
 ***
 
 ## Numerical Relativity
