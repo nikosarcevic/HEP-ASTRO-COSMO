@@ -144,6 +144,7 @@ The current release of Caravel includes a module for computing products of tree-
 
 https://gitlab.com/caravel-public/caravel
 
+
 ***
 
 ## Event Analysers
@@ -241,6 +242,15 @@ Proton parton distribution functions (PDFs) are essential for precision physics 
 The xFitter project is an open source QCD fit framework ready to extract PDFs and assess the impact of new data. The framework includes modules allowing for a various theoretical and methodological options, capable to fit a large number of relevant data sets from HERA, Tevatron and LHC. This framework is already used in many analyses at the LHC.
 
 https://www.xfitter.org/xFitter/
+
+### NNPDF fitting code
+
+The NNPDF collaboration utilizes machine learning techniques to perform fits of Parton Distribution Functions.
+All the code used to produce the latest family of PDFs from NNPDF, [NNPDF4.0](https://inspirehep.net/literature/1918284) has been made available open source as an [open-source package](https://github.com/NNPDF/nnpdf) together with the user-friendly examples and an extensive [documentation](https://docs.nnpdf.science/).
+
+The code, based on python and Tensorflow, can be used to produce the ingredients needed for PDF fits, to run the fits themselves, and to analyse the results. This framework, used to produce global PDF fits, allows for detailed external validation and reproducibility of the NNPDF4.0 analysis. Moreover, the code enables the user to explore a number of phenomenological applications, such as the assessment of the impact of new experimental data on PDFs, the effect of changes in theory settings on the resulting PDFs and a fast quantitative comparison between theoretical predictions and experimental data over a broad range of observables.
+
+https://docs.nnpdf.science/
 
 ### LHAPDF
 
