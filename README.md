@@ -144,6 +144,14 @@ The current release of Caravel includes a module for computing products of tree-
 
 https://gitlab.com/caravel-public/caravel
 
+### MadFlow
+
+MadFlow is a framework for Monte Carlo simulation of particle physics processes designed to take full advantage of hardware accelerators. Processes can be generated using [MadGraph5_aMC@NLO](#Madgraph) and are then output in vectorized (or tensorized) form by the madflow-provided plugin.
+
+The vectorized output is compiled using the TensorFlow library (hence, tensorized) and then integrated using the [VegasFlow](https://vegasflow.readthedocs.io) library. The PDF interpolation is provided by [PDFflow](#PDFflow). All tools are capable of running hardware with different hardware acceleration capabilities, such as multi-threading CPU, single-GPU and multi-GPU setups.
+
+https://github.com/N3PDF/madflow
+
 ***
 
 ## Event Analysers
@@ -242,11 +250,28 @@ The xFitter project is an open source QCD fit framework ready to extract PDFs an
 
 https://www.xfitter.org/xFitter/
 
+### NNPDF fitting code
+
+The NNPDF collaboration utilizes machine learning techniques to perform fits of Parton Distribution Functions.
+All the code used to produce the latest family of PDFs from NNPDF, [NNPDF4.0](https://inspirehep.net/literature/1918284) has been made available open source as an [open-source package](https://github.com/NNPDF/nnpdf) together with the user-friendly examples and an extensive [documentation](https://docs.nnpdf.science/).
+
+The code, based on Python and TensorFlow, can be used to produce the ingredients needed for PDF fits, to run the fits themselves, and to analyse the results. This framework, used to produce global PDF fits, allows for detailed external validation and reproducibility of the NNPDF4.0 analysis. Moreover, the code enables the user to explore a number of phenomenological applications, such as the assessment of the impact of new experimental data on PDFs, the effect of changes in theory settings on the resulting PDFs and a fast quantitative comparison between theoretical predictions and experimental data over a broad range of observables.
+
+https://docs.nnpdf.science/
+
 ### LHAPDF
 
 LHAPDF is a general purpose C++ interpolator, used for evaluating PDFs from discretised data files. Previous versions of LHAPDF were written in Fortran 77/90 and are documented at http://lhapdf.hepforge.org/lhapdf5/. LHAPDF6 vastly reduces the memory overhead of the Fortran LHAPDF (from gigabytes to megabytes!), entirely removes restrictions on numbers of concurrent PDFs, allows access to single PDF members without needing to load whole sets, and separates a new standardised PDF data format from the code library so that new PDF sets may be created and released easier and faster. The C++ LHAPDF6 also permits arbitrary parton contents via the standard PDG ID code scheme, is computationally more efficient (particularly if only one or two flavours are required at each phase space point, as in PDF reweighting), and uses a flexible metadata system which fixes many fundamental metadata and concurrency bugs in LHAPDF5. Compatibility routines are provided as standard for existing C++ and Fortran codes using the LHAPDF5 and PDFLIB legacy interfaces, so you can keep using your existing codes. But the new interface is much more powerful and pleasant to work with, so we think you'll want to switch once you've used it! LHAPDF6 is documented in more detail in http://arxiv.org/abs/1412.7420
 
 https://lhapdf.hepforge.org
+
+### PDFflow
+
+PDFflow is a parton distribution function interpolation library written in Python and based on the TensorFlow framework.
+It implements the same interpolation algorithms as LHAPDF with a focus on speed and parallelization.
+The usage of the TensorFlow library allows for the usage of hardware accelerators (like GPUs) while writing hardware-agnostic code.
+
+https://pdfflow.readthedocs.io/
 
 ### flavio
 
