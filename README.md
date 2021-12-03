@@ -148,9 +148,9 @@ https://gitlab.com/caravel-public/caravel
 
 MadFlow is a framework for Monte Carlo simulation of particle physics processes designed to take full advantage of hardware accelerators. Processes can be generated using [MadGraph5_aMC@NLO](#Madgraph) and are then output in vectorized (or tensorized) form by the madflow-provided plugin.
 
-The vectorized output is compiled using the TensorFlow library (hence, tensorized) and then integrated using the VegasFlow library. The PDF interpolation is provided by [PDFflow](#PDFflow). All tools are capable of running hardware with different hardware acceleration capabilities, such as multi-threading CPU, single-GPU and multi-GPU setups.
+The vectorized output is compiled using the TensorFlow library (hence, tensorized) and then integrated using the [VegasFlow](https://vegasflow.readthedocs.io) library. The PDF interpolation is provided by [PDFflow](#PDFflow). All tools are capable of running hardware with different hardware acceleration capabilities, such as multi-threading CPU, single-GPU and multi-GPU setups.
 
-https://madflow.readthedocs.io/
+https://github.com/N3PDF/madflow
 
 ***
 
