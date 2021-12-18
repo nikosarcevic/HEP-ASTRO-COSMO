@@ -822,6 +822,45 @@ N-body simulation data products from the 2017 Abacus Cosmos project, including h
 
 [Abacus Cosmos Paper](https://lgarrison.github.io/AbacusCosmos/papers/)
 
+### Abacus Summit
+
+AbacusSummit is a suite of large, high-accuracy cosmological N-body simulations. These simulations were designed to meet (and exceed!) the Cosmological Simulation Requirements of the Dark Energy Spectroscopic Instrument (DESI) survey. AbacusSummit was run on the Summit supercomputer at the Oak Ridge Leadership Computing Facility under a time allocation from the DOE’s ALCC program.
+
+[Abacus Summit ReadtheDocs](https://abacussummit.readthedocs.io/en/latest/)
+
+[Abacus Summit GH Repository](https://github.com/abacusorg/AbacusSummit)
+
+[Papers and Citation](https://abacussummit.readthedocs.io/en/latest/citation.html)
+
+### abacusutils
+
+abacusutils is a package for reading and manipulating data products from the Abacus N-body project. In particular, these utilities are intended for use with the AbacusSummit suite of simulations. We provide multiple interfaces: primarily Python 3, but also C/C++ [coming soon!] and language-agnostic interfaces like Unix pipes.
+
+[abacusutils GH repository](https://github.com/abacusorg/abacusutils)
+
+[abacusutils ReadtheDocs](https://abacusutils.readthedocs.io/en/latest/)
+
+### zeldovich-PLT
+
+This code generates Zel'dovich approximation (ZA) initial conditions (i.e. first-order Lagrangian perturbation theory) for cosmological N-body simulations, optionally applying particle linear theory (PLT) corrections. This code does not provide second-order ICs (2LPT), but one can use these ICs with the config-space 2LPT detailed in Garrison et al. (2016). This is the primary IC generator used by the Abacus N-body code.
+
+If you do not intend to use the config-space 2LPT, then it's better to use a Fourier-space 2LPT code (e.g. 2LPTic) than to rely on ZA, even with PLT corrections.
+
+[zeldovich-PLT GH Repository](https://github.com/abacusorg/zeldovich-PLT)
+
+[Citation](https://github.com/abacusorg/zeldovich-PLT#citation)
+
+### 2LPTic 
+
+
+2LPT initial conditions parallel and serial code. The MPI-parallel version of 2LPTic is based on the Zel'dovich n-genic code written by Volker Springel.
+
+The serial code is written in Fortran77 and requires the installation of FFTW version 2.1.5. You can read Appendix D2 in this paper to understand how the code works. 
+
+[2LPTic Website](https://cosmo.nyu.edu/roman/2LPT/)
+
+
+
 
 
 ***
