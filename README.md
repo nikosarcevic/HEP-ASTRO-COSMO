@@ -814,6 +814,16 @@ Pylians were the native or inhabitant of the Homeric town of Pylos
 
 [PYlians3 GH Repository](https://github.com/franciscovillaescusa/Pylians3)
 
+### Abacus Cosmos
+
+N-body simulation data products from the 2017 Abacus Cosmos project, including halos catalogs, particle subsamples, power spectra, and initial conditions.
+
+[Abacus Cosmos Website](https://lgarrison.github.io/AbacusCosmos/)
+
+[Abacus Cosmos Paper](https://lgarrison.github.io/AbacusCosmos/papers/)
+
+
+
 ***
 
 ## Extended Cosmologies
