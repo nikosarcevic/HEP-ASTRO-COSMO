@@ -889,7 +889,35 @@ Recently, we posted our initial results on constraints on the summed mass of neu
 [BAHAMAS Paper 2](https://ui.adsabs.harvard.edu/abs/2018MNRAS.476.2999M/abstract)
 
 
-### 
+### CosmoSim
+
+The CosmoSim database provides results from cosmological simulations performed within different projects: MultiDark and Bolshoi, CLUES, and Galaxies.
+
+[CosmoSim database](https://www.cosmosim.org)
+
+[MultiDark and Bolshoi Project](https://www.cosmosim.org/cms/documentation/projects/multidark-bolshoi-project/)
+
+[CLUES Project](https://www.cosmosim.org/cms/documentation/projects/clues-project/)
+
+[Galaxies](https://www.cosmosim.org/cms/documentation/projects/galaxies/)
+
+### Massive Galaxy Project
+
+The Massive Galaxy Project is a multi-pronged effort to characterize and understand the physical processes that drive the evolution of the most massive galaxies in the universe.
+ 
+Our goals are to answer questions such as, are massive galaxies fundamentally multi-component systems and when did their components assemble?  What is their growth rate over cosmic time?  How do they reflect and influence their environment?
+ 
+To tackle this broad range of questions, we make use of a variety of data sets from COSMOS, BOSS, the Stripe 82 co-adds, and IFU observations from the MaNGA survey.
+ 
+The Massive Galaxy Project includes the following results and data-products:
+ 
+* The Stripe 82 Massive Galaxy Catalog (S82-MGC), including a mass limited sample of 41,770 galaxies with log Mstar/Msun>11.2 to z=0.7
+* Stellar mass completeness estimates for the BOSS CMASS and LOWZ samples
+* Mock catalogs for the BOSS survey which reproduce the two-point correlation function and which account for the stellar mass completeness of the BOSS survey.
+
+[The Massive Galaxy Project Website](https://www.ucolick.org/~kbundy/massivegalaxies/index.html)
+
+[Publications](https://www.ucolick.org/~kbundy/massivegalaxies/publications.html)
 
 ***
 
