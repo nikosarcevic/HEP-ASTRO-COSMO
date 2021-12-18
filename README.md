@@ -859,9 +859,37 @@ The serial code is written in Fortran77 and requires the installation of FFTW ve
 
 [2LPTic Website](https://cosmo.nyu.edu/roman/2LPT/)
 
+### Aemulus Project
+
+* All simulations: 1050 Mpc/h, 14003 particles, resolving halos down to ~6x1012 Msol/h
+* 40 Training Simulations, all different cosmologies and independent phases
+* 7x5=35 Test Sample Simulations: 7 cosmologies, with 5 realizations per cosmology
+* Additional “convergence” simulations testing box size, particle resolution, etc.
+
+[Aemulus Website](https://aemulusproject.github.io/index.html)
+
+[Aemulus Papers](https://aemulusproject.github.io/papers.html)
+
+### BAHAMAS Project
+
+BAHAMAS is a first attempt to do large-scale structure (LSS) cosmology using self-consistent full cosmological hydrodynamical simulations. Such simulations simultaneously follow all of the important matter components and allow us to accurately address the main uncertainty in the theoretical modelling of LSS, which is astrophysical effects (such as feedback) associated with the baryonic component.
+
+A lay person's description of the project can be found in an [article](https://www.ljmu.ac.uk/about-us/news/articles/2017/12/6/funding-to-uncover-dark-side-of-the-universe) put together by LJMU's media team.
+
+The initial BAHAMAS paper, which describes in detail our feedback modelling strategy, is McCarthy et al. (2017).
+
+With a viable model for astrophysical effects, we are now gearing up to explore variations in cosmology. Both in the context of the standard model (LCDM), but also plausible extensions of LCDM, including massive neutrino cosmologies, time-variable dark energy models, and modified gravity models.
+
+Recently, we posted our initial results on constraints on the summed mass of neutrinos in McCarthy et al. (2018). A popular science article about our results can be found in The Conversation.
+
+[BAHAMAS Project Webpage](https://www.astro.ljmu.ac.uk/~igm/BAHAMAS/)
+
+[BAHAMAS Paper 1](https://ui.adsabs.harvard.edu/abs/2017MNRAS.465.2936M/abstract)
+
+[BAHAMAS Paper 2](https://ui.adsabs.harvard.edu/abs/2018MNRAS.476.2999M/abstract)
 
 
-
+### 
 
 ***
 
