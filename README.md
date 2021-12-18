@@ -753,6 +753,22 @@ The project is currently still under active development, so check the documentat
 
 [Repository](https://bitbucket.org/ohahn/monofonic/src/master/)
 
+### CosMomentum
+
+As of now, this code can compute
+* the probability distribution function (PDF) of the matter density field,
+* the cumulant generating function (CGF) of the matter density field,
+* individual cumulants of the matter density field.
+It does this for
+* Gaussian and 3 types of non-Gaussian initial conditions.
+* both line-of-sight projections of the matter density field as well as the 3D density field
+* all of this for PDFs of lensing convergence
+* statistics of biased & stochastic tracers (e.g. galaxies)
+
+Cite as Friedrich et al. ([2019, arXiv:1912.06621](https://arxiv.org/abs/1912.06621)) if you use this code.
+[Repository](https://github.com/OliverFHD/CosMomentum)
+
+
 
 ### Pylians
 
