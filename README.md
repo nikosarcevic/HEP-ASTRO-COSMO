@@ -928,7 +928,7 @@ The Massive Galaxy Project includes the following results and data-products:
 [Publications](https://www.ucolick.org/~kbundy/massivegalaxies/publications.html)
 
 
-### CurieHZ Project
+### CurieHZ 
 
 Large Scale simulations of Ly-α  and Ly-break galaxies in the high-z universe: Probing the epoch of reionization.
 
@@ -937,7 +937,7 @@ The  main goal of this project was to  generate a mass limited complete volume s
 [CurieHZ Project Website](https://curiehz.ft.uam.es)
 
 
-### EAGLE Project
+### EAGLE 
 
 EAGLE (Evolution and Assembly of GaLaxies and their Environments) is a simulation aimed at understanding how galaxies form and evolve.  This computer calculation models the formation of structures in a cosmological volume, 100 Megaparsecs on a side (over 300 million light-years). This is large enough to contain 10,000 galaxies of the size of the Milky Way or bigger, enabling a comparison with the whole zoo of galaxies visible in the Hubble Deep field for example.
 
@@ -945,8 +945,67 @@ EAGLE (Evolution and Assembly of GaLaxies and their Environments) is a simulatio
 
 [Publications](http://icc.dur.ac.uk/Eagle/publications.php)
 
+### Aquarius
+
+The Aquarius Project is a large-scale collaborative programme of the Virgo Consortium, similar in scope and scale to the Millennium Simulation project. At present, the principal set of Aquarius simulations contains six examples of an isolated halo similar in mass to that of the Milky Way. These are simulated in their full cosmological context (assuming the concordance LCDM cosmology) and at various resolutions up to about 200 million particles (counted within the radius where the enclosed density is 200 times the cosmic mean). One halo is also simulated at even higher resolution, resulting in almost 1.5 billion particles within this radius. These simulations are being used to understand the fine-scale structure predicted around the Milky Way by the standard structure formation model, and as the basis for simulation by various techniques of the growth of the stellar components of our Galaxy.
+
+[Aquarius Project Website](https://wwwmpa.mpa-garching.mpg.de/aquarius/)
+
+### Auriga
 
 
+The Auriga Project is a large suite of high-resolution magneto-hydrodynamical simulations of Milky Way-sized galaxies, simulated in a fully cosmological environment by means of the 'zoom-in' technique. It is simulated with the state-of-the-art hydrodynamic moving mesh code AREPO, and includes a comprehensive galaxy formation model based on the successful cosmological simulation Illustris.
+
+[Auriga Website](https://wwwmpa.mpa-garching.mpg.de/auriga/)
+
+[Auriga Papers](https://wwwmpa.mpa-garching.mpg.de/auriga/publications.html)
+
+
+### Illustris
+
+The Illustris project is a large cosmological simulation of galaxy formation, completed in late 2013, using a state of the art numerical code and a comprehensive physical model. Building on several years of effort by members of the collaboration, the Illustris simulation represents an unprecedented combination of high resolution, total volume, and physical fidelity. 
+
+[Illustris Website](https://www.illustris-project.org)
+
+[Illustris Papers](https://www.illustris-project.org/results/)
+
+### IllustrisTNG
+
+The IllustrisTNG project is an ongoing series of large, cosmological magnetohydrodynamical simulations of galaxy formation. TNG aims to illuminate the physical processes that drive galaxy formation: to understand when and how galaxies evolve into the structures that are observed in the night sky, and to make predictions for current and future observational programs. The simulations use a state of the art numerical code which includes a comprehensive physical model and runs on some of the largest supercomputers in the world. TNG is a successor to the original Illustris simulation and builds on several years of effort by many people.
+
+[IllustrisTNG Website](https://www.tng-project.org)
+
+[TNG Papers](https://www.tng-project.org/results/)
+
+### CosmoDC2
+
+CosmoDC2 is a large synthetic galaxy catalog designed to support precision dark energy science with LSST, covering 440 sq. deg. of sky area to a redshift of z = 3, with a magnitude depth of 28 in the r band. A wide range of galaxy properties are available in cosmoDC2. To learn more about cosmoDC2, please see Korytov et al. (LSST DESC), ApJS, 245, 26 (2019).
+
+[CosmoDC2 Website](https://data.lsstdesc.org/doc/cosmodc2)
+
+### DC2 Simulated Sky Survey
+
+The DC2 Simulated Sky Survey is a 300-sq-deq simulated survey in six optical bands with observations following a reference LSST observing cadence.
+
+[DC2 SSS Website](https://data.lsstdesc.org/doc/dc2_sim_sky_survey)
+
+### Magneticum simulations
+
+The Magneticum simulations are aiming to follow the formation of cosmological structures over a large range of cosmological scales by performing a set of hydrodynamical simulations of different cosmological volumes, each of them sampled with a very large number of particles providing excellent spacial resolution of the different simulations. We take many physical processes into account to allow detailed comparisons to a variety of multi-wavelength observational data. See Simulations for a detailed description for astrophysicists.
+
+[Magenticum Website](http://www.magneticum.org/index.html)
+
+[Magneticum Publications](http://www.magneticum.org/publications.html)
+
+### MICE
+
+It includes extensive galaxy and lensing properties for ~200 million galaxies over 5000 sq.deg and up to a redshift z=1.4
+This galaxy mock is built from the parent MICE-Grand Challenge (MICE-GC) lightcone N-body simulation and associated halo catalog, 
+that is throughly validated in a series of forthcoming papers: Fosalba et al. 2013a,b, Crocce et al. 2013 
+Further details about the galaxy mock method implemented will be given in Castander et al. 2014, Carretero et al. 2014.
+
+
+[MICE Website](http://maia.ice.cat/mice/)
 
 
 ***
