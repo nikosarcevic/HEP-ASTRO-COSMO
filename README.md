@@ -809,7 +809,9 @@ Currently available cosmological models include:
 pyLDT-cosmo is partly based on the Julia programming language, which uses a Just-In-Time (JIT) compiler to improve runtime performance. However, this feature comes at the expense of slow library loading when compared to pure or pre-compiled Python packages. On a modern computer pyLDT-cosmo takes about 80 seconds to load. After that computation is very efficient, taking only ~3 seconds to derive the matter PDF's simultaneuosly for all models, redshifts and smoothing radii.
 
 [GH Repository](https://github.com/mcataneo/pyLDT-cosmo)
+
 [Jupyter Notebook](https://github.com/mcataneo/pyLDT-cosmo/tree/main)
+
 [Citation](https://github.com/mcataneo/pyLDT-cosmo#citation)
 
 ***
