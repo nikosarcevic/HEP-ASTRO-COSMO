@@ -743,6 +743,17 @@ CDM & Baryons, CDM & neutrinos and CDM Baryons & neutrinos.
 
 [N-GenIC GH Repository](https://github.com/franciscovillaescusa/N-GenIC_growth)
 
+### monofonIC
+
+High order LPT/PPT cosmological IC generator for single resolution cosmological simulations.
+
+BEWARE: This software package is currently in a beta testing phase! Proceed with caution before using it for large-scale simulations.
+
+The project is currently still under active development, so check the documentation on which features are currently implemented and how new modules/plugins can be added.
+
+[Repository](https://bitbucket.org/ohahn/monofonic/src/master/)
+
+
 ### Pylians
 
 Pylians stands for Python libraries for the analysis of numerical simulations. They are a set of python libraries, written in python, cython and C, whose purposes is to facilitate the analysis of numerical simulations (both N-body and hydro). Among other things, they can be used to:
