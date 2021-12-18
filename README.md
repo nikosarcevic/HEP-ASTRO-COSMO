@@ -919,6 +919,18 @@ The Massive Galaxy Project includes the following results and data-products:
 
 [Publications](https://www.ucolick.org/~kbundy/massivegalaxies/publications.html)
 
+### CurieHZ Project
+
+Large Scale simulations of Ly-α  and Ly-break galaxies in the high-z universe: Probing the epoch of reionization.
+
+The  main goal of this project was to  generate a mass limited complete volume sample of resimulated objects at high-z (from z≈ 3 to 6).  To this end, we have simulated a cubic box  200 h-1 Mpc with different resolutions and physics, ranging from 5123 to 20483 particles.   These simulations of the whole box have been used to identify the objects of interest  in order to generate the  initial conditions for the resimulations.  We made use of a new Initial Conditions Generation code called GINNUNGAGAP  written by Steffen Knollmann at UAM.  This code has some new features such as  variable domain decompositions (slab or pencil) for the Fast Fourier Transform in 3D,  fully parallel random number generator and  the realizations of  random gaussian fluctuations in real space, rather than in Fourier space.  Increasing levels of mass refinements  can easily be  generated in this way to almost unlimited number, provided that there are sufficiente computational MPI nodes.   Thanks to the pencil domain decomposition, there is no limitation in the mesh sizes used to compute the density fields and to FFT them.
+
+[CurieHZ Project Website](https://curiehz.ft.uam.es)
+
+### 
+
+
+
 ***
 
 ## Extended Cosmologies
