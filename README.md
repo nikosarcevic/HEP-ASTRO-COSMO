@@ -27,7 +27,7 @@
   * [Einstein-Boltzmann Numerical Solvers](#einstein-boltzmann-numerical-solvers)
   * [Cosmological Parameter Estimation](#cosmological-parameter-estimation-and-statistical-analysis)
   * [Correlation Function Estimation](#correlation-function-estimation)
-  * [N-Body Simulations](#n-body-simulations)
+  * [Simulations](#simulations)
   * [Extended Cosmologies](#extended-cosmologies)
   * [Perturbation Theory](#perturbation-theory)
 - [ASTRO](#astro)
@@ -684,7 +684,7 @@ https://github.com/oliverphilcox/encore
 
 
 
-## N-body Simulations
+## Simulations
 
 ### Quijote Simulations
 
@@ -814,6 +814,7 @@ Pylians were the native or inhabitant of the Homeric town of Pylos
 
 [PYlians3 GH Repository](https://github.com/franciscovillaescusa/Pylians3)
 
+
 ### Abacus Cosmos
 
 N-body simulation data products from the 2017 Abacus Cosmos project, including halos catalogs, particle subsamples, power spectra, and initial conditions.
@@ -821,6 +822,7 @@ N-body simulation data products from the 2017 Abacus Cosmos project, including h
 [Abacus Cosmos Website](https://lgarrison.github.io/AbacusCosmos/)
 
 [Abacus Cosmos Paper](https://lgarrison.github.io/AbacusCosmos/papers/)
+
 
 ### Abacus Summit
 
@@ -832,6 +834,7 @@ AbacusSummit is a suite of large, high-accuracy cosmological N-body simulations.
 
 [Papers and Citation](https://abacussummit.readthedocs.io/en/latest/citation.html)
 
+
 ### abacusutils
 
 abacusutils is a package for reading and manipulating data products from the Abacus N-body project. In particular, these utilities are intended for use with the AbacusSummit suite of simulations. We provide multiple interfaces: primarily Python 3, but also C/C++ [coming soon!] and language-agnostic interfaces like Unix pipes.
@@ -839,6 +842,7 @@ abacusutils is a package for reading and manipulating data products from the Aba
 [abacusutils GH repository](https://github.com/abacusorg/abacusutils)
 
 [abacusutils ReadtheDocs](https://abacusutils.readthedocs.io/en/latest/)
+
 
 ### zeldovich-PLT
 
@@ -850,6 +854,7 @@ If you do not intend to use the config-space 2LPT, then it's better to use a Fou
 
 [Citation](https://github.com/abacusorg/zeldovich-PLT#citation)
 
+
 ### 2LPTic 
 
 
@@ -858,6 +863,7 @@ If you do not intend to use the config-space 2LPT, then it's better to use a Fou
 The serial code is written in Fortran77 and requires the installation of FFTW version 2.1.5. You can read Appendix D2 in this paper to understand how the code works. 
 
 [2LPTic Website](https://cosmo.nyu.edu/roman/2LPT/)
+
 
 ### Aemulus Project
 
@@ -869,6 +875,7 @@ The serial code is written in Fortran77 and requires the installation of FFTW ve
 [Aemulus Website](https://aemulusproject.github.io/index.html)
 
 [Aemulus Papers](https://aemulusproject.github.io/papers.html)
+
 
 ### BAHAMAS Project
 
@@ -901,6 +908,7 @@ The CosmoSim database provides results from cosmological simulations performed w
 
 [Galaxies](https://www.cosmosim.org/cms/documentation/projects/galaxies/)
 
+
 ### Massive Galaxy Project
 
 The Massive Galaxy Project is a multi-pronged effort to characterize and understand the physical processes that drive the evolution of the most massive galaxies in the universe.
@@ -919,6 +927,7 @@ The Massive Galaxy Project includes the following results and data-products:
 
 [Publications](https://www.ucolick.org/~kbundy/massivegalaxies/publications.html)
 
+
 ### CurieHZ Project
 
 Large Scale simulations of Ly-α  and Ly-break galaxies in the high-z universe: Probing the epoch of reionization.
@@ -927,7 +936,16 @@ The  main goal of this project was to  generate a mass limited complete volume s
 
 [CurieHZ Project Website](https://curiehz.ft.uam.es)
 
-### 
+
+### EAGLE Project
+
+EAGLE (Evolution and Assembly of GaLaxies and their Environments) is a simulation aimed at understanding how galaxies form and evolve.  This computer calculation models the formation of structures in a cosmological volume, 100 Megaparsecs on a side (over 300 million light-years). This is large enough to contain 10,000 galaxies of the size of the Milky Way or bigger, enabling a comparison with the whole zoo of galaxies visible in the Hubble Deep field for example.
+
+[EAGLE Webpage](http://icc.dur.ac.uk/Eagle/index.php)
+
+[Publications](http://icc.dur.ac.uk/Eagle/publications.php)
+
+
 
 
 
