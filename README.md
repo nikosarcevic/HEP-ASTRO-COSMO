@@ -797,6 +797,21 @@ ReACT is an extension of the software package Copter (0905:0479) and MG-Copter (
 
 [ReACT GH Repository](https://github.com/nebblu/ReACT)
 
+### pyLDT-cosmo
+
+A Python package to generate matter PDF predictions in Large Deviation Theory for ΛCDM and alternative cosmologies.
+Currently available cosmological models include:
+* ΛCDM
+* Hu-Sawicki f(R) gravity with ΛCDM background (0705.1158)
+* nDGP gravity with ΛCDM background (0910.0235)
+* w0waCDM (0009008, 0208512, 0808.3125)
+
+pyLDT-cosmo is partly based on the Julia programming language, which uses a Just-In-Time (JIT) compiler to improve runtime performance. However, this feature comes at the expense of slow library loading when compared to pure or pre-compiled Python packages. On a modern computer pyLDT-cosmo takes about 80 seconds to load. After that computation is very efficient, taking only ~3 seconds to derive the matter PDF's simultaneuosly for all models, redshifts and smoothing radii.
+
+[GH Repository](https://github.com/mcataneo/pyLDT-cosmo)
+[Jupyter Notebook](https://github.com/mcataneo/pyLDT-cosmo/tree/main)
+[Citation](https://github.com/mcataneo/pyLDT-cosmo#citation)
+
 ***
 
 ## Perturbation Theory
