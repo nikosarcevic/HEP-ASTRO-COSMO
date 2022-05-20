@@ -630,6 +630,14 @@ CLASS_delens https://github.com/selimhotinli/class_delens
 
 Authors: Selim C. Hotinli, Joel Meyers, Cynthia Trendafilova, Daniel Green, Alexander van Engelen
 
+### GDM_CLASS
+
+GDM_CLASS is a modification of the CLASS code which adds the phenomenologically motivated Generalized Dark Matter (GDM) model from [Hu (1998)](https://arxiv.org/abs/astro-ph/9801234). A detailed investigation of the theoretical aspects related to this model can be found in the [following article](https://arxiv.org/abs/1605.00649).
+
+https://github.com/s-ilic/gdm_class_public
+
+Authors: Stéphane Ilic, Michael Kopp, Daniel B. Thomas, Constantinos Skordis
+
 ***
 
 ## Cosmological Parameter Estimation and Statistical Analysis
@@ -663,6 +671,14 @@ https://bitbucket.org/joezuntz/cosmosis/wiki/Home
 CosmoLike is a collaborative software development project to analyze cosmological data sets and to forecast future missions.
 
 https://github.com/CosmoLike
+
+### ECLAIR
+
+The ECLAIR suite of codes is meant to be used as a general inference tool, allowing to sample via MCMC techniques the posterior distribution of a set of parameters corresponding to a particular physical model, under the constraint of a number of datasets/likelihoods. It also contains a robust maximizer aimed at finding the point in parameter space corresponding to the best likelihood of any considered model.The suite also include a plotting script allowing to conveniently diagnose and check the convergence of a chain, as well as produce summary statistics on the parameters of interest.
+
+https://github.com/s-ilic/ECLAIR
+
+Author: Stéphane Ilić
 
 ***
 
