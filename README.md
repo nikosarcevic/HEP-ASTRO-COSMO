@@ -351,6 +351,12 @@ The LXe model is be computed with a series of (large) matrix multiplications, eq
 
 https://github.com/FlamTeam/flamedisx
 
+### xenon1t_approximate_nuclear_recoil_likelihood
+
+Binwise approximations of the XENON1T likelihood and XENONnT projections for fast inference on arbitrary models.
+
+https://github.com/XENON1T/xenon1t_approximate_nuclear_recoil_likelihood
+
 ***
 
 ## Model Building
