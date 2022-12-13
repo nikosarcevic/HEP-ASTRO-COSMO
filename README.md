@@ -658,7 +658,7 @@ https://cosmologist.info/cosmomc
 
 Monte Python is a Monte Carlo code for Cosmological Parameter extraction. It contains likelihood codes of most recent experiments, and interfaces with the Boltzmann code class for computing the cosmological observables.
 
-http://baudren.github.io/montepython.html
+https://github.com/brinckmann/montepython_public
 
 ### Cobaya
 
