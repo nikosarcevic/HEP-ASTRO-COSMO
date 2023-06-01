@@ -1029,6 +1029,15 @@ Further details about the galaxy mock method implemented will be given in Castan
 
 [MICE Website](http://maia.ice.cat/mice/)
 
+### CosmicProfiles
+
+This Cython library provides shape and density profile analysis tools for point clouds such as halos and galaxies in cosmological simulations and beyond. Its features include overall halo shape determination (i.e. major, intermediate, minor axis vectors and shape quantities such as intermediate-to-major axis ratio or sphericity), halo shape profile determination, halo density profile estimation using direct binning and kernel-based approaches, density profile fitting functionalities assuming either an NFW, Hernquist, Einasto or alpha-beta-gamma (generalized NFW) profile model, a mock halo generator etc.
+
+
+[CosmicProfiles ReadTheDocs](https://cosmic-profiles.readthedocs.io/en/latest/)
+
+[CosmicProfiles GH Repository](https://github.com/tibordome/cosmic_profiles)
+
 
 ***
 
