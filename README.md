@@ -1124,6 +1124,24 @@ Citation: [1](https://arxiv.org/abs/2005.00523), [2](https://arxiv.org/abs/2012.
 
 ***
 
+## Baryo and Leptogenesis
+
+### ULYSSES
+
+ULYSSES (Universal LeptogeneSiS Equation Solver) is a python package that calculates the baryon asymmetry produced from leptogenesis in the context of a type-I seesaw mechanism. The code provides: a selection of predefined Boltzmann equations with one, two and three decaying right-handed neutrinos in the single, two and three flavour regime; density matrix equations to fully take flavour effects into account, as well as oscillations of right-handed neutrinos for the ARS leptogenesis scenario; complete Boltzmann equations for thermal leptogenesis applying proper quantum statistics without assuming kinetic equilibrium of the right-handed neutrinos; primordial black hole-induced leptogenesis. Furthermore, the ULYSSES code provides tools for multi-dimensional parameter space exploration. The emphasis of the code is on user flexibility and rapid evaluation. 
+
+[GH Repository](https://github.com/earlyuniverse/ulysses)
+
+Citation: [1](https://arxiv.org/abs/2007.09150), [2](https://arxiv.org/abs/2301.05722)
+
+### AMIQS
+
+Fast code written in C++ that calculates the baryon asymmetry generated via quantum oscillations (ARS mechanism) of right-handed neutrinos in the early Universe.
+
+[GH Repository] https://github.com/stefanmarinus/amiqs
+
+Citation: [1](https://arxiv.org/abs/2207.01651)
+
 # ASTRO
 
 ## Black hole perturbation theory
