@@ -1497,7 +1497,17 @@ https://compose.obspm.fr/
 
 ***
 
+## Pulsar Timing
 
+### Tempo
 
+Tempo is an older pulsar timing package, however it is still considered the de-facto standard in many institutes. The code has been stable for some time and so provides a stability compared to more recent code that is more often being developed and improved.
 
+The most recent version can be downloaded from:
+http://tempo.sourceforge.net/
 
+### PINT
+
+PINT is a project to develop a pulsar timing solution based on python and modern libraries. It is still in active development, but it is in production use by the NANOGrav collaboration and it has been demonstrated produce residuals from most "normal" timing models that agree with Tempo and Tempo2 to within ~10 nanoseconds. It can be used within python scripts or notebooks, and there are several command line tools that come with it.
+
+https://github.com/nanograv/PINT
