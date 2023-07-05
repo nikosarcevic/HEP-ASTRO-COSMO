@@ -1453,7 +1453,7 @@ https://github.com/rhdtownsend/gyre
 
 Modules for Experiments in Stellar Astrophysics (MESA) is a suite of open source, robust, efficient, thread-safe libraries for a wide range of applications in computational stellar astrophysics. A one-dimensional stellar evolution module, MESAstar, combines many of the numerical and physics modules for simulations of a wide range of stellar evolution scenarios ranging from very low mass to massive stars, including advanced evolutionary phases.
 
-http://mesa.sourceforge.net
+https://docs.mesastar.org
 
 ## Modelling of Active Galactic Nuclei
 
