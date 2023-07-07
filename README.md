@@ -539,6 +539,12 @@ https://bdiemer.bitbucket.io/colossus/
 
 [https://github.com/valerio-marra/CalPriorSNIa](https://github.com/valerio-marra/CalPriorSNIa)
 
+### Pynkowski
+
+[Pynkowski](https://github.com/javicarron/pynkowski) is a fully documented Python package to compute Minkowki Functional and other higher order statistics of input fields, as well as computing the expectation values for different kinds of fields. It can compute these statistics on different kinds of data, such as healpix maps (scalar and spin 2) and two- and three-dimensional numpy arrays. It can also compute the theoretical expectation for different fields, including Gaussian and $\chi^2$ isotropic fields. It includes Minkowski Functionals (also called Lipschitz-Killing Curvatures) and maxima/minima distributions. The code has been designed to easily support more data formats, theoretical fields, and statistics.
+
+https://github.com/javicarron/pynkowski (Documentation [here](https://javicarron.github.io/pynkowski/pynkowski.html))
+
 ***
 
 ## Inflationary Cosmology
