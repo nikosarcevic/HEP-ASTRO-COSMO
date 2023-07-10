@@ -466,6 +466,17 @@ CosmoloPy is a package of cosmology routines built on NumPy/SciPy. Capabilities 
 
 http://roban.github.io/CosmoloPy/
 
+### cosmopit
+
+[Cosmopit](https://github.com/lontelis/cosmopit) (Cosmological python initial toolkit) is a package of cosmology built on basic numerical libraries of python such as Numpy/SciPy/Matplolib. Capabilities include common and not-so-common capabilities. 
+
+Common capabilities include: various cosmological distances, and volumes calculations, transformation of cosmological coordinate systems, simple statistic quantities and also calculations of covariance matrices, fitting routines and bayesian inferences using corner plots, routines to read and write date in .fits and .txt files, example of calculating Monte Carlo Markov Chains for fittings and corner plot presentation tutorial, and a tutorial dedicated for transformation of cosmological coordinates.
+
+Not-so common capabilities include: calculation of power spectra and correlation functions via the CLASS software, calculation routines of number counts, fractal dimension quantities, homogeneity scales, routines calculating statistics of simualated data, reading and writing routines for cute, astropy, pymangle, 
+example of Baryon Acoustic Oscilation (BAO) detection and extraction feature from data, example of fitting the SuperNovae (SN) curve to extra simple magnitude parameters.
+
+https://github.com/lontelis/cosmopit
+
 ### xAct and xPand
 
 xAct is a suite of free packages for tensor computer algebra for Wolfram Mathematica. xAct implements state-of-the-art algorithms for fast manipulations of indices and has been modelled on the current geometric approach to General Relativity. It is highly programmable and configurable. Since its first public release in March 2004, xAct has been intensively tested and has solved a number of hard problems in GR.
