@@ -26,7 +26,7 @@
   * [Big Bang Nucleosynthesis](#big-bang-nucleosynthesis)
   * [Einstein-Boltzmann Numerical Solvers](#einstein-boltzmann-numerical-solvers)
   * [Cosmological Parameter Estimation](#cosmological-parameter-estimation-and-statistical-analysis)
-  * [Correlation function and higher order statistics](#correlation-function-and-other-order-statistics)
+  * [Correlation function and higher order statistics](#correlation-function-and-higher-order-statistics)
   * [Simulations](#simulations)
   * [Extended Cosmologies](#extended-cosmologies)
   * [Perturbation Theory](#perturbation-theory)
