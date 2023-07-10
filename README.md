@@ -26,7 +26,7 @@
   * [Big Bang Nucleosynthesis](#big-bang-nucleosynthesis)
   * [Einstein-Boltzmann Numerical Solvers](#einstein-boltzmann-numerical-solvers)
   * [Cosmological Parameter Estimation](#cosmological-parameter-estimation-and-statistical-analysis)
-  * [Correlation Function Estimation](#correlation-function-estimation)
+  * [Correlation function and higher order statistics](#correlation-function-and-other-order-statistics)
   * [Simulations](#simulations)
   * [Extended Cosmologies](#extended-cosmologies)
   * [Perturbation Theory](#perturbation-theory)
@@ -695,7 +695,7 @@ Author: Stéphane Ilić
 
 ***
 
-## Correlation Function Estimation
+## Correlation function and higher order statistics
 
 ### Corrfunc
 
