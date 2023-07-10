@@ -26,7 +26,7 @@
   * [Big Bang Nucleosynthesis](#big-bang-nucleosynthesis)
   * [Einstein-Boltzmann Numerical Solvers](#einstein-boltzmann-numerical-solvers)
   * [Cosmological Parameter Estimation](#cosmological-parameter-estimation-and-statistical-analysis)
-  * [Correlation function and higher order statistics](#correlation-function-and-other-order-statistics)
+  * [Correlation function and higher order statistics](#correlation-function-and-higher-order-statistics)
   * [Simulations](#simulations)
   * [Extended Cosmologies](#extended-cosmologies)
   * [Perturbation Theory](#perturbation-theory)
@@ -539,12 +539,6 @@ https://bdiemer.bitbucket.io/colossus/
 
 [https://github.com/valerio-marra/CalPriorSNIa](https://github.com/valerio-marra/CalPriorSNIa)
 
-### Pynkowski
-
-[Pynkowski](https://github.com/javicarron/pynkowski) is a fully documented Python package to compute Minkowki Functional and other higher order statistics of input fields, as well as computing the expectation values for different kinds of fields. It can compute these statistics on different kinds of data, such as healpix maps (scalar and spin 2) and two- and three-dimensional numpy arrays. It can also compute the theoretical expectation for different fields, including Gaussian and $\chi^2$ isotropic fields. It includes Minkowski Functionals (also called Lipschitz-Killing Curvatures) and maxima/minima distributions. The code has been designed to easily support more data formats, theoretical fields, and statistics.
-
-https://github.com/javicarron/pynkowski (Documentation [here](https://javicarron.github.io/pynkowski/pynkowski.html))
-
 ***
 
 ## Inflationary Cosmology
@@ -708,6 +702,12 @@ https://corrfunc.readthedocs.io/en/master/
 encore is a C++ code for estimating isotropic 3-, 4-, 5- and 6-point correlation functions of galaxy surveys and simulations. This is uses spherical harmonic decompositions to give an algorithm with quadratic complexity, as in [Philcox et al. 2021](https://arxiv.org/abs/2105.08722), and includes corrections for the survey geometry. The code also features a GPU implementation via CUDA, and is actively being developed.
 
 https://github.com/oliverphilcox/encore
+
+### Pynkowski
+
+[Pynkowski](https://github.com/javicarron/pynkowski) is a fully documented Python package to compute Minkowki Functional and other higher order statistics of input fields, as well as computing the expectation values for different kinds of fields. It can compute these statistics on different kinds of data, such as healpix maps (scalar and spin 2) and two- and three-dimensional numpy arrays. It can also compute the theoretical expectation for different fields, including Gaussian and $\chi^2$ isotropic fields. It includes Minkowski Functionals (also called Lipschitz-Killing Curvatures) and maxima/minima distributions. The code has been designed to easily support more data formats, theoretical fields, and statistics.
+
+https://github.com/javicarron/pynkowski (Documentation [here](https://javicarron.github.io/pynkowski/pynkowski.html))
 
 ***
 
