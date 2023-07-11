@@ -563,6 +563,14 @@ By observable quantities, we currently refer to as the Hubble flow functions, up
 
 [ASPIC Paper](https://arxiv.org/abs/1303.3787)
 
+### NumDynInflation
+
+This is a collection of codes for numerically simulating background dynamics as well as first-order perturbations for single field inflationary models. Efficient codes along with a little bit of manual work make for a very fast and accurate algorithm to compute various quantities of interest in single field inflation.
+
+[Repository](https://github.com/bhattsiddharth/NumDynInflation)
+
+[Paper](https://arxiv.org/abs/2212.00529)
+
 ***
 
 ## Big Bang Nucleosynthesis
