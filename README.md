@@ -561,7 +561,7 @@ By observable quantities, we currently refer to as the Hubble flow functions, up
 
 [ASPIC Library](http://cp3.irmp.ucl.ac.be/~ringeval/aspic.html)
 
-[ASPIC Paper](https://arxiv.org/abs/2212.00529)
+[ASPIC Paper](https://arxiv.org/abs/1303.3787)
 
 ### NumDynInflation
 
@@ -569,7 +569,7 @@ This is a collection of codes for numerically simulating background dynamics as 
 
 [Repository](https://github.com/bhattsiddharth/NumDynInflation)
 
-[Paper](https://arxiv.org/abs/1303.3787)
+[Paper](https://arxiv.org/abs/2212.00529)
 
 ***
 
