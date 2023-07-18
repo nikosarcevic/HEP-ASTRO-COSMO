@@ -613,6 +613,14 @@ The purpose of CLASS is to simulate the evolution of linear perturbations in the
 
 http://class-code.net
 
+### Bolt
+
+⚡ Bolt is the first differentiable cosmological Boltzmann-Solver. Bolt.jl is a pure-Julia integrator for the linearized Einstein-Boltzmann system. Bolt.jl predicts the CMB TT, TE, EE power spectra and accurately computes the linear matter power spectrum, which agrees to less than percent accuracy with CAMB/CLASS. Bolt computes the derivatives of cosmological perturbations and associated observables (currently) using forward-mode automatic differentiation. As Bolt
+is written in Julia, the code makes use of unicode characters to minimize the code-equation translation barrier for those who want to build new cosmological physics into Bolt.
+
+https://github.com/xzackli/Bolt.jl
+
+
 ### MGCAMB
 
 Modified Growth with CAMB (MGCAMB) is a patch for the Einstein Boltzmann solver CAMB that intrdouces phenomenological Modifications of Growth (MG) along with dynamical Dark Energy (DE). It includes several phenomenological parametrizations.
