@@ -26,7 +26,7 @@
   * [Big Bang Nucleosynthesis](#big-bang-nucleosynthesis)
   * [Einstein-Boltzmann Numerical Solvers](#einstein-boltzmann-numerical-solvers)
   * [Cosmological Parameter Estimation](#cosmological-parameter-estimation-and-statistical-analysis)
-  * [Correlation Function Estimation](#correlation-function-estimation)
+  * [Correlation function and higher order statistics](#correlation-function-and-higher-order-statistics)
   * [Simulations](#simulations)
   * [Extended Cosmologies](#extended-cosmologies)
   * [Perturbation Theory](#perturbation-theory)
@@ -466,6 +466,17 @@ CosmoloPy is a package of cosmology routines built on NumPy/SciPy. Capabilities 
 
 http://roban.github.io/CosmoloPy/
 
+### cosmopit
+
+[Cosmopit](https://github.com/lontelis/cosmopit) (Cosmological python initial toolkit) is a package of cosmology built on basic numerical libraries of python such as Numpy/SciPy/Matplolib. Capabilities include common and not-so-common capabilities. 
+
+Common capabilities include: various cosmological distances, and volumes calculations, transformation of cosmological coordinate systems, simple statistic quantities and also calculations of covariance matrices, fitting routines and bayesian inferences using corner plots, routines to read and write date in .fits and .txt files, example of calculating Monte Carlo Markov Chains for fittings and corner plot presentation tutorial, and a tutorial dedicated for transformation of cosmological coordinates.
+
+Not-so common capabilities include: calculation of power spectra and correlation functions via the CLASS software, calculation routines of number counts, fractal dimension quantities, homogeneity scales, routines calculating statistics of simualated data, reading and writing routines for cute, astropy, pymangle, 
+example of Baryon Acoustic Oscilation (BAO) detection and extraction feature from data, example of fitting the SuperNovae (SN) curve to extra simple magnitude parameters.
+
+https://github.com/lontelis/cosmopit
+
 ### xAct and xPand
 
 xAct is a suite of free packages for tensor computer algebra for Wolfram Mathematica. xAct implements state-of-the-art algorithms for fast manipulations of indices and has been modelled on the current geometric approach to General Relativity. It is highly programmable and configurable. Since its first public release in March 2004, xAct has been intensively tested and has solved a number of hard problems in GR.
@@ -552,6 +563,14 @@ By observable quantities, we currently refer to as the Hubble flow functions, up
 
 [ASPIC Paper](https://arxiv.org/abs/1303.3787)
 
+### NumDynInflation
+
+This is a collection of codes for numerically simulating background dynamics as well as first-order perturbations for single field inflationary models. Efficient codes along with a little bit of manual work make for a very fast and accurate algorithm to compute various quantities of interest in single field inflation.
+
+[Repository](https://github.com/bhattsiddharth/NumDynInflation)
+
+[Paper](https://arxiv.org/abs/2212.00529)
+
 ***
 
 ## Big Bang Nucleosynthesis
@@ -593,6 +612,14 @@ https://camb.info (preferred citation method here: https://cosmologist.info/cosm
 The purpose of CLASS is to simulate the evolution of linear perturbations in the universe and to compute CMB and large scale structure observables. Its name also comes from the fact that it is written in object-oriented style mimicking the notion of class. Classes are a wonderful programming feature available e.g. in C++ and Python, but these languages are known to be less vectorizable/parallelizable than plain C (or Fortran), and hence potentially slower. For CLASS we choose to use plain C for high performances, while organizing the code in a few modules that reproduce the architecture and philosophy of C++ classes, for optimal readability and modularity.
 
 http://class-code.net
+
+### Bolt
+
+⚡ Bolt is the first differentiable cosmological Boltzmann-Solver. Bolt.jl is a pure-Julia integrator for the linearized Einstein-Boltzmann system. Bolt.jl predicts the CMB TT, TE, EE power spectra and accurately computes the linear matter power spectrum, which agrees to less than percent accuracy with CAMB/CLASS. Bolt computes the derivatives of cosmological perturbations and associated observables (currently) using forward-mode automatic differentiation. As Bolt
+is written in Julia, the code makes use of unicode characters to minimize the code-equation translation barrier for those who want to build new cosmological physics into Bolt.
+
+https://github.com/xzackli/Bolt.jl
+
 
 ### MGCAMB
 
@@ -689,7 +716,7 @@ Author: Stéphane Ilić
 
 ***
 
-## Correlation Function Estimation
+## Correlation function and higher order statistics
 
 ### Corrfunc
 
@@ -702,6 +729,12 @@ https://corrfunc.readthedocs.io/en/master/
 encore is a C++ code for estimating isotropic 3-, 4-, 5- and 6-point correlation functions of galaxy surveys and simulations. This is uses spherical harmonic decompositions to give an algorithm with quadratic complexity, as in [Philcox et al. 2021](https://arxiv.org/abs/2105.08722), and includes corrections for the survey geometry. The code also features a GPU implementation via CUDA, and is actively being developed.
 
 https://github.com/oliverphilcox/encore
+
+### Pynkowski
+
+[Pynkowski](https://github.com/javicarron/pynkowski) is a fully documented Python package to compute Minkowki Functional and other higher order statistics of input fields, as well as computing the expectation values for different kinds of fields. It can compute these statistics on different kinds of data, such as healpix maps (scalar and spin 2) and two- and three-dimensional numpy arrays. It can also compute the theoretical expectation for different fields, including Gaussian and $\chi^2$ isotropic fields. It includes Minkowski Functionals (also called Lipschitz-Killing Curvatures) and maxima/minima distributions. The code has been designed to easily support more data formats, theoretical fields, and statistics.
+
+https://github.com/javicarron/pynkowski (Documentation [here](https://javicarron.github.io/pynkowski/pynkowski.html))
 
 ***
 
