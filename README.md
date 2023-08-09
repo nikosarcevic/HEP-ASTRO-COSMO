@@ -445,6 +445,13 @@ https://github.com/JelleAalbers/blueice
 
 python-based likelihood (in particular unbinned) construction/fitting framework used in XENON1T analyses. Linear template morphing, cached PDF generation
 
+### alea
+
+This package was made for statistical model building and frequentist toyMC-based inference for the XENONnT experiment: 
+Examples are included for a very simple gaussian example, as well as an extended likelihood using template models in the style of XENONnT analyses using the blueice package
+
+https://github.com/XENONnT/alea/
+
 ## Neutrino Code
 
 Peter B. Denton's list for Neutrino code
