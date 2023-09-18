@@ -20,6 +20,7 @@
   * [Feyn Family](#feyn-family)
   * [Statistics](#statistics)
   * [Neutrino Code](#neutrino-code)
+  * [Dark Matter Tools](#dark-matter-tools)
 - [COSMO](#cosmo)
   * [General Cosmology](#general-cosmology-resources)
   * [Inflationary Cosmology](#inflationary-cosmology)
@@ -458,6 +459,27 @@ Peter B. Denton's list for Neutrino code
 
 https://peterdenton.github.io/Code/index.html
 
+## Dark Matter Tools
+
+### DarkSUSY
+
+The public fortran package DarkSUSY is a flexible general-purpose tool to calculate 
+observables for a variety of dark matter candidates. This includes 1) direct detection 
+rates in low-background counting experiments, both for standard non-relativistic and 
+for cosmic-ray accelerated dark matter particles; 2) indirect detection signals through 
+antiprotons, antideuterons, gamma rays and positrons from the Galactic halo, or high-energy 
+neutrinos from the center of the Earth or of the Sun; 3) general routines to compute 
+dark-matter self-interaction rates ; 4) routines to calculate the temperature of kinetic 
+decoupling and the associated size of the smallest dark matter protohalos; 5) high-precision 
+tools for the computation of the relic density in freeze-out scenarios, including situations 
+with early kinetic  decoupling or primordial asymmetries, as well as secluded dark sector 
+scenarios with varying dark-to-visible temperature ratios; 6) high-precision tools for the
+computation of the relic density in freeze-in scenarios, including leading finite-temperature 
+effects. Compared to earlier versions, DarkSUSY 6 is no longer restricted to supersymmetric 
+models, but allows the user to switch between different pre-implemented dark matter candidates,
+or add new ones.
+
+www.darksusy.org
 
 ***
 
