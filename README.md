@@ -479,7 +479,7 @@ effects. Compared to earlier versions, DarkSUSY 6 is no longer restricted to sup
 models, but allows the user to switch between different pre-implemented dark matter candidates,
 or add new ones.
 
-www.darksusy.org
+[www.darksusy.org](https://darksusy.hepforge.org/)
 
 ***
 
