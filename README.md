@@ -36,6 +36,7 @@
   * [Cosmic Rays](#cosmic-rays)
   * [Gamma-Ray Astronomy](#gamma-ray-astronomy)
   * [N-body Simulations](#n-body-simulation)
+  * [Nucelar Astrophysics](#nuclear-astrophysics)
   * [MHD](#mhd)
   * [Numerical Relativity](#numerical-relativity)
   * [Primordial Black Holes](#primordial-black-holes)
