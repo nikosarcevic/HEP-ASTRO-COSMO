@@ -1350,6 +1350,25 @@ https://github.com/hannorein/rebound
 
 ***
 
+## Nuclear Astrophysics
+
+### pynucastro
+
+pynucastro is a python library for interactively creating and exploring nuclear reaction networks. It provides interfaces to nuclear reaction rate databases, including the JINA Reaclib nuclear reactions database.
+
+The main features are:
+- Ability to create a reaction network based on a collection of rates, a set of nuclei, or an arbitrary filter applied to a library.
+- Interactive exploration of rates and networks in Jupyter notebooks.
+- Many different ways of visualizing a network.
+- An NSE solver to find the equilibrium abundance of a set of nuclei given a thermodynamic state.
+- Ability to write out python or C++ code needed to integrate the network.
+- Support for tabular weak rates.
+- Rate approximations and the derivation of reverse rates via detailed balance.
+- Easy access to nuclear properties, including T-dependent partition functions, spins, masses, etc.
+
+https://github.com/pynucastro/pynucastro
+***
+
 ## MHD
 
 Note: some of the entries listed can also be classified as N-body. Keep this in mind for the future or if you are browsing.-
