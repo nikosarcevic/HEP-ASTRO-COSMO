@@ -1343,6 +1343,12 @@ A parallel cosmological N-body and SPH code meant for simulations of cosmic stru
 
 http://gitlab.mpcdf.mpg.de/vrs/gadget4 (preferred citation method here: https://wwwmpa.mpa-garching.mpg.de/gadget4/)
 
+### RAMSES
+
+Cosmological Adaptive Mesh Refinement code featuring N-body dynamics, magneto-hydrodynamics, radiative transfer, star formation, stellar and AGN feedback.
+
+https://bitbucket.org/rteyssie/ramses
+
 ### REBOUND
 
 REBOUND is a multi-purpose N-body integrator written in C99 and comes with an easy-to-use python front-end. It is frequently used to simulate the orbital motion of stars, planets, and moons as well as the collisional dynamics of planetary rings. REBOUND offers several different integrators, including WHFast, IAS15, Mercurius, and SEI. 
