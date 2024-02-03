@@ -46,6 +46,7 @@
   * [Population Synthesis](#population-synthesis)
   * [Neutron Stars Equations of State](#Neutron-Stars-Equations-of-State)
   * [Pular Timing](#pulsar-timing)
+  * [Galaxy Light Modeling](#galaxy-light-modeling)
 - [Related List of Tools](#related-list-of-tools)
   * [Neutrino Code](#neutrino-code)
 
@@ -1246,6 +1247,13 @@ Some parts of DRAGON are built following GALPROP, v50p. The first reason is that
 
 https://github.com/cosmicrays
 
+### maskfill 
+Maskfill can quickly and robustly infill masks in astronomical images. While it cannot detect cosmic rays, as a follow up to, e.g., L.A. Cosmic (to find CRs), maskfill will effectively fill in the masks using extrapolations from surrounding pixels in a deterministic way. All other masks (stars, bad pixels, etc.) can be filled as well. It can be installed from `pip` or `github`. 
+
+Code: [https://github.com/dokkum/maskfill](https://github.com/dokkum/maskfill)
+
+Documentation [https://maskfill.readthedocs.io](https://maskfill.readthedocs.io) 
+
 ### USINE
 
 A library with several semi-analytical Galactic cosmic-ray (GCR) propagation models. [Link to documentation](https://dmaurin.gitlab.io/USINE/_downloads/05d002129a26a2b732bd2a7d44e08ed4/usine.pdf)
@@ -1610,3 +1618,24 @@ http://tempo.sourceforge.net/
 PINT is a project to develop a pulsar timing solution based on python and modern libraries. It is still in active development, but it is in production use by the NANOGrav collaboration and it has been demonstrated produce residuals from most "normal" timing models that agree with Tempo and Tempo2 to within ~10 nanoseconds. It can be used within python scripts or notebooks, and there are several command line tools that come with it.
 
 https://github.com/nanograv/PINT
+
+## Galaxy Light Modeling 
+
+### imCascade 
+
+imcascade is a code designed for fitting objects in astronomical images using a "cascade" of Gaussians. It uses multi-guassian expansion (MGE) to model galaxies as a mixture of Gaussians in a Bayesian Framework. It was designed to study the morphology of faint, semi-resolved galaxies. 
+
+Code: [https://github.com/tbmiller-astro/imcascade](https://github.com/tbmiller-astro/imcascade)
+
+Documentation [https://imcascade.readthedocs.io/en/latest/](https://imcascade.readthedocs.io/en/latest/)
+
+### pysersic 
+
+pysersic is a Python package for fitting Sersic (and other) profiles to astronomical images using Bayesian inference. It is built using the jax framework with inference performed using the numpyro probabilistic programming library.
+
+The code is hosted on GitHub and is available open source under the MIT license. 
+
+Code: [https://github.com/pysersic/pysersic](https://github.com/pysersic/pysersic)
+
+Documentation: [https://pysersic.readthedocs.io/en/latest/](https://pysersic.readthedocs.io/en/latest/) 
+
