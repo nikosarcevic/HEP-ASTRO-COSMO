@@ -1251,6 +1251,7 @@ https://github.com/cosmicrays
 Maskfill can quickly and robustly infill masks in astronomical images. While it cannot detect cosmic rays, as a follow up to, e.g., L.A. Cosmic (to find CRs), maskfill will effectively fill in the masks using extrapolations from surrounding pixels in a deterministic way. All other masks (stars, bad pixels, etc.) can be filled as well. It can be installed from `pip` or `github`. 
 
 Code: [https://github.com/dokkum/maskfill](https://github.com/dokkum/maskfill)
+
 Documentation [https://maskfill.readthedocs.io](https://maskfill.readthedocs.io) 
 
 ### USINE
@@ -1625,6 +1626,7 @@ https://github.com/nanograv/PINT
 imcascade is a code designed for fitting objects in astronomical images using a "cascade" of Gaussians. It uses multi-guassian expansion (MGE) to model galaxies as a mixture of Gaussians in a Bayesian Framework. It was designed to study the morphology of faint, semi-resolved galaxies. 
 
 Code: [https://github.com/tbmiller-astro/imcascade](https://github.com/tbmiller-astro/imcascade)
+
 Documentation [https://imcascade.readthedocs.io/en/latest/](https://imcascade.readthedocs.io/en/latest/)
 
 ### pysersic 
@@ -1634,5 +1636,6 @@ pysersic is a Python package for fitting Sersic (and other) profiles to astronom
 The code is hosted on GitHub and is available open source under the MIT license. 
 
 Code: [https://github.com/pysersic/pysersic](https://github.com/pysersic/pysersic)
+
 Documentation: [https://pysersic.readthedocs.io/en/latest/](https://pysersic.readthedocs.io/en/latest/) 
 
