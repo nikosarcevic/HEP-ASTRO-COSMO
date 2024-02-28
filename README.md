@@ -361,6 +361,12 @@ Binwise approximations of the XENON1T likelihood and XENONnT projections for fas
 
 https://github.com/XENON1T/xenon1t_approximate_nuclear_recoil_likelihood
 
+### dd_limit_plot 
+
+Plotting functionality for a range of direct detection results 
+
+https://github.com/kdund/dd_limit_plot
+
 ***
 
 ## Model Building
