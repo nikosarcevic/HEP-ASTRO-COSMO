@@ -864,7 +864,7 @@ The project is currently still under active development, so check the documentat
 [Repository](https://bitbucket.org/ohahn/monofonic/src/master/)
 
 ### MUSIC
-MUSIC generates nested grid initial conditions for high-resolution "zoom" cosmological simulations with outputs for RAMSES, ENZO, Arepo, Gadget2/3, Pkdgrav/Gasoline, and Nyx. Supports first (1LPT) and second order (2LPT) Lagrangian perturbation theory, local Lagrangian approximation (LLA) for baryons with grid codes. Supports pluggable transfer functions, currently CAMB, Eisenstein&Hu, BBKS, Warm Dark Matter variants. Distinct baryon+CDM fields. Parallelized with OpenMP.
+The Multi-Scale Initial Conditions for Cosmological Simulations (MUSIC) generates nested grid initial conditions for high-resolution "zoom" cosmological simulations with outputs for RAMSES, ENZO, Arepo, Gadget2/3, Pkdgrav/Gasoline, and Nyx. Supports first (1LPT) and second order (2LPT) Lagrangian perturbation theory, local Lagrangian approximation (LLA) for baryons with grid codes. Supports pluggable transfer functions, currently CAMB, Eisenstein&Hu, BBKS, Warm Dark Matter variants. Distinct baryon+CDM fields. Parallelized with OpenMP.
 
 [Repository](https://bitbucket.org/ohahn/music/src/master/) [Documentation](https://bitbucket.org/ohahn/music/downloads/MUSIC_Users_Guide.pdf)
 
