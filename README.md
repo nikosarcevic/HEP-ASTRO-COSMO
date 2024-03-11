@@ -1392,7 +1392,7 @@ Cosmological Adaptive Mesh Refinement code featuring N-body dynamics, magneto-hy
 https://bitbucket.org/rteyssie/ramses
 
 ### SWIFT
-Open-source cosmological and astrophysical numerical solver designed to run efficiently on modern hardware. A comprehensive and extensive set of models for galaxy formation as well as planetary physics are provided alongside a large series of examples. Features N-body dynamics, particle-based hydrodynamics, a set of galaxy formation models and sub-grid models, radiative transfer, neutrinos, planetary science (equations of state) , line-of-sight outputs, light cone outputs, halo finding, on-the-fly power spectra computation.
+A open-source cosmological and astrophysical numerical solver designed to run efficiently on modern hardware. A comprehensive and extensive set of models for galaxy formation as well as planetary physics are provided alongside a large series of examples. Features N-body dynamics, particle-based hydrodynamics, a set of galaxy formation models and sub-grid models, radiative transfer, neutrinos, planetary science (equations of state), line-of-sight outputs, light cone outputs, halo finding, on-the-fly power spectra computation.
 
 https://swiftsim.com
 
