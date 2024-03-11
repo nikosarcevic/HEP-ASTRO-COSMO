@@ -1391,6 +1391,13 @@ Cosmological Adaptive Mesh Refinement code featuring N-body dynamics, magneto-hy
 
 https://bitbucket.org/rteyssie/ramses
 
+### SWIFT
+Open-source cosmological and astrophysical numerical solver designed to run efficiently on modern hardware. A comprehensive and extensive set of models for galaxy formation as well as planetary physics are provided alongside a large series of examples. Features N-body dynamics, particle-based hydrodynamics, a set of galaxy formation models and sub-grid models, radiative transfer, neutrinos, planetary science (equations of state) , line-of-sight outputs, light cone outputs, halo finding, on-the-fly power spectra computation.
+
+https://swiftsim.com
+
+[Documentation](https://swift.strw.leidenuniv.nl/docs/index.html) [Onboarding Guide](https://swift.strw.leidenuniv.nl/onboarding.pdhttps://swift.strw.leidenuniv.nl/onboarding.pdf)
+
 ### REBOUND
 
 REBOUND is a multi-purpose N-body integrator written in C99 and comes with an easy-to-use python front-end. It is frequently used to simulate the orbital motion of stars, planets, and moons as well as the collisional dynamics of planetary rings. REBOUND offers several different integrators, including WHFast, IAS15, Mercurius, and SEI. 
