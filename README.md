@@ -1112,6 +1112,12 @@ The Magneticum simulations are aiming to follow the formation of cosmological st
 
 [Magneticum Publications](http://www.magneticum.org/publications.html)
 
+### Flamingo simulations
+
+Full-hydro Large-scale structure simulations with All-sky Mapping for the Interpretation of Next Generation Observations. Large cosmological simulations including baryonic matter, sub-grid physics, and neutrinos.
+
+[Flamingo Website](https://flamingo.strw.leidenuniv.nl/) [Publication](https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp..725B/abstract)
+
 ### MICE
 
 It includes extensive galaxy and lensing properties for ~200 million galaxies over 5000 sq.deg and up to a redshift z=1.4
