@@ -806,6 +806,13 @@ nbodykit is an open source project written in Python that provides a set of stat
 
 [nbodykit Website](https://nbodykit.readthedocs.io/en/latest/index.html)
 
+
+### pNbody
+
+pNbody is a parallelized python module toolbox designed to manipulate and display interactively very large N-body systems. Its oriented object approach allows the user to perform complicate manipulation with only very few commands. Additional packages built on top of pNbody are available, such as [glups](https://gitlab.com/revaz/glups) (Python/OpenGL GUI designed to display Nbody models), [Gtools](https://gitlab.com/revaz/Gtools) (a suite of tools and scripts designed to reduce n-body systems representing galaxies) and [Mtools](https://gitlab.com/revaz/Mtools) (routines to adapt images for movies).
+
+[gitlab repository](https://gitlab.com/revaz/pNbody) [documentation](https://obswww.unige.ch/~revaz/pNbody/)
+
 ### CAMELS
 
 CAMELS stands for Cosmology and Astrophysics with MachinE Learning Simulations, and is a suite 4,233 cosmological simulations: 2,049 N-body and 2,184 state-of-the-art (magneto-)hydrodynamic.
@@ -855,6 +862,11 @@ BEWARE: This software package is currently in a beta testing phase! Proceed with
 The project is currently still under active development, so check the documentation on which features are currently implemented and how new modules/plugins can be added.
 
 [Repository](https://bitbucket.org/ohahn/monofonic/src/master/)
+
+### MUSIC
+The Multi-Scale Initial Conditions for Cosmological Simulations (MUSIC) generates nested grid initial conditions for high-resolution "zoom" cosmological simulations with outputs for RAMSES, ENZO, Arepo, Gadget2/3, Pkdgrav/Gasoline, and Nyx. Supports first (1LPT) and second order (2LPT) Lagrangian perturbation theory, local Lagrangian approximation (LLA) for baryons with grid codes. Supports pluggable transfer functions, currently CAMB, Eisenstein&Hu, BBKS, Warm Dark Matter variants. Distinct baryon+CDM fields. Parallelized with OpenMP.
+
+[Repository](https://bitbucket.org/ohahn/music/src/master/) [Documentation](https://bitbucket.org/ohahn/music/downloads/MUSIC_Users_Guide.pdf)
 
 ### CosMomentum
 
@@ -1099,6 +1111,12 @@ The Magneticum simulations are aiming to follow the formation of cosmological st
 [Magenticum Website](http://www.magneticum.org/index.html)
 
 [Magneticum Publications](http://www.magneticum.org/publications.html)
+
+### Flamingo simulations
+
+Full-hydro Large-scale structure simulations with All-sky Mapping for the Interpretation of Next Generation Observations. Large cosmological simulations including baryonic matter, sub-grid physics, and neutrinos.
+
+[Flamingo Website](https://flamingo.strw.leidenuniv.nl/) [Publication](https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp..725B/abstract)
 
 ### MICE
 
@@ -1372,6 +1390,13 @@ http://gitlab.mpcdf.mpg.de/vrs/gadget4 (preferred citation method here: https://
 Cosmological Adaptive Mesh Refinement code featuring N-body dynamics, magneto-hydrodynamics, radiative transfer, star formation, stellar and AGN feedback.
 
 https://bitbucket.org/rteyssie/ramses
+
+### SWIFT
+A open-source cosmological and astrophysical numerical solver designed to run efficiently on modern hardware. A comprehensive and extensive set of models for galaxy formation as well as planetary physics are provided alongside a large series of examples. Features N-body dynamics, particle-based hydrodynamics, a set of galaxy formation models and sub-grid models, radiative transfer, neutrinos, planetary science (equations of state), line-of-sight outputs, light cone outputs, halo finding, on-the-fly power spectra computation.
+
+https://swiftsim.com
+
+[Documentation](https://swift.strw.leidenuniv.nl/docs/index.html) [Onboarding Guide](https://swift.strw.leidenuniv.nl/onboarding.pdhttps://swift.strw.leidenuniv.nl/onboarding.pdf)
 
 ### REBOUND
 
