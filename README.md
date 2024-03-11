@@ -809,7 +809,7 @@ nbodykit is an open source project written in Python that provides a set of stat
 
 ### pNbody
 
-pNbody is a parallelized python module toolbox designed to manipulate and display interactively very large N-body systems. Its oriented object approach allows the user to perform complicate manipulation with only very few commands. Some additional packages like [glups](https://gitlab.com/revaz/glups) (Python/OpenGL GUI designed to display Nbody models), [Gtools](https://gitlab.com/revaz/Gtools) (a suite of tools and scripts designed to reduce n-body systems representing galaxies) and [Mtools](https://gitlab.com/revaz/Mtools) (routines to adapt images for movies).
+pNbody is a parallelized python module toolbox designed to manipulate and display interactively very large N-body systems. Its oriented object approach allows the user to perform complicate manipulation with only very few commands. Additional packages built on top of pNbody are available, such as [glups](https://gitlab.com/revaz/glups) (Python/OpenGL GUI designed to display Nbody models), [Gtools](https://gitlab.com/revaz/Gtools) (a suite of tools and scripts designed to reduce n-body systems representing galaxies) and [Mtools](https://gitlab.com/revaz/Mtools) (routines to adapt images for movies).
 
 [gitlab repository](https://gitlab.com/revaz/pNbody) [documentation](https://obswww.unige.ch/~revaz/pNbody/)
 
