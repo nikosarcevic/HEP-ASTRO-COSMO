@@ -1600,6 +1600,12 @@ agnpy is an astropy affiliated package designed to model the radiative processes
 
 https://github.com/cosimoNigro/agnpy
 
+### JetSeT
+
+JetSeT is an open source C/Python framework to reproduce radiative and accelerative processes acting in relativistic jets, and galactic objects (beamed and unbeamed), allowing to fit the numerical models to observed data. 
+
+https://github.com/andreatramacere/jetset
+
 ***
 
 ## Multi-Messenger Analysis 
