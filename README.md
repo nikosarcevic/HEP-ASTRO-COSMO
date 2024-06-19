@@ -1264,7 +1264,7 @@ AnyBubble is a Mathematica package for solving the radially-symmetric bounce equ
 
 ### BSMPT
 
-BSMPT is a C++ tool for calculating the strength of the electroweak phase transition in extended Higgs sectors. This relies on the loop-corrected effective potential at finite temperature including daisy resummation of the bosonic masses. The program allows to compute the vacuum expectation value (VEV) v of the potential as a function of the temperature, and in particular the critical VEV vc at the temperature Tc where the phase transition takes place. In addition, the loop-corrected trilinear Higgs self-couplings are provided. BSMPT applies an 'on-shell' renormalization scheme in the sense that the loop-corrected masses and mixing angles are required to be equal to their tree-level input values. In v2 the computation of the baryon asymmetry of the Universe was included in two different approximations, called the FH and the VIA approach. In v3 the tool can perform the whole chain from particle physics model to gravitational wave spectrum.
+BSMPT is a C++ tool for calculating the strength of the electroweak phase transition in extended Higgs sectors. This relies on the loop-corrected effective potential at finite temperature including daisy resummation of the bosonic masses. The program allows to compute the vacuum expectation value (VEV) v of the potential as a function of the temperature, and in particular the critical VEV vc at the temperature Tc where the phase transition takes place. In addition, the loop-corrected trilinear Higgs self-couplings are provided. BSMPT applies an 'on-shell' renormalization scheme in the sense that the loop-corrected masses and mixing angles are required to be equal to their tree-level input values. In v2 the computation of the baryon asymmetry of the Universe was included for one model and in two different approximations. In v3 BSMPT can perform the whole chain from particle physics model to gravitational wave spectrum.
 
 * Repo: https://github.com/phbasler/BSMPT
 * Original paper: https://arxiv.org/abs/1803.02846
@@ -1297,6 +1297,8 @@ BubbleDet is a Python package for computing one-loop functional determinants aro
 * Repo: https://bitbucket.org/og113/bubbledet/
 * Documenation: https://bubbledet.readthedocs.io/en/stable/
 * Citation: https://arxiv.org/abs/2308.15652
+
+***
 
 # ASTRO
 
