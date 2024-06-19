@@ -31,6 +31,8 @@
   * [Simulations](#simulations)
   * [Extended Cosmologies](#extended-cosmologies)
   * [Perturbation Theory](#perturbation-theory)
+  * [Baryo and Leptogenesis](#baryo-leptogenesis)
+  * [Cosmological Phase Transitions](#phase-transitions)
 - [ASTRO](#astro)
   * [Black hole perturbation theory](#black-hole-perturbation-theory)
   * [Cosmic Rays](#cosmic-rays)
@@ -1237,9 +1239,64 @@ Citation: [1](https://arxiv.org/abs/2007.09150), [2](https://arxiv.org/abs/2301.
 
 Fast code written in C++ that calculates the baryon asymmetry generated via quantum oscillations (ARS mechanism) of right-handed neutrinos in the early Universe.
 
-[GH Repository] https://github.com/stefanmarinus/amiqs
+[GH Repository](https://github.com/stefanmarinus/amiqs)
 
 Citation: [1](https://arxiv.org/abs/2207.01651)
+
+***
+
+## Cosmological Phase Transitions
+
+### CosmoTransitions
+
+CosmoTransitions is a Python package for analyzing finite or zero-temperature cosmological phase transitions driven by single or multiple scalar fields. The package analyzes the different vacua of a theory to determine their critical temperatures (where the vacuum energy levels are degenerate), their super-cooling temperatures, and the bubble wall profiles which separate the phases and describe their tunneling dynamics. The package uses a method of path deformation to find the profiles of both thin- and thick-walled bubbles. For models with 1-8 scalar field(s), the bounce action is typically calculated in O(0.3)s.
+
+* Repo: https://github.com/clwainwright/CosmoTransitions
+* Documenation: https://clwainwright.net/CosmoTransitions/
+* Citation: https://arxiv.org/abs/1109.4189
+
+### AnyBubble
+
+AnyBubble is a Mathematica package for solving the radially-symmetric bounce equation. The method is based on multiple shooting and directly integrates the equations of motion except at a small number of junction points. It is based on multiple shooting, and typically finds solutions involving three fields in under a minute, and can find solutions for eight fields in about an hour.
+
+* Webpage: http://cosmos.phy.tufts.edu/AnyBubble/
+* Citation: https://arxiv.org/abs/1610.06594
+
+### BSMPT
+
+BSMPT is a C++ tool for calculating the strength of the electroweak phase transition in extended Higgs sectors. This relies on the loop-corrected effective potential at finite temperature including daisy resummation of the bosonic masses. The program allows to compute the vacuum expectation value (VEV) v of the potential as a function of the temperature, and in particular the critical VEV vc at the temperature Tc where the phase transition takes place. In addition, the loop-corrected trilinear Higgs self-couplings are provided. BSMPT applies an 'on-shell' renormalization scheme in the sense that the loop-corrected masses and mixing angles are required to be equal to their tree-level input values. In v2 the computation of the baryon asymmetry of the Universe was included in two different approximations, called the FH and the VIA approach. In v3 the tool can perform the whole chain from particle physics model to gravitational wave spectrum.
+
+* Repo: https://github.com/phbasler/BSMPT
+* Original paper: https://arxiv.org/abs/1803.02846
+
+### BubbleProfiler
+
+BubbleProfiler is a C++ software package for finding field profiles in bubble walls and calculating the bounce action during phase transitions involving multiple scalar fields. It uses an iterated perturbative method for potentials with multiple fields and a shooting method for single field cases. For models with 1-8 scalar field(s), the bounce action is typically calculated in O(1)s.
+
+* Repo: https://github.com/bubbleprofiler/bubbleprofiler
+* Citation: https://arxiv.org/abs/1901.03714
+
+### SimpleBounce
+
+SimpleBounce is a C++ package for finding the bounce solution for the false vacuum decay. This package is based on a flow equation and solves Coleman-Glaser-Martin's reduced problem: the minimization problem of the kinetic energy while fixing the potential energy. The bounce configuration is obtained by a scale transformation of the solution of this problem. For models with 1-8 scalar field(s), the bounce action can be calculated with O(0.1)% accuracy in O(0.1)s. 
+
+* Repo: https://github.com/rsato64/SimpleBounce
+* Citation: https://arxiv.org/abs/1908.10868
+
+### FindBounce
+
+FindBounce is a Mathematica package for the evaluation of the Euclidean bounce action that enters the decay rate of metastable states in quantum and thermal field theories. It is based on the idea of polygonal bounces, which is a semi-analytical approach to solving the bounce equation by discretizing the potential into piecewise linear segments. This allows for a fast and robust evaluation of arbitrary potentials with specified precision and any number of scalar fields. Time cost grows linearly with the number of fields and/or the number of segments. Computation with 20 fields takes ∼2 seconds with 0.5% accuracy of the action.
+
+* Repo: https://github.com/vguada/FindBounce
+* Citation: https://arxiv.org/abs/2002.00881
+
+### BubbleDet
+
+BubbleDet is a Python package for computing one-loop functional determinants around spherically symmetric background fields. This gives the next-to-leading order correction to both the vacuum decay rate, at zero temperature, and to the bubble nucleation rate in first-order phase transitions at finite temperature. BubbleDet is applicable to arbitrary scalar potentials and in any dimension up to seven. It has methods for fluctuations of scalar fields, including Goldstone bosons, and for gauge fields, but is limited to cases where the determinant factorises into a product of separate determinants, one for each field degree of freedom.
+
+* Repo: https://bitbucket.org/og113/bubbledet/
+* Documenation: https://bubbledet.readthedocs.io/en/stable/
+* Citation: https://arxiv.org/abs/2308.15652
 
 # ASTRO
 
