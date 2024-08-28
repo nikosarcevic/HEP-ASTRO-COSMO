@@ -648,6 +648,12 @@ PRIMAT is a Mathematica code dedicated to the computation of light elements abun
 
 http://www2.iap.fr/users/pitrou/primat.htm
 
+### LINX (Light Isotope Nucleosynthesis with JAX)
+
+LINX is a fast, differentiable, extensible code that can be used to predict primordial light element abundances during Big Bang Nucleosynthesis (BBN). LINX is written in python using JAX, and is readable, accessible, and well-documented.  LINX allows the user to sample the nuclear rates uncertaities as nuisance parameters, and is fast enough to be used with MCMC methods in joint CMB+BBN analyses.
+
+https://github.com/cgiovanetti/LINX
+
 ## Einstein-Boltzmann Numerical Solvers
 
 ### CAMB
