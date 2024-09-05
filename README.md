@@ -53,7 +53,7 @@
   * [Neutrino Code](#neutrino-code)
 
 ***
-# HEP 
+# HEP
 
 ## Tools
 
@@ -65,7 +65,7 @@ https://root.cern.ch/
 
 ### Geant4
 
-Geant4 is a toolkit for the simulation of the passage of particles through matter. Its areas of application include high energy, 
+Geant4 is a toolkit for the simulation of the passage of particles through matter. Its areas of application include high energy,
 nuclear and accelerator physics, as well as studies in medical and space science.
 
 https://geant4.web.cern.ch/node/1
@@ -118,7 +118,7 @@ https://evtgen.hepforge.org/
 
 ### Photos
 
-Photos is a Monte Carlo for bremsstrahlung in the decay of particles and resonances is available with an interface to the C++ HepMC event record. It is usually used in conjuction with EvtGen. Authors: Davidson, T. Przedzinski, Z. Was. 
+Photos is a Monte Carlo for bremsstrahlung in the decay of particles and resonances is available with an interface to the C++ HepMC event record. It is usually used in conjuction with EvtGen. Authors: Davidson, T. Przedzinski, Z. Was.
 
 http://photospp.web.cern.ch/photospp/
 
@@ -128,7 +128,7 @@ Alpaca is a Fortran based Monte Carlo event generator for ALP production in cohe
 
 https://alpaca.hepforge.org/
 
-### WHIZARD 
+### WHIZARD
 
 Monte Carlo Event Generator for Tevatron, LHC, ILC, CLIC, CEPC, FCC-ee, FCC-hh, SppC, the muon collider and other High Energy Physics Experiments. WHIZARD is a program system designed for the efficient calculation of multi-particle scattering cross sections and simulated event samples. Tree-level matrix elements are generated automatically for arbitrary partonic processes by using the Optimized Matrix Element Generator O'Mega. The program is able to calculate numerically stable signal and background cross sections and generate unweighted event samples with reasonable efficiency for processes with up to eight final-state particles; more particles are possible. For more particles, there is the option to generate processes as decay cascades including complete spin correlations. Different options for QCD parton showers are available. Polarization is treated exactly for both the initial and final states. Final-state quark or lepton flavors can be summed over automatically where needed. For hadron collider physics, an interface to the standard LHAPDF is provided. For Linear Collider physics, beamstrahlung (CIRCE) and ISR spectra are included for electrons and photons. WHIZARD supports the Standard Model and a huge number of BSM models. There are also interfaces to FeynRules and SARAH.
 
@@ -136,7 +136,7 @@ https://whizard.hepforge.org/
 
 ### OpenLoops 2
 
-The OpenLoops 2 program is a fully automated implementation of the Open Loops algorithm combined with on-the-fly reduction methods, which allows for the fast and stable numerical evaluation of tree and one-loop matrix elements for any Standard Model process at NLO QCD and NLO EW. 
+The OpenLoops 2 program is a fully automated implementation of the Open Loops algorithm combined with on-the-fly reduction methods, which allows for the fast and stable numerical evaluation of tree and one-loop matrix elements for any Standard Model process at NLO QCD and NLO EW.
 
 https://openloops.hepforge.org/
 
@@ -246,7 +246,7 @@ Exploring the sensitivity of unfolded collider measurements to BSM models. The m
 
 https://hepcedar.gitlab.io/contur-webpage/
 
-### xFitter 
+### xFitter
 
 (former HERAFitter)
 Proton parton distribution functions (PDFs) are essential for precision physics at the LHC and other hadron colliders. The determination of the PDFs is a complex endeavor involving several physics process. The main process is the lepton proton deep-inelastic scattering (DIS), with data collected by the HERA ep collider covering a large kinematic phase space needed to extract PDFs. Further processes (fixed target DIS, ppbar collisions etc.) provide additional constraining powers for flavour separation. In particular, the precise measurements obtained or to come from LHC will continue to improve the knowledge of the PDF.
@@ -347,12 +347,12 @@ https://github.com/JelleAalbers/wimprates
 NEST (Noble Element Simulation Technique) provides a simulation of the energy deposition-to-detector variable microphysics for liquid noble gas targets.
 
 https://github.com/NESTCollaboration/nest
-python bindings: 
+python bindings:
 https://github.com/NESTCollaboration/nestpy
 
 ### Flamedisx
 
-Flamedisx aims to increase the practical number of dimensions and parameters in likelihoods for liquid-xenon (LXe) detectors. 
+Flamedisx aims to increase the practical number of dimensions and parameters in likelihoods for liquid-xenon (LXe) detectors.
 The LXe model is be computed with a series of (large) matrix multiplications, equivalent to the integral approximated by the MC simulation. Using TensorFlow makes this computation differentiable and GPU-scalable, so it can be used practically for fitting and statistical inference.
 
 https://github.com/FlamTeam/flamedisx
@@ -363,9 +363,9 @@ Binwise approximations of the XENON1T likelihood and XENONnT projections for fas
 
 https://github.com/XENON1T/xenon1t_approximate_nuclear_recoil_likelihood
 
-### dd_limit_plot 
+### dd_limit_plot
 
-Plotting functionality for a range of direct detection results 
+Plotting functionality for a range of direct detection results
 
 https://github.com/kdund/dd_limit_plot
 
@@ -374,7 +374,7 @@ https://github.com/kdund/dd_limit_plot
 ## Model Building
 ### SARAH
 
-SARAH is a Mathematica package for building and analyzing SUSY and non-SUSY models. It calculates all vertices, mass matrices, tadpoles equations, one-loop corrections for tadpoles and self-energies, and two-loop RGEs for a given model. SARAH writes model files for FeynArts, CalcHep/CompHep, which can also be used for dark matter studies using MicrOmegas, the UFO format which is supported by MadGraph 5 and for WHIZARD and OMEGA. 
+SARAH is a Mathematica package for building and analyzing SUSY and non-SUSY models. It calculates all vertices, mass matrices, tadpoles equations, one-loop corrections for tadpoles and self-energies, and two-loop RGEs for a given model. SARAH writes model files for FeynArts, CalcHep/CompHep, which can also be used for dark matter studies using MicrOmegas, the UFO format which is supported by MadGraph 5 and for WHIZARD and OMEGA.
 SARAH was also the first available spectrum-generator-generator: based on derived analytical expressions it creates source code for SPheno. It is therefore possible to implement new models in SPheno without the need to write any Fortran code by hand. The output for Vevacious can be used to check for the global minimum for a given model and parameter point.
 Running SARAH is fast, it already includes a long list of SUSY and non-SUSY models, and the implementation of new models is efficient and straightforward.
 
@@ -382,14 +382,14 @@ Running SARAH is fast, it already includes a long list of SUSY and non-SUSY mode
 
 ### Sym2int
 
-This page describes the Mathematica code Sym2Int (Symmetries to Interactions) which lists all valid interactions given the model's gauge group and fields (specified by their gauge and Lorentz representations). The program is valid for renormalizable interactions (mass dimension ≤4) as well as the ones which are not renormalizable (mass dimension >4). Since version 2, terms with derivatives and gauge bosons are also accounted for. More details can be found below. 
+This page describes the Mathematica code Sym2Int (Symmetries to Interactions) which lists all valid interactions given the model's gauge group and fields (specified by their gauge and Lorentz representations). The program is valid for renormalizable interactions (mass dimension ≤4) as well as the ones which are not renormalizable (mass dimension >4). Since version 2, terms with derivatives and gauge bosons are also accounted for. More details can be found below.
 
 [Sym2int website](https://renatofonseca.net/sym2int)
 [Sym2int paper 1](https://arxiv.org/abs/1703.05221)
 [Sym2int paper 1](https://arxiv.org/abs/1907.12584)
 
 ## Susyno
-Susyno is a Mathematica package which calculates the 2-loop renormalisation group equations of generic supersymmetric models, based on any gauge group (the only exception being multiple U(1) groups) and with any field content. 
+Susyno is a Mathematica package which calculates the 2-loop renormalisation group equations of generic supersymmetric models, based on any gauge group (the only exception being multiple U(1) groups) and with any field content.
 
 [Susyno website](https://renatofonseca.net/susyno)
 
@@ -458,7 +458,7 @@ python-based likelihood (in particular unbinned) construction/fitting framework 
 
 ### alea
 
-This package was made for statistical model building and frequentist toyMC-based inference for the XENONnT experiment: 
+This package was made for statistical model building and frequentist toyMC-based inference for the XENONnT experiment:
 Examples are included for a very simple gaussian example, as well as an extended likelihood using template models in the style of XENONnT analyses using the blueice package
 
 https://github.com/XENONnT/alea/
@@ -473,19 +473,19 @@ https://peterdenton.github.io/Code/index.html
 
 ### DarkSUSY
 
-The public fortran package DarkSUSY is a flexible general-purpose tool to calculate 
-observables for a variety of dark matter candidates. This includes 1) direct detection 
-rates in low-background counting experiments, both for standard non-relativistic and 
-for cosmic-ray accelerated dark matter particles; 2) indirect detection signals through 
-antiprotons, antideuterons, gamma rays and positrons from the Galactic halo, or high-energy 
-neutrinos from the center of the Earth or of the Sun; 3) general routines to compute 
-dark-matter self-interaction rates ; 4) routines to calculate the temperature of kinetic 
-decoupling and the associated size of the smallest dark matter protohalos; 5) high-precision 
-tools for the computation of the relic density in freeze-out scenarios, including situations 
-with early kinetic  decoupling or primordial asymmetries, as well as secluded dark sector 
+The public fortran package DarkSUSY is a flexible general-purpose tool to calculate
+observables for a variety of dark matter candidates. This includes 1) direct detection
+rates in low-background counting experiments, both for standard non-relativistic and
+for cosmic-ray accelerated dark matter particles; 2) indirect detection signals through
+antiprotons, antideuterons, gamma rays and positrons from the Galactic halo, or high-energy
+neutrinos from the center of the Earth or of the Sun; 3) general routines to compute
+dark-matter self-interaction rates ; 4) routines to calculate the temperature of kinetic
+decoupling and the associated size of the smallest dark matter protohalos; 5) high-precision
+tools for the computation of the relic density in freeze-out scenarios, including situations
+with early kinetic  decoupling or primordial asymmetries, as well as secluded dark sector
 scenarios with varying dark-to-visible temperature ratios; 6) high-precision tools for the
-computation of the relic density in freeze-in scenarios, including leading finite-temperature 
-effects. Compared to earlier versions, DarkSUSY 6 is no longer restricted to supersymmetric 
+computation of the relic density in freeze-in scenarios, including leading finite-temperature
+effects. Compared to earlier versions, DarkSUSY 6 is no longer restricted to supersymmetric
 models, but allows the user to switch between different pre-implemented dark matter candidates,
 or add new ones.
 
@@ -507,11 +507,11 @@ http://roban.github.io/CosmoloPy/
 
 ### cosmopit
 
-[Cosmopit](https://github.com/lontelis/cosmopit) (Cosmological python initial toolkit) is a package of cosmology built on basic numerical libraries of python such as Numpy/SciPy/Matplolib. Capabilities include common and not-so-common capabilities. 
+[Cosmopit](https://github.com/lontelis/cosmopit) (Cosmological python initial toolkit) is a package of cosmology built on basic numerical libraries of python such as Numpy/SciPy/Matplolib. Capabilities include common and not-so-common capabilities.
 
 Common capabilities include: various cosmological distances, and volumes calculations, transformation of cosmological coordinate systems, simple statistic quantities and also calculations of covariance matrices, fitting routines and bayesian inferences using corner plots, routines to read and write date in .fits and .txt files, example of calculating Monte Carlo Markov Chains for fittings and corner plot presentation tutorial, and a tutorial dedicated for transformation of cosmological coordinates.
 
-Not-so common capabilities include: calculation of power spectra and correlation functions via the CLASS software, calculation routines of number counts, fractal dimension quantities, homogeneity scales, routines calculating statistics of simualated data, reading and writing routines for cute, astropy, pymangle, 
+Not-so common capabilities include: calculation of power spectra and correlation functions via the CLASS software, calculation routines of number counts, fractal dimension quantities, homogeneity scales, routines calculating statistics of simualated data, reading and writing routines for cute, astropy, pymangle,
 example of Baryon Acoustic Oscilation (BAO) detection and extraction feature from data, example of fitting the SuperNovae (SN) curve to extra simple magnitude parameters.
 
 https://github.com/lontelis/cosmopit
@@ -531,7 +531,7 @@ The SageManifolds project aims at extending the modern Python-based computer alg
 
 SageManifolds deals with differentiable manifolds of arbitrary dimension. Various coordinate charts and vector frames can be introduced on the manifold, which does not need to be parallelizable. A given tensor field is then described by its sets of components in each vector frame, with automatic change-of-frame transformations for overlapping vector frames.
 
-Generic pseudo-Riemannian manifolds can be considered, among which Riemannian manifolds and Lorentzian manifolds, with applications to General Relativity. In particular, the computation of the Riemann curvature tensor and associated tensors (Ricci, Weyl, Schouten and Cotton tensors) is implemented. SageManifolds can also deal with generic affine connections, not necessarily Levi-Civita ones. 
+Generic pseudo-Riemannian manifolds can be considered, among which Riemannian manifolds and Lorentzian manifolds, with applications to General Relativity. In particular, the computation of the Riemann curvature tensor and associated tensors (Ricci, Weyl, Schouten and Cotton tensors) is implemented. SageManifolds can also deal with generic affine connections, not necessarily Levi-Civita ones.
 
 https://sagemanifolds.obspm.fr/
 
@@ -579,13 +579,13 @@ https://github.com/DarkQuestCosmology/dark_emulator_public
 
 ### Colossus
 
-Colossus is a python toolkit for cosmology, large-scale structure, and dark matter halos. The main design goals are intuitive use and performance; the code is extensively documented. Colossus consists of three top-level modules. The cosmology module handles LCDM cosmologies with curvature, relativistic species, different dark energy equations of state, and so on. It includes densities, times, power spectra, variance, and correlation functions, among others. The large-scale structure module deals with peaks in Gaussian random fields and the statistical properties of halos such as peak height, halo bias, and the mass function. The halo module deals with masses, density profiles, concentration, and other halo properties. Colossus contains numerous fitting functions from the literature for convenience. 
+Colossus is a python toolkit for cosmology, large-scale structure, and dark matter halos. The main design goals are intuitive use and performance; the code is extensively documented. Colossus consists of three top-level modules. The cosmology module handles LCDM cosmologies with curvature, relativistic species, different dark energy equations of state, and so on. It includes densities, times, power spectra, variance, and correlation functions, among others. The large-scale structure module deals with peaks in Gaussian random fields and the statistical properties of halos such as peak height, halo bias, and the mass function. The halo module deals with masses, density profiles, concentration, and other halo properties. Colossus contains numerous fitting functions from the literature for convenience.
 
 https://bdiemer.bitbucket.io/colossus/
 
 ### CalPriorSNIa
 
-[CalPriorSNIa](https://github.com/valerio-marra/CalPriorSNIa) computes the effective calibration prior on the absolute magnitude M_B of Type Ia supernovae that corresponds to a given determination of H_0. See Camarena & Marra [arXiv:1906.11814](https://arxiv.org/abs/1906.11814) and [arXiv:2101.08641](https://arxiv.org/abs/2101.08641) for more details. Example use case comments in two articles dated [19-Mar-2021](https://www.sunnyvagnozzi.com/blog/what-is-the-hubble-tension-really) and [22-Jan-2021](https://www.sunnyvagnozzi.com/blog/top-arxiv-week-3-2021) by Sunny Vagnozzi. 
+[CalPriorSNIa](https://github.com/valerio-marra/CalPriorSNIa) computes the effective calibration prior on the absolute magnitude M_B of Type Ia supernovae that corresponds to a given determination of H_0. See Camarena & Marra [arXiv:1906.11814](https://arxiv.org/abs/1906.11814) and [arXiv:2101.08641](https://arxiv.org/abs/2101.08641) for more details. Example use case comments in two articles dated [19-Mar-2021](https://www.sunnyvagnozzi.com/blog/what-is-the-hubble-tension-really) and [22-Jan-2021](https://www.sunnyvagnozzi.com/blog/top-arxiv-week-3-2021) by Sunny Vagnozzi.
 
 [https://github.com/valerio-marra/CalPriorSNIa](https://github.com/valerio-marra/CalPriorSNIa)
 
@@ -654,11 +654,17 @@ LINX is a fast, differentiable, extensible code that can be used to predict prim
 
 https://github.com/cgiovanetti/LINX
 
+### PRyMordial
+
+PRyMordial is a package dedicated to efficient computations of observables in the Early Universe with the focus on the cosmological era of Big Bang Nucleosynthesis (BBN). The code offers fast and precise evaluation of BBN light-element abundances together with the effective number of relativistic degrees of freedom, including non-instantaneous decoupling effects. PRyMordial is suitable for state-of-the-art analyses in the Standard Model as well as for general investigations into New Physics active during BBN.
+
+https://github.com/vallima/PRyMordial?tab=readme-ov-file
+
 ## Einstein-Boltzmann Numerical Solvers
 
 ### CAMB
 
-CAMB is a Python and Fortran code for computing CMB, CMB lensing, lensing, galaxy count and dark-age 21cm power spectra, transfer functions and matter power spectra, and background cosmological functions. Its object-oriented structure makes it easy to modify the code and add models such as exotic dark matter/dark energy and modified gravity to the analysis. 
+CAMB is a Python and Fortran code for computing CMB, CMB lensing, lensing, galaxy count and dark-age 21cm power spectra, transfer functions and matter power spectra, and background cosmological functions. Its object-oriented structure makes it easy to modify the code and add models such as exotic dark matter/dark energy and modified gravity to the analysis.
 
 https://camb.info (preferred citation method here: https://cosmologist.info/cosmomc/cosmomc.bib)
 
@@ -978,12 +984,12 @@ If you do not intend to use the config-space 2LPT, then it's better to use a Fou
 [Citation](https://github.com/abacusorg/zeldovich-PLT#citation)
 
 
-### 2LPTic 
+### 2LPTic
 
 
 2LPT initial conditions parallel and serial code. The MPI-parallel version of 2LPTic is based on the Zel'dovich n-genic code written by Volker Springel.
 
-The serial code is written in Fortran77 and requires the installation of FFTW version 2.1.5. You can read Appendix D2 in this paper to understand how the code works. 
+The serial code is written in Fortran77 and requires the installation of FFTW version 2.1.5. You can read Appendix D2 in this paper to understand how the code works.
 
 [2LPTic Website](https://cosmo.nyu.edu/roman/2LPT/)
 
@@ -1035,13 +1041,13 @@ The CosmoSim database provides results from cosmological simulations performed w
 ### Massive Galaxy Project
 
 The Massive Galaxy Project is a multi-pronged effort to characterize and understand the physical processes that drive the evolution of the most massive galaxies in the universe.
- 
+
 Our goals are to answer questions such as, are massive galaxies fundamentally multi-component systems and when did their components assemble?  What is their growth rate over cosmic time?  How do they reflect and influence their environment?
- 
+
 To tackle this broad range of questions, we make use of a variety of data sets from COSMOS, BOSS, the Stripe 82 co-adds, and IFU observations from the MaNGA survey.
- 
+
 The Massive Galaxy Project includes the following results and data-products:
- 
+
 * The Stripe 82 Massive Galaxy Catalog (S82-MGC), including a mass limited sample of 41,770 galaxies with log Mstar/Msun>11.2 to z=0.7
 * Stellar mass completeness estimates for the BOSS CMASS and LOWZ samples
 * Mock catalogs for the BOSS survey which reproduce the two-point correlation function and which account for the stellar mass completeness of the BOSS survey.
@@ -1051,7 +1057,7 @@ The Massive Galaxy Project includes the following results and data-products:
 [Publications](https://www.ucolick.org/~kbundy/massivegalaxies/publications.html)
 
 
-### CurieHZ 
+### CurieHZ
 
 Large Scale simulations of Ly-α  and Ly-break galaxies in the high-z universe: Probing the epoch of reionization.
 
@@ -1060,7 +1066,7 @@ The  main goal of this project was to  generate a mass limited complete volume s
 [CurieHZ Project Website](https://curiehz.ft.uam.es)
 
 
-### EAGLE 
+### EAGLE
 
 EAGLE (Evolution and Assembly of GaLaxies and their Environments) is a simulation aimed at understanding how galaxies form and evolve.  This computer calculation models the formation of structures in a cosmological volume, 100 Megaparsecs on a side (over 300 million light-years). This is large enough to contain 10,000 galaxies of the size of the Milky Way or bigger, enabling a comparison with the whole zoo of galaxies visible in the Hubble Deep field for example.
 
@@ -1086,7 +1092,7 @@ The Auriga Project is a large suite of high-resolution magneto-hydrodynamical si
 
 ### Illustris
 
-The Illustris project is a large cosmological simulation of galaxy formation, completed in late 2013, using a state of the art numerical code and a comprehensive physical model. Building on several years of effort by members of the collaboration, the Illustris simulation represents an unprecedented combination of high resolution, total volume, and physical fidelity. 
+The Illustris project is a large cosmological simulation of galaxy formation, completed in late 2013, using a state of the art numerical code and a comprehensive physical model. Building on several years of effort by members of the collaboration, the Illustris simulation represents an unprecedented combination of high resolution, total volume, and physical fidelity.
 
 [Illustris Website](https://www.illustris-project.org)
 
@@ -1129,8 +1135,8 @@ Full-hydro Large-scale structure simulations with All-sky Mapping for the Interp
 ### MICE
 
 It includes extensive galaxy and lensing properties for ~200 million galaxies over 5000 sq.deg and up to a redshift z=1.4
-This galaxy mock is built from the parent MICE-Grand Challenge (MICE-GC) lightcone N-body simulation and associated halo catalog, 
-that is throughly validated in a series of forthcoming papers: Fosalba et al. 2013a,b, Crocce et al. 2013 
+This galaxy mock is built from the parent MICE-Grand Challenge (MICE-GC) lightcone N-body simulation and associated halo catalog,
+that is throughly validated in a series of forthcoming papers: Fosalba et al. 2013a,b, Crocce et al. 2013
 Further details about the galaxy mock method implemented will be given in Castander et al. 2014, Carretero et al. 2014.
 
 
@@ -1235,7 +1241,7 @@ Citation: [1](https://arxiv.org/abs/2005.00523), [2](https://arxiv.org/abs/2012.
 
 ### ULYSSES
 
-ULYSSES (Universal LeptogeneSiS Equation Solver) is a python package that calculates the baryon asymmetry produced from leptogenesis in the context of a type-I seesaw mechanism. The code provides: a selection of predefined Boltzmann equations with one, two and three decaying right-handed neutrinos in the single, two and three flavour regime; density matrix equations to fully take flavour effects into account, as well as oscillations of right-handed neutrinos for the ARS leptogenesis scenario; complete Boltzmann equations for thermal leptogenesis applying proper quantum statistics without assuming kinetic equilibrium of the right-handed neutrinos; primordial black hole-induced leptogenesis. Furthermore, the ULYSSES code provides tools for multi-dimensional parameter space exploration. The emphasis of the code is on user flexibility and rapid evaluation. 
+ULYSSES (Universal LeptogeneSiS Equation Solver) is a python package that calculates the baryon asymmetry produced from leptogenesis in the context of a type-I seesaw mechanism. The code provides: a selection of predefined Boltzmann equations with one, two and three decaying right-handed neutrinos in the single, two and three flavour regime; density matrix equations to fully take flavour effects into account, as well as oscillations of right-handed neutrinos for the ARS leptogenesis scenario; complete Boltzmann equations for thermal leptogenesis applying proper quantum statistics without assuming kinetic equilibrium of the right-handed neutrinos; primordial black hole-induced leptogenesis. Furthermore, the ULYSSES code provides tools for multi-dimensional parameter space exploration. The emphasis of the code is on user flexibility and rapid evaluation.
 
 [GH Repository](https://github.com/earlyuniverse/ulysses)
 
@@ -1284,7 +1290,7 @@ BubbleProfiler is a C++ software package for finding field profiles in bubble wa
 
 ### SimpleBounce
 
-SimpleBounce is a C++ package for finding the bounce solution for the false vacuum decay. This package is based on a flow equation and solves Coleman-Glaser-Martin's reduced problem: the minimization problem of the kinetic energy while fixing the potential energy. The bounce configuration is obtained by a scale transformation of the solution of this problem. For models with 1-8 scalar field(s), the bounce action can be calculated with O(0.1)% accuracy in O(0.1)s. 
+SimpleBounce is a C++ package for finding the bounce solution for the false vacuum decay. This package is based on a flow equation and solves Coleman-Glaser-Martin's reduced problem: the minimization problem of the kinetic energy while fixing the potential energy. The bounce configuration is obtained by a scale transformation of the solution of this problem. For models with 1-8 scalar field(s), the bounce action can be calculated with O(0.1)% accuracy in O(0.1)s.
 
 * Repo: https://github.com/rsato64/SimpleBounce
 * Citation: https://arxiv.org/abs/1908.10868
@@ -1336,12 +1342,12 @@ Some parts of DRAGON are built following GALPROP, v50p. The first reason is that
 
 https://github.com/cosmicrays
 
-### maskfill 
-Maskfill can quickly and robustly infill masks in astronomical images. While it cannot detect cosmic rays, as a follow up to, e.g., L.A. Cosmic (to find CRs), maskfill will effectively fill in the masks using extrapolations from surrounding pixels in a deterministic way. All other masks (stars, bad pixels, etc.) can be filled as well. It can be installed from `pip` or `github`. 
+### maskfill
+Maskfill can quickly and robustly infill masks in astronomical images. While it cannot detect cosmic rays, as a follow up to, e.g., L.A. Cosmic (to find CRs), maskfill will effectively fill in the masks using extrapolations from surrounding pixels in a deterministic way. All other masks (stars, bad pixels, etc.) can be filled as well. It can be installed from `pip` or `github`.
 
 Code: [https://github.com/dokkum/maskfill](https://github.com/dokkum/maskfill)
 
-Documentation [https://maskfill.readthedocs.io](https://maskfill.readthedocs.io) 
+Documentation [https://maskfill.readthedocs.io](https://maskfill.readthedocs.io)
 
 ### USINE
 
@@ -1402,7 +1408,7 @@ https://github.com/cta-observatory/ctapipe
 ### gammapy
 
 Gammapy is an open-source Python package for gamma-ray astronomy built on [Numpy](https://numpy.org/), [Scipy](https://scipy.org/) and [Astropy](https://www.astropy.org/).
-It is used as core library for the Science Analysis tools of the [Cherenkov Telescope Array (CTA)](https://www.cta-observatory.org/), recommended by the [H.E.S.S.](https://www.mpi-hd.mpg.de/hfm/HESS/) collaboration to be used for Science publications, and is already widely used in the analysis of existing gamma-ray instruments, such as [MAGIC](https://magic.mpp.mpg.de/), [VERITAS](https://veritas.sao.arizona.edu/) and [HAWC](https://www.hawc-observatory.org/). 
+It is used as core library for the Science Analysis tools of the [Cherenkov Telescope Array (CTA)](https://www.cta-observatory.org/), recommended by the [H.E.S.S.](https://www.mpi-hd.mpg.de/hfm/HESS/) collaboration to be used for Science publications, and is already widely used in the analysis of existing gamma-ray instruments, such as [MAGIC](https://magic.mpp.mpg.de/), [VERITAS](https://veritas.sao.arizona.edu/) and [HAWC](https://www.hawc-observatory.org/).
 
 Project Web site: https://gammapy.org/, GitHub repo: https://github.com/gammapy/gammapy
 
@@ -1465,7 +1471,7 @@ https://swiftsim.com
 
 ### REBOUND
 
-REBOUND is a multi-purpose N-body integrator written in C99 and comes with an easy-to-use python front-end. It is frequently used to simulate the orbital motion of stars, planets, and moons as well as the collisional dynamics of planetary rings. REBOUND offers several different integrators, including WHFast, IAS15, Mercurius, and SEI. 
+REBOUND is a multi-purpose N-body integrator written in C99 and comes with an easy-to-use python front-end. It is frequently used to simulate the orbital motion of stars, planets, and moons as well as the collisional dynamics of planetary rings. REBOUND offers several different integrators, including WHFast, IAS15, Mercurius, and SEI.
 
 https://github.com/hannorein/rebound
 
@@ -1565,7 +1571,7 @@ Papers: [1](https://arxiv.org/abs/1110.0740), [2](https://arxiv.org/abs/astro-ph
 
 ### CosmoGRaPH
 
-CosmoGRaPH is a c++ code designed to explore cosmological problems in a fully general relativistic setting. The code implements various methods for numerically solving the Einstein field equations, and includes as matter sources an N-body/collisionless phase-space sheet solver, analysis tools useful for 
+CosmoGRaPH is a c++ code designed to explore cosmological problems in a fully general relativistic setting. The code implements various methods for numerically solving the Einstein field equations, and includes as matter sources an N-body/collisionless phase-space sheet solver, analysis tools useful for
 
 
 such as raytracing, and full AMR capabilities via SAMRAI.
@@ -1620,7 +1626,7 @@ SpECTRE is being developed in support of our collaborative Simulating eXtreme Sp
 
 BlackHawk is a public C program for calculating the Hawking evaporation spectra of any black hole distribution. This program enables the users to compute the primary and secondary spectra of stable or long-lived particles generated by Hawking radiation of the distribution of black holes, and to study their evolution in time.
 
-https://blackhawk.hepforge.org/, https://arxiv.org/abs/1905.04268 
+https://blackhawk.hepforge.org/, https://arxiv.org/abs/1905.04268
 
 ### PBHbounds
 
@@ -1632,7 +1638,7 @@ https://github.com/bradkav/PBHbounds (archived at http://doi.org/10.5281/zenodo.
 
 Code using pseudo-spectral methods to perform numerical simulations of spherically symmetric black hole formation on a Friedman-Robertson-Walker universe.
 
-https://sites.google.com/fqa.ub.edu/albertescriva/home, https://arxiv.org/abs/1907.13065 
+https://sites.google.com/fqa.ub.edu/albertescriva/home, https://arxiv.org/abs/1907.13065
 
 ***
 
@@ -1667,13 +1673,13 @@ https://github.com/cosimoNigro/agnpy
 
 ### JetSeT
 
-JetSeT is an open source C/Python framework to reproduce radiative and accelerative processes acting in relativistic jets, and galactic objects (beamed and unbeamed), allowing to fit the numerical models to observed data. 
+JetSeT is an open source C/Python framework to reproduce radiative and accelerative processes acting in relativistic jets, and galactic objects (beamed and unbeamed), allowing to fit the numerical models to observed data.
 
 https://github.com/andreatramacere/jetset
 
 ***
 
-## Multi-Messenger Analysis 
+## Multi-Messenger Analysis
 
 ### 3ML
 
@@ -1700,7 +1706,7 @@ https://popsynth.readthedocs.io/
 
 ### CompOSE
 
-The online service CompOSE (CompStar Online Supernovae Equations of State) provides data tables for different state of the art equations of state (EoS) ready for further usage in astrophysical applications, nuclear physics and beyond. 
+The online service CompOSE (CompStar Online Supernovae Equations of State) provides data tables for different state of the art equations of state (EoS) ready for further usage in astrophysical applications, nuclear physics and beyond.
 
 https://compose.obspm.fr/
 
@@ -1721,23 +1727,22 @@ PINT is a project to develop a pulsar timing solution based on python and modern
 
 https://github.com/nanograv/PINT
 
-## Galaxy Light Modeling 
+## Galaxy Light Modeling
 
-### imCascade 
+### imCascade
 
-imcascade is a code designed for fitting objects in astronomical images using a "cascade" of Gaussians. It uses multi-guassian expansion (MGE) to model galaxies as a mixture of Gaussians in a Bayesian Framework. It was designed to study the morphology of faint, semi-resolved galaxies. 
+imcascade is a code designed for fitting objects in astronomical images using a "cascade" of Gaussians. It uses multi-guassian expansion (MGE) to model galaxies as a mixture of Gaussians in a Bayesian Framework. It was designed to study the morphology of faint, semi-resolved galaxies.
 
 Code: [https://github.com/tbmiller-astro/imcascade](https://github.com/tbmiller-astro/imcascade)
 
 Documentation [https://imcascade.readthedocs.io/en/latest/](https://imcascade.readthedocs.io/en/latest/)
 
-### pysersic 
+### pysersic
 
 pysersic is a Python package for fitting Sersic (and other) profiles to astronomical images using Bayesian inference. It is built using the jax framework with inference performed using the numpyro probabilistic programming library.
 
-The code is hosted on GitHub and is available open source under the MIT license. 
+The code is hosted on GitHub and is available open source under the MIT license.
 
 Code: [https://github.com/pysersic/pysersic](https://github.com/pysersic/pysersic)
 
-Documentation: [https://pysersic.readthedocs.io/en/latest/](https://pysersic.readthedocs.io/en/latest/) 
-
+Documentation: [https://pysersic.readthedocs.io/en/latest/](https://pysersic.readthedocs.io/en/latest/)
