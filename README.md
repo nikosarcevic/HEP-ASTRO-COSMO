@@ -591,9 +591,18 @@ https://bdiemer.bitbucket.io/colossus/
 
 ### LADDER
 
-[LADDER](https://github.com/rahulshah1397/LADDER) (Learning Algorithm for Deep Distance Estimation and Reconstruction) reconstructs the “cosmic distance ladder” by analyzing sequential cosmological data; it can also be applied to other sequential datasets with associated covariance information. It uses the apparent magnitude data from the Pantheon Type Ia supernovae compilation, fully incorporating covariance information to accurately predict mean values and uncertainties. It offers model-independent consistency checks for datasets such as Baryon Acoustic Oscillations (BAO) and can calibrate high-redshift datasets such as Gamma Ray Bursts (GRBs) without assuming any underlying cosmological model. Additionally, LADDER serves as a model-independent mock catalog generator for forecast-based cosmological studies. See [Shah et al. 2024](https://doi.org/10.3847/1538-4365/ad5558) ([arXiv:2401.17029](https://www.arxiv.org/abs/2401.17029)) for more details.
+[LADDER](https://github.com/rahulshah1397/LADDER) (Learning Algorithm for Deep Distance Estimation and Reconstruction) reconstructs the “cosmic distance ladder” by analyzing sequential cosmological data; it can also be applied to other sequential datasets with associated covariance information. It uses the apparent magnitude data from the Pantheon Type Ia supernovae compilation, fully incorporating covariance information to accurately predict mean values and uncertainties. It offers model-independent consistency checks for datasets such as Baryon Acoustic Oscillations (BAO) and can calibrate high-redshift datasets such as Gamma Ray Bursts (GRBs) without assuming any underlying cosmological model. Additionally, LADDER serves as a model-independent mock catalog generator for forecast-based cosmological studies. 
 
-[https://github.com/rahulshah1397/LADDER](https://github.com/rahulshah1397/LADDER)
+If you make use of LADDER in your research, please cite [Shah et al. 2024](https://doi.org/10.3847/1538-4365/ad5558) and [10.5281/zenodo.11175054](https://doi.org/10.5281/zenodo.11175054).
+
+* Repo: [https://github.com/rahulshah1397/LADDER](https://github.com/rahulshah1397/LADDER).
+
+* Zenodo archive: [10.5281/zenodo.11175054](https://doi.org/10.5281/zenodo.11175054).
+
+* ASCL entry: [ASCL:2408.007](https://ascl.net/2408.007).
+
+
+* Publication: [Shah et al. 2024](https://doi.org/10.3847/1538-4365/ad5558) ([arXiv:2401.17029](https://www.arxiv.org/abs/2401.17029)).
 
 ***
 
