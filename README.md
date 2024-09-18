@@ -601,7 +601,6 @@ If you make use of LADDER in your research, please cite [Shah et al. 2024](https
 
 * ASCL entry: [ASCL:2408.007](https://ascl.net/2408.007).
 
-
 * Publication: [Shah et al. 2024](https://doi.org/10.3847/1538-4365/ad5558) ([arXiv:2401.17029](https://www.arxiv.org/abs/2401.17029)).
 
 ***
