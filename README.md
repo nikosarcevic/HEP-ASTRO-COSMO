@@ -398,8 +398,9 @@ Susyno is a Mathematica package which calculates the 2-loop renormalisation grou
 ### DsixTools
 DsixTools is a Mathematica package for the handling of the Standard Model Effective Field Theory (SMEFT) and the Low-energy Effective Field Theory (LEFT) with operators up to dimension six, both at the algebraic and numerical level.
 
-[DsixTools website](https://dsixtools.github.io/)
-[DsixTools Latest Paper](https://arxiv.org/pdf/2010.16341.pdf)
+* Repo: https://github.com/DsixTools/DsixTools
+* Documentation: https://dsixtools.github.io/
+* Citation: https://arxiv.org/pdf/2010.16341.pdf
 
 ### smelli
 
@@ -407,12 +408,16 @@ smelli is a Python package providing a global likelihood function in the space o
 
 The package is based on flavio for the calculation of observables and statistical treatment and wilson for the running, translation, and matching of Wilson coefficients.
 
-[smelli website](https://smelli.github.io/)
+* Repo: https://github.com/smelli/smelli
+* Documentation: https://smelli.github.io/
+* Citation: https://arxiv.org/abs/1810.07698
 
-[smelli repository](https://github.com/smelli/smelli)
+### DRalgo
 
-[smelli paper](https://arxiv.org/abs/1810.07698)
+DRalgo is a Mathematica package that algorthmically constructs an effective, dimensionally reduced, high-temperature field theory for generic particle physics models. DRalgo automatically performs the matching to next-to-leading order.
 
+* Repo: https://github.com/DR-algo/DRalgo
+* Citation: https://arxiv.org/abs/2205.08815
 
 ## Feyn Family
 (better name welcome)
