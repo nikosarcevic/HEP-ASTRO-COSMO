@@ -1283,7 +1283,7 @@ Citation: [1](https://arxiv.org/abs/2207.01651)
 CosmoTransitions is a Python package for analyzing finite or zero-temperature cosmological phase transitions driven by single or multiple scalar fields. The package analyzes the different vacua of a theory to determine their critical temperatures (where the vacuum energy levels are degenerate), their super-cooling temperatures, and the bubble wall profiles which separate the phases and describe their tunneling dynamics. The package uses a method of path deformation to find the profiles of both thin- and thick-walled bubbles. For models with 1-8 scalar field(s), the bounce action is typically calculated in O(0.3)s.
 
 * Repo: https://github.com/clwainwright/CosmoTransitions
-* Documenation: https://clwainwright.net/CosmoTransitions/
+* Documentation: https://clwainwright.net/CosmoTransitions/
 * Citation: https://arxiv.org/abs/1109.4189
 
 ### AnyBubble
@@ -1326,8 +1326,16 @@ FindBounce is a Mathematica package for the evaluation of the Euclidean bounce a
 BubbleDet is a Python package for computing one-loop functional determinants around spherically symmetric background fields. This gives the next-to-leading order correction to both the vacuum decay rate, at zero temperature, and to the bubble nucleation rate in first-order phase transitions at finite temperature. BubbleDet is applicable to arbitrary scalar potentials and in any dimension up to seven. It has methods for fluctuations of scalar fields, including Goldstone bosons, and for gauge fields, but is limited to cases where the determinant factorises into a product of separate determinants, one for each field degree of freedom.
 
 * Repo: https://bitbucket.org/og113/bubbledet/
-* Documenation: https://bubbledet.readthedocs.io/en/stable/
+* Documentation: https://bubbledet.readthedocs.io/en/stable/
 * Citation: https://arxiv.org/abs/2308.15652
+
+### WallGo
+
+WallGo is an open source code for the computation of the bubble wall velocity and bubble wall width in first-order cosmological phase transitions. The main WallGo Python package determines the wall velocity and width by solving the scalar field(s) equation of motion, the Boltzmann equations and energy-momentum conservation for the fluid velocity and temperature. There are also two helper packages: WallGoMatrix which can compute 2-to-2 scattering matrix elements for arbitrary quantum field theories, and WallGoCollision which performs the higher-dimensional integrals over these matrix elements to obtain the collision terms in the Boltzmann equations.
+
+* Repo: https://github.com/Wall-Go
+* Documentation: https://wallgo.readthedocs.io/en/latest/
+* Citation: https://arxiv.org/abs/2411.04970
 
 ***
 
