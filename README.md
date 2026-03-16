@@ -527,8 +527,6 @@ example of Baryon Acoustic Oscilation (BAO) detection and extraction feature fro
 
 https://github.com/lontelis/cosmopit
 
-- [QGD](https://github.com/matshaba/Quantum-Gravity-Dynamics) - Quantum Gravitational Dynamics: derives GR from Dirac spinor WKB phase. Zero-parameter SPARC fits (R²=0.908, 175 galaxies), exact N-body metric, CMB peak predictions. DOI: [10.5281/zenodo.18605058](https://doi.org/10.5281/zenodo.18605058)
-
 ### xAct and xPand
 
 xAct is a suite of free packages for tensor computer algebra for Wolfram Mathematica. xAct implements state-of-the-art algorithms for fast manipulations of indices and has been modelled on the current geometric approach to General Relativity. It is highly programmable and configurable. Since its first public release in March 2004, xAct has been intensively tested and has solved a number of hard problems in GR.
